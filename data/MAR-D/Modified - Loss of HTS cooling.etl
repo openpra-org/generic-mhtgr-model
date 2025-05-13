@@ -1,0 +1,79 @@
+, , %IE-HTS-MOD =
+^TOPS
+MODULE# RT-CR RT-RSCE SCS RCCS HPS-PMPDWN COOL-RESTORE 
+^LOGIC
++1 +2  3 +4  5  6  7 
+         -4 +5  6  7 
+            -5 +6 +7 
+                  -7 
+               -6 +7 
+                  -7 
+   -2 +3 +4  5  6  7 
+         -4 +5  6  7 
+            -5  6  7 
+      -3  4  5  6  7 
+    2  3 +4  5  6  7 
+         -4 +5  6  7 
+            -5 +6 +7 
+                  -7 
+               -6 +7 
+                  -7 
+         +4  5  6  7 
+         -4 +5  6  7 
+            -5 +6 +7 
+                  -7 
+               -6 +7 
+                  -7 
+-1  2  3 +4  5  6  7 
+         -4 +5  6  7 
+            -5 +6 +7 
+                  -7 
+               -6 +7 
+                  -7 
+^SEQUENCES
+Y, Name, Y, Class, Y, Prob , 
+Y, HTS-AA, Y, , Y, 0 , 
+Y, HTS-AC, Y, , Y, 0 , 
+Y, HTS-AG, Y, , Y, 0 , 
+Y, HTS-AH, Y, , Y, 0 , 
+Y, HTS-AI, Y, , Y, 0 , 
+Y, HTS-AJ, Y, , Y, 0 , 
+Y, HTS-AK, Y, , Y, 0 , 
+Y, HTS-AL, Y, , Y, 0 , 
+Y, HTS-AM, Y, , Y, 0 , 
+Y, HTS-AN, Y, , Y, 0 , 
+Y, HTS-AA, Y, , Y, 0 , 
+Y, HTS-AD, Y, , Y, 0 , 
+Y, HTS-AG, Y, , Y, 0 , 
+Y, HTS-AH, Y, , Y, 0 , 
+Y, HTS-AI, Y, , Y, 0 , 
+Y, HTS-AJ, Y, , Y, 0 , 
+Y, HTS-AA, Y, , Y, 0 , 
+Y, HTS-AE, Y, , Y, 0 , 
+Y, HTS-AG, Y, , Y, 0 , 
+Y, HTS-AH, Y, , Y, 0 , 
+Y, HTS-AI, Y, , Y, 0 , 
+Y, HTS-AJ, Y, , Y, 0 , 
+Y, HTS-AB, Y, , Y, 0 , 
+Y, HTS-AF, Y, , Y, 0 , 
+Y, HTS-AG, Y, , Y, 0 , 
+Y, HTS-AH, Y, , Y, 0 , 
+Y, HTS-AI, Y, , Y, 0 , 
+Y, HTS-AJ, Y, , Y, 0 , 
+^TOPDESC
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!

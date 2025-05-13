@@ -1,0 +1,2276 @@
+﻿19:34:35.46: ============================================
+19:34:35.46: PRAQuant version 10.0a 
+19:34:35.46: Quantifying selected runs: 4/23/2024 7:34 PM
+19:34:35.48: ============================================
+19:34:35.50: Opening C:\Users\mmhamza\North Carolina State University\NE PRA Group - Research\Members\Mostafa\Study & Plans\Theses\PhD\MHTGR\MHTGR.rr
+19:34:35.51: -----------------------------
+19:34:35.51: ** Preparing HTS-AM
+19:34:35.53: -----------------------------
+19:34:35.55: Normalization Initiator G1 is not a basic event in the tree.
+19:34:35.55: Processing T/F...
+19:34:35.56: Pruning modules.
+19:34:35.65: -----------------------------
+19:34:35.65: ** Preparing HTS-AN
+19:34:35.66: -----------------------------
+19:34:35.66: Normalization Initiator G1 is not a basic event in the tree.
+19:34:35.68: Processing T/F...
+19:34:35.68: Pruning modules.
+19:34:35.71: -----------------------------
+19:34:35.71: ** Preparing HTS-AL
+19:34:35.71: -----------------------------
+19:34:35.73: Normalization Initiator G1 is not a basic event in the tree.
+19:34:35.73: Processing T/F...
+19:34:35.75: Pruning modules.
+19:34:35.78: -----------------------------
+19:34:35.78: ** Preparing HTS-AK
+19:34:35.78: -----------------------------
+19:34:35.80: Normalization Initiator G1 is not a basic event in the tree.
+19:34:35.80: Processing T/F...
+19:34:35.81: Pruning modules.
+19:34:35.83: -----------------------------
+19:34:35.83: ** Preparing HTS-AJ
+19:34:35.85: -----------------------------
+19:34:35.86: Normalization Initiator G1 is not a basic event in the tree.
+19:34:35.86: Processing T/F...
+19:34:35.88: Pruning modules.
+19:34:35.90: -----------------------------
+19:34:35.90: ** Preparing HTS-AI
+19:34:35.91: -----------------------------
+19:34:35.93: Normalization Initiator G1 is not a basic event in the tree.
+19:34:35.93: Processing T/F...
+19:34:35.95: Pruning modules.
+19:34:35.98: -----------------------------
+19:34:35.98: ** Preparing HTS-AH
+19:34:36.00: -----------------------------
+19:34:36.01: Normalization Initiator G1 is not a basic event in the tree.
+19:34:36.01: Processing T/F...
+19:34:36.03: Pruning modules.
+19:34:36.20: -----------------------------
+19:34:36.20: ** Preparing HTS-AG
+19:34:36.20: -----------------------------
+19:34:36.21: Normalization Initiator G1 is not a basic event in the tree.
+19:34:36.23: Processing T/F...
+19:34:36.23: Pruning modules.
+19:34:36.30: -----------------------------
+19:34:36.30: ** Preparing HTS-AF
+19:34:36.30: -----------------------------
+19:34:36.31: Normalization Initiator G1 is not a basic event in the tree.
+19:34:36.33: Processing T/F...
+19:34:36.63: Pruning modules.
+19:34:36.68: -----------------------------
+19:34:36.68: ** Preparing HTS-AE
+19:34:36.73: -----------------------------
+19:34:36.76: Normalization Initiator G1 is not a basic event in the tree.
+19:34:36.78: Processing T/F...
+19:34:36.80: Pruning modules.
+19:34:36.83: -----------------------------
+19:34:36.83: ** Preparing HTS-AD
+19:34:36.83: -----------------------------
+19:34:36.85: Normalization Initiator G1 is not a basic event in the tree.
+19:34:36.85: Processing T/F...
+19:34:36.88: Pruning modules.
+19:34:36.90: -----------------------------
+19:34:36.90: ** Preparing HTS-AC
+19:34:36.91: -----------------------------
+19:34:36.91: Normalization Initiator G1 is not a basic event in the tree.
+19:34:36.91: Processing T/F...
+19:34:36.93: Pruning modules.
+19:34:36.95: -----------------------------
+19:34:36.95: ** Preparing HTS-AB
+19:34:36.96: -----------------------------
+19:34:36.96: Normalization Initiator G1 is not a basic event in the tree.
+19:34:36.98: Processing T/F...
+19:34:36.98: Pruning modules.
+19:34:37.00: -----------------------------
+19:34:37.01: ** Preparing HTS-AA
+19:34:37.01: -----------------------------
+19:34:37.03: Normalization Initiator G1 is not a basic event in the tree.
+19:34:37.03: Processing T/F...
+19:34:37.05: Pruning modules.
+19:34:40.57: -----------------------------
+19:34:40.57: ** Sequence HTS-AN post processing
+19:34:40.58: -----------------------------
+19:34:40.60: ...
+19:34:36:45: PHCalcTool version: 1.0.3.0
+19:34:36:46: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_9fc402620121416c9d21042c048256ac.caf
+19:34:37:37: Top Gate:HTS-AN
+19:34:37:37: Locking probs...
+19:34:38:06: Apply Impacted Events to Fault Tree
+19:34:38:07: --------------------
+19:34:38:07: Start quantification
+19:34:38:08: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AN.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AN.RAW"
+19:34:38:08: Waiting for Quantifier...
+19:34:39:38: --------------------
+19:34:39:38: Start cutset postprocessing
+19:34:39:38: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.13 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.15 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AN.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AN.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AN.RAW
+ TOP EVENT      # = 1 (HTS-AN ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         325
+ EVENT          # =        1466
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AN
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AN.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AN.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.32 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.32 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 108 
+                                          Module 2    # = 60 
+                                          Copy down   # = 15
+ [E].    0.33 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 222 
+                                       Cutset memory  # = 7176 
+ [F].    0.37 sec.  MCS # =        1 (HTS-AN Expand module 2)
+ [G].    0.37 sec.  MCS # =        1 (HTS-AN Expand module 1)
+ [H].    0.37 sec.  MCS # =        3 (HTS-AN Delterm G1/G2)
+ [I].    0.40 sec.  MCS # =        3 (HTS-AN Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AN.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AN.RAW
+ TOP EVENT        = HTS-AN
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 6.6165e-014 (6.616506e-014)
+ PROB (MCUB)      = 6.6165e-014 (6.616506e-014)
+ CUTSET #         =           3
+
+
+19:34:39:62: Using QRecover Default Frame
+19:34:39:63: --------------- QRecover
+19:34:39.63:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:39.63:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_9227892224d9490b8caebff95aefa33c.default.recv
+19:34:39.63:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AN.RAW
+19:34:39.65:    QR:Recovering module HTS-AN
+19:34:39.70:    QR:Initial Module Prob = 6.62E-14 (3 cutsets)
+19:34:40.31:    QR:Loaded database 
+19:34:40.32:    QR:Sorted the cutsets (3).
+19:34:40.32:    QR:Pack.
+19:34:40.32:    QR:Calculate.
+19:34:40.32:    QR:Saving HTS-AN (3 cutsets = 6.62E-14)
+19:34:40.36:    QR:Elapsed time .721 seconds.
+
+19:34:40:38: Total elapsed time: 3.926 seconds.
+19:34:40:40: Saved HTS-AN (3 cutsets = 6.617E-14)
+19:34:40.61: ...
+19:34:40.68: HTS-AN = 6.62E-14
+19:34:40.69: Saving cutsets (3 cutsets)
+19:34:40.70: Sequence HTS-AN run time: 5.0 secs.
+19:34:41.49: -----------------------------
+19:34:41.49: ** Sequence HTS-AM post processing
+19:34:41.50: -----------------------------
+19:34:41.52: ...
+19:34:36:66: PHCalcTool version: 1.0.3.0
+19:34:36:67: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_b0536d87f2f2417896a046b7bb233c7e.caf
+19:34:37:37: Top Gate:HTS-AM
+19:34:37:37: Locking probs...
+19:34:38:03: Apply Impacted Events to Fault Tree
+19:34:38:03: --------------------
+19:34:38:03: Start quantification
+19:34:38:05: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AM.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AM.RAW"
+19:34:38:06: Waiting for Quantifier...
+19:34:39:31: --------------------
+19:34:39:31: Start cutset postprocessing
+19:34:39:33: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.13 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.13 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AM.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AM.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AM.RAW
+ TOP EVENT      # = 1 (HTS-AM ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         270
+ EVENT          # =        1389
+-GATE           # =           0
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AM
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AM.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AM.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.32 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.32 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 87 
+                                          Module 2    # = 48 
+                                          Copy down   # = 17
+ [E].    0.33 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 189 
+                                       Cutset memory  # = 6648 
+ [F].    0.35 sec.  MCS # =      177 (HTS-AM Expand module 2)
+ [G].    0.37 sec.  MCS # =      177 (HTS-AM Expand module 1)
+ [H].    0.40 sec.  MCS # =     9675 (HTS-AM Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AM.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AM.RAW
+ TOP EVENT        = HTS-AM
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 4.8234e-009 (4.823380e-009)
+ PROB (MCUB)      = 4.8234e-009 (4.823379e-009)
+ CUTSET #         =        9675
+
+
+19:34:39:33: Using QRecover Default Frame
+19:34:39:33: --------------- QRecover
+19:34:39.33:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:39.33:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_d7a67cd5dae64c9685fa75a915c0ef84.default.recv
+19:34:39.35:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AM.RAW
+19:34:39.35:    QR:Recovering module HTS-AM
+19:34:39.40:    QR:Initial Module Prob = 4.82E-09 (9675 cutsets)
+19:34:40.97:    QR:Loaded database 
+19:34:40.99:    QR:Sorted the cutsets (9675).
+19:34:40.99:    QR:Pack.
+19:34:41.00:    QR:Calculate.
+19:34:41.00:    QR:Saving HTS-AM (9675 cutsets = 4.82E-09)
+19:34:41.06:    QR:Elapsed time 1.713 seconds.
+
+19:34:41:07: Total elapsed time: 4.406 seconds.
+19:34:41:11: Saved HTS-AM (9675 cutsets = 4.823E-09)
+19:34:41.70: ...
+19:34:41.73: HTS-AM = 4.82E-09
+19:34:41.73: Saving cutsets (9675 cutsets)
+19:34:41.81: Sequence HTS-AM run time: 6.2 secs.
+19:34:42.10: -----------------------------
+19:34:42.10: ** Sequence HTS-AL post processing
+19:34:42.11: -----------------------------
+19:34:42.13: ...
+19:34:36:48: PHCalcTool version: 1.0.3.0
+19:34:36:51: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_99f6845968424763bc5ebbf17bf65acc.caf
+19:34:37:37: Top Gate:HTS-AL
+19:34:37:37: Locking probs...
+19:34:38:08: Apply Impacted Events to Fault Tree
+19:34:38:08: --------------------
+19:34:38:08: Start quantification
+19:34:38:10: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AL.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AL.RAW"
+19:34:38:10: Waiting for Quantifier...
+19:34:39:38: --------------------
+19:34:39:38: Start cutset postprocessing
+19:34:39:38: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.13 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.15 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AL.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AL.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AL.RAW
+ TOP EVENT      # = 1 (HTS-AL ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         325
+ EVENT          # =        1466
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AL
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AL.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AL.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.33 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.33 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 107 
+                                          Module 2    # = 60 
+                                          Copy down   # = 15
+ [E].    0.33 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 221 
+                                       Cutset memory  # = 7176 
+ [F].    0.37 sec.  MCS # =      400 (HTS-AL Expand module 2)
+ [G].    0.37 sec.  MCS # =      400 (HTS-AL Expand module 1)
+ [H].    0.40 sec.  MCS # =    53819 (HTS-AL Delterm G1/G2)
+ [I].    0.42 sec.  MCS # =    51476 (HTS-AL Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AL.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AL.RAW
+ TOP EVENT        = HTS-AL
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 7.3908e-008 (7.390839e-008)
+ PROB (MCUB)      = 7.3908e-008 (7.390838e-008)
+ CUTSET #         =       51476
+
+
+19:34:39:38: Using QRecover Default Frame
+19:34:39:63: --------------- QRecover
+19:34:39.63:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:39.63:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_d55ef6dc341b4414b25c1febfabbc4b1.default.recv
+19:34:39.63:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AL.RAW
+19:34:39.65:    QR:Recovering module HTS-AL
+19:34:39.78:    QR:Initial Module Prob = 7.39E-08 (51476 cutsets)
+19:34:41.19:    QR:Loaded database 
+19:34:41.30:    QR:Sorted the cutsets (51476).
+19:34:41.31:    QR:Pack.
+19:34:41.32:    QR:Calculate.
+19:34:41.33:    QR:Saving HTS-AL (51476 cutsets = 7.39E-08)
+19:34:41.44:    QR:Elapsed time 1.803 seconds.
+
+19:34:41:46: Total elapsed time: 4.983 seconds.
+19:34:41:54: Saved HTS-AL (51476 cutsets = 7.391E-08)
+19:34:42.13: ...
+19:34:42.20: HTS-AL = 7.39E-08
+19:34:42.20: Saving cutsets (51476 cutsets)
+19:34:42.80: Sequence HTS-AL run time: 7.0 secs.
+19:34:43.01: -----------------------------
+19:34:43.01: ** Sequence HTS-AK post processing
+19:34:43.02: -----------------------------
+19:34:43.04: ...
+19:34:36:46: PHCalcTool version: 1.0.3.0
+19:34:36:46: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_ab4de94d1dc04d24ad57bdac4f6ff978.caf
+19:34:37:37: Top Gate:HTS-AK
+19:34:37:37: Locking probs...
+19:34:38:05: Apply Impacted Events to Fault Tree
+19:34:38:05: --------------------
+19:34:38:05: Start quantification
+19:34:38:07: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AK.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AK.RAW"
+19:34:38:07: Waiting for Quantifier...
+19:34:39:66: --------------------
+19:34:39:66: Start cutset postprocessing
+19:34:39:66: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.13 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.15 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AK.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AK.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AK.RAW
+ TOP EVENT      # = 1 (HTS-AK ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         324
+ EVENT          # =        1465
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AK
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AK.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AK.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.32 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.32 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 85 
+                                          Module 2    # = 50 
+                                          Copy down   # = 14
+ [E].    0.33 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 182 
+                                       Cutset memory  # = 3584 
+ [F].    0.35 sec.  MCS # =      330 (HTS-AK Expand module 2)
+ [G].    0.35 sec.  MCS # =      330 (HTS-AK Expand module 1)
+ [H].    0.37 sec.  MCS # =    48247 (HTS-AK Delterm G1/G2)
+ [I].    0.40 sec.  MCS # =    41123 (HTS-AK Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AK.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AK.RAW
+ TOP EVENT        = HTS-AK
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 4.4096e-007 (4.409593e-007)
+ PROB (MCUB)      = 4.4096e-007 (4.409592e-007)
+ CUTSET #         =       41123
+
+
+19:34:39:68: Using QRecover Default Frame
+19:34:39:68: --------------- QRecover
+19:34:39.68:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:39.68:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_9aa53147b8f141d298f4cced6ba6492d.default.recv
+19:34:39.68:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AK.RAW
+19:34:39.70:    QR:Recovering module HTS-AK
+19:34:39.80:    QR:Initial Module Prob = 4.41E-07 (41123 cutsets)
+19:34:41.29:    QR:Loaded database 
+19:34:41.36:    QR:Sorted the cutsets (41123).
+19:34:41.36:    QR:Pack.
+19:34:41.37:    QR:Calculate.
+19:34:41.38:    QR:Saving HTS-AK (41123 cutsets = 4.41E-07)
+19:34:41.48:    QR:Elapsed time 1.795 seconds.
+
+19:34:41:73: Total elapsed time: 5.268 seconds.
+19:34:41:79: Saved HTS-AK (41123 cutsets = 4.410E-07)
+19:34:43.05: ...
+19:34:43.08: HTS-AK = 4.41E-07
+19:34:43.08: Saving cutsets (41123 cutsets)
+19:34:43.22: Sequence HTS-AK run time: 7.4 secs.
+19:34:43.41: -----------------------------
+19:34:43.41: ** Sequence HTS-AJ post processing
+19:34:43.43: -----------------------------
+19:34:43.43: ...
+19:34:36:48: PHCalcTool version: 1.0.3.0
+19:34:36:51: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_2f535ff45e994fe7a2b7ec2dba52157a.caf
+19:34:37:37: Top Gate:HTS-AJ
+19:34:37:37: Locking probs...
+19:34:38:06: Apply Impacted Events to Fault Tree
+19:34:38:07: --------------------
+19:34:38:07: Start quantification
+19:34:38:08: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AJ.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AJ.RAW"
+19:34:38:08: Waiting for Quantifier...
+19:34:39:76: --------------------
+19:34:39:76: Start cutset postprocessing
+19:34:39:76: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.13 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.15 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AJ.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AJ.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AJ.RAW
+ TOP EVENT      # = 1 (HTS-AJ ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         326
+ EVENT          # =        1468
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AJ
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AJ.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AJ.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.32 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.32 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 108 
+                                          Module 2    # = 57 
+                                          Copy down   # = 16
+ [E].    0.33 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 225 
+                                       Cutset memory  # = 7188 
+ [F].    0.37 sec.  MCS # =      239 (HTS-AJ Expand module 2)
+ [G].    0.37 sec.  MCS # =      239 (HTS-AJ Expand module 1)
+ [H].    0.38 sec.  MCS # =    23001 (HTS-AJ Delterm G1/G2)
+ [I].    0.77 sec.  MCS # =    23001 (HTS-AJ Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AJ.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AJ.RAW
+ TOP EVENT        = HTS-AJ
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 4.2669e-008 (4.266858e-008)
+ PROB (MCUB)      = 4.2669e-008 (4.266858e-008)
+ CUTSET #         =       23001
+
+
+19:34:39:76: Using QRecover Default Frame
+19:34:39:76: --------------- QRecover
+19:34:39.78:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:39.78:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_38537fd6ffef4bc59ed1199561cf5493.default.recv
+19:34:39.78:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AJ.RAW
+19:34:39.78:    QR:Recovering module HTS-AJ
+19:34:39.86:    QR:Initial Module Prob = 4.27E-08 (23001 cutsets)
+19:34:41.29:    QR:Loaded database 
+19:34:41.34:    QR:Sorted the cutsets (23001).
+19:34:41.34:    QR:Pack.
+19:34:41.35:    QR:Calculate.
+19:34:41.35:    QR:Saving HTS-AJ (23001 cutsets = 4.27E-08)
+19:34:41.42:    QR:Elapsed time 1.636 seconds.
+
+19:34:41:45: Total elapsed time: 4.954 seconds.
+19:34:41:49: Saved HTS-AJ (23001 cutsets = 4.267E-08)
+19:34:43.66: ...
+19:34:43.70: HTS-AJ = 4.27E-08
+19:34:43.70: Saving cutsets (23001 cutsets)
+19:34:43.76: Sequence HTS-AJ run time: 7.9 secs.
+19:34:43.96: -----------------------------
+19:34:43.96: ** Sequence HTS-AI post processing
+19:34:43.98: -----------------------------
+19:34:44.00: ...
+19:34:36:46: PHCalcTool version: 1.0.3.0
+19:34:36:48: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_abeeda2f354a4cb59622f5080d7bf278.caf
+19:34:37:37: Top Gate:HTS-AI
+19:34:37:37: Locking probs...
+19:34:38:10: Apply Impacted Events to Fault Tree
+19:34:38:10: --------------------
+19:34:38:10: Start quantification
+19:34:38:21: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AI.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AI.RAW"
+19:34:38:21: Waiting for Quantifier...
+19:34:39:65: --------------------
+19:34:39:65: Start cutset postprocessing
+19:34:39:65: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.05 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.07 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AI.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AI.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AI.RAW
+ TOP EVENT      # = 1 (HTS-AI ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         326
+ EVENT          # =        1468
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AI
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AI.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AI.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.23 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.25 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 107 
+                                          Module 2    # = 57 
+                                          Copy down   # = 16
+ [E].    0.25 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 224 
+                                       Cutset memory  # = 7188 
+ [F].    0.28 sec.  MCS # =      342 (HTS-AI Expand module 2)
+ [G].    0.30 sec.  MCS # =      342 (HTS-AI Expand module 1)
+ [H].    0.33 sec.  MCS # =    63864 (HTS-AI Delterm G1/G2)
+ [I].    0.35 sec.  MCS # =    63864 (HTS-AI Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AI.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AI.RAW
+ TOP EVENT        = HTS-AI
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 3.0487e-007 (3.048656e-007)
+ PROB (MCUB)      = 3.0487e-007 (3.048655e-007)
+ CUTSET #         =       63864
+
+
+19:34:39:66: Using QRecover Default Frame
+19:34:39:66: --------------- QRecover
+19:34:39.68:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:39.68:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_25ac371037fe463f97f7c8522fcbd64e.default.recv
+19:34:39.68:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AI.RAW
+19:34:39.70:    QR:Recovering module HTS-AI
+19:34:39.83:    QR:Initial Module Prob = 3.05E-07 (63864 cutsets)
+19:34:41.42:    QR:Loaded database 
+19:34:41.56:    QR:Sorted the cutsets (63864).
+19:34:41.56:    QR:Pack.
+19:34:41.57:    QR:Calculate.
+19:34:41.57:    QR:Saving HTS-AI (63864 cutsets = 3.05E-07)
+19:34:41.83:    QR:Elapsed time 2.150 seconds.
+
+19:34:41:85: Total elapsed time: 5.389 seconds.
+19:34:41:91: Saved HTS-AI (63864 cutsets = 3.049E-07)
+19:34:44.00: ...
+19:34:44.07: HTS-AI = 3.05E-07
+19:34:44.07: Saving cutsets (63864 cutsets)
+19:34:44.24: Sequence HTS-AI run time: 8.2 secs.
+19:34:44.46: -----------------------------
+19:34:44.46: ** Sequence HTS-AH post processing
+19:34:44.48: -----------------------------
+19:34:44.49: ...
+19:34:36:52: PHCalcTool version: 1.0.3.0
+19:34:36:53: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_727f37456c484dfdbdd57e8ee580ca00.caf
+19:34:37:37: Top Gate:HTS-AH
+19:34:37:37: Locking probs...
+19:34:38:10: Apply Impacted Events to Fault Tree
+19:34:38:10: --------------------
+19:34:38:10: Start quantification
+19:34:38:21: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AH.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AH.RAW"
+19:34:38:21: Waiting for Quantifier...
+19:34:39:36: --------------------
+19:34:39:36: Start cutset postprocessing
+19:34:39:36: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.12 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.12 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AH.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AH.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AH.RAW
+ TOP EVENT      # = 1 (HTS-AH ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         326
+ EVENT          # =        1468
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AH
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AH.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AH.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.25 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.27 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 106 
+                                          Module 2    # = 59 
+                                          Copy down   # = 15
+ [E].    0.29 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 219 
+                                       Cutset memory  # = 7188 
+ [F].    0.30 sec.  MCS # =      369 (HTS-AH Expand module 2)
+ [G].    0.30 sec.  MCS # =      369 (HTS-AH Expand module 1)
+ [H].    0.33 sec.  MCS # =    51813 (HTS-AH Delterm G1/G2)
+ [I].    0.38 sec.  MCS # =    50863 (HTS-AH Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AH.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AH.RAW
+ TOP EVENT        = HTS-AH
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 1.2173e-007 (1.217273e-007)
+ PROB (MCUB)      = 1.2173e-007 (1.217273e-007)
+ CUTSET #         =       50863
+
+
+19:34:39:36: Using QRecover Default Frame
+19:34:39:38: --------------- QRecover
+19:34:39.38:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:39.38:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_009beb49d8014ebcacf2070ad4839bb4.default.recv
+19:34:39.38:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AH.RAW
+19:34:39.40:    QR:Recovering module HTS-AH
+19:34:39.49:    QR:Initial Module Prob = 1.22E-07 (50863 cutsets)
+19:34:41.01:    QR:Loaded database 
+19:34:41.12:    QR:Sorted the cutsets (50863).
+19:34:41.12:    QR:Pack.
+19:34:41.13:    QR:Calculate.
+19:34:41.14:    QR:Saving HTS-AH (50863 cutsets = 1.22E-07)
+19:34:41.25:    QR:Elapsed time 1.864 seconds.
+
+19:34:41:27: Total elapsed time: 4.752 seconds.
+19:34:41:35: Saved HTS-AH (50863 cutsets = 1.217E-07)
+19:34:44.50: ...
+19:34:44.56: HTS-AH = 1.22E-07
+19:34:44.56: Saving cutsets (50863 cutsets)
+19:34:44.68: Sequence HTS-AH run time: 8.5 secs.
+19:34:44.95: -----------------------------
+19:34:44.95: ** Sequence HTS-AG post processing
+19:34:44.96: -----------------------------
+19:34:44.98: ...
+19:34:36:54: PHCalcTool version: 1.0.3.0
+19:34:36:54: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_162f55a3a2c34da5a6c0d96f56999488.caf
+19:34:37:37: Top Gate:HTS-AG
+19:34:37:37: Locking probs...
+19:34:38:05: Apply Impacted Events to Fault Tree
+19:34:38:05: --------------------
+19:34:38:05: Start quantification
+19:34:38:07: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AG.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AG.RAW"
+19:34:38:07: Waiting for Quantifier...
+19:34:39:81: --------------------
+19:34:39:81: Start cutset postprocessing
+19:34:39:81: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.13 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.15 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AG.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AG.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AG.RAW
+ TOP EVENT      # = 1 (HTS-AG ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         326
+ EVENT          # =        1468
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AG
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AG.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AG.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.32 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.32 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 105 
+                                          Module 2    # = 59 
+                                          Copy down   # = 15
+ [E].    0.33 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 218 
+                                       Cutset memory  # = 7188 
+ [F].    0.35 sec.  MCS # =      748 (HTS-AG Expand module 2)
+ [G].    0.35 sec.  MCS # =      748 (HTS-AG Expand module 1)
+ [H].    0.40 sec.  MCS # =   196484 (HTS-AG Delterm G1/G2)
+ [I].    0.77 sec.  MCS # =   185146 (HTS-AG Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AG.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AG.RAW
+ TOP EVENT        = HTS-AG
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 2.0294e-006 (2.029409e-006)
+ PROB (MCUB)      = 2.0294e-006 (2.029408e-006)
+ CUTSET #         =      185146
+
+
+19:34:39:81: Using QRecover Default Frame
+19:34:39:81: --------------- QRecover
+19:34:39.82:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:39.82:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_d591b9c46e0a4719a2b0e2f77ced1616.default.recv
+19:34:39.82:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AG.RAW
+19:34:39.85:    QR:Recovering module HTS-AG
+19:34:40.08:    QR:Initial Module Prob = 2.03E-06 (185146 cutsets)
+19:34:41.65:    QR:Loaded database 
+19:34:41.98:    QR:Sorted the cutsets (185146).
+19:34:41.98:    QR:Pack.
+19:34:42.00:    QR:Calculate.
+19:34:42.01:    QR:Saving HTS-AG (185146 cutsets = 2.03E-06)
+19:34:42.31:    QR:Elapsed time 2.496 seconds.
+
+19:34:42:50: Total elapsed time: 5.964 seconds.
+19:34:42:63: Saved HTS-AG (185146 cutsets = 2.029E-06)
+19:34:45.00: ...
+19:34:45.16: HTS-AG = 2.03E-06
+19:34:45.16: Saving cutsets (185146 cutsets)
+19:34:45.46: Sequence HTS-AG run time: 9.2 secs.
+19:34:48.96: -----------------------------
+19:34:48.96: ** Sequence HTS-AB post processing
+19:34:48.98: -----------------------------
+19:34:48.98: ...
+19:34:44:17: PHCalcTool version: 1.0.3.0
+19:34:44:18: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_555694c3d97e4c1caafb98e4633bdd65.caf
+19:34:44:81: Top Gate:HTS-AB
+19:34:44:81: Locking probs...
+19:34:45:46: Apply Impacted Events to Fault Tree
+19:34:45:46: --------------------
+19:34:45:46: Start quantification
+19:34:45:49: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AB.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AB.RAW"
+19:34:45:49: Waiting for Quantifier...
+19:34:45:97: --------------------
+19:34:45:97: Start cutset postprocessing
+19:34:45:98: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.07 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.08 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AB.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AB.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AB.RAW
+ TOP EVENT      # = 1 (HTS-AB ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         321
+ EVENT          # =        1462
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AB
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AB.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AB.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.13 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.13 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 83 
+                                          Module 2    # = 49 
+                                          Copy down   # = 14
+ [E].    0.15 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 179 
+                                       Cutset memory  # = 3572 
+ [F].    0.17 sec.  MCS # =      484 (HTS-AB Expand module 2)
+ [G].    0.17 sec.  MCS # =      484 (HTS-AB Expand module 1)
+ [H].    0.20 sec.  MCS # =   178742 (HTS-AB Delterm G1/G2)
+ [I].    0.28 sec.  MCS # =   177373 (HTS-AB Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AB.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AB.RAW
+ TOP EVENT        = HTS-AB
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 8.5004e-001 (8.500368e-001)
+ PROB (MCUB)      = 5.7924e-001 (5.792355e-001)
+ CUTSET #         =      177373
+
+
+19:34:45:98: Using QRecover Default Frame
+19:34:45:98: --------------- QRecover
+19:34:45.98:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:45.98:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_c3a3e79aae3a41a4b6a1708782ed1199.default.recv
+19:34:45.98:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AB.RAW
+19:34:46.02:    QR:Recovering module HTS-AB
+19:34:46.25:    QR:Initial Module Prob = 5.79E-01 (177373 cutsets)
+19:34:47.65:    QR:Loaded database 
+19:34:47.98:    QR:Sorted the cutsets (177373).
+19:34:47.98:    QR:Pack.
+19:34:48.00:    QR:Calculate.
+19:34:48.01:    QR:Saving HTS-AB (177373 cutsets = 5.79E-01)
+19:34:48.35:    QR:Elapsed time 2.364 seconds.
+
+19:34:48:35: Total elapsed time: 4.182 seconds.
+19:34:48:50: Saved HTS-AB (177373 cutsets = 5.792E-01)
+19:34:49.00: ...
+19:34:49.16: HTS-AB = 5.79E-01
+19:34:49.16: Saving cutsets (177373 cutsets)
+19:34:49.78: Sequence HTS-AB run time: 5.8 secs.
+19:34:49.95: -----------------------------
+19:34:49.95: ** Sequence HTS-AA post processing
+19:34:49.96: -----------------------------
+19:34:49.98: ...
+19:34:44:49: PHCalcTool version: 1.0.3.0
+19:34:44:49: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_2e277d72b6244ecdb41839a59916cc04.caf
+19:34:45:11: Top Gate:HTS-AA
+19:34:45:11: Locking probs...
+19:34:45:76: Apply Impacted Events to Fault Tree
+19:34:45:76: --------------------
+19:34:45:76: Start quantification
+19:34:45:79: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AA.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AA.RAW"
+19:34:45:79: Waiting for Quantifier...
+19:34:46:48: --------------------
+19:34:46:48: Start cutset postprocessing
+19:34:46:48: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.07 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.08 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AA.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AA.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AA.RAW
+ TOP EVENT      # = 1 (HTS-AA ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         321
+ EVENT          # =        1462
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AA
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AA.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AA.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.14 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.14 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 83 
+                                          Module 2    # = 49 
+                                          Copy down   # = 14
+ [E].    0.15 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 179 
+                                       Cutset memory  # = 3572 
+ [F].    0.17 sec.  MCS # =      498 (HTS-AA Expand module 2)
+ [G].    0.17 sec.  MCS # =      498 (HTS-AA Expand module 1)
+ [H].    0.19 sec.  MCS # =   180222 (HTS-AA Delterm G1/G2)
+ [I].    0.35 sec.  MCS # =   178205 (HTS-AA Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AA.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AA.RAW
+ TOP EVENT        = HTS-AA
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 3.1978e+000 (3.197758e+000)
+ PROB (MCUB)      = 9.6797e-001 (9.679739e-001)
+ CUTSET #         =      178205
+
+
+19:34:46:48: Using QRecover Default Frame
+19:34:46:49: --------------- QRecover
+19:34:46.49:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:46.49:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_250729a8af0f46d5b88c8a64bdc11de6.default.recv
+19:34:46.49:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AA.RAW
+19:34:46.52:    QR:Recovering module HTS-AA
+19:34:46.76:    QR:Initial Module Prob = 9.68E-01 (178205 cutsets)
+19:34:48.23:    QR:Loaded database 
+19:34:48.53:    QR:Sorted the cutsets (178205).
+19:34:48.53:    QR:Pack.
+19:34:48.55:    QR:Calculate.
+19:34:48.56:    QR:Saving HTS-AA (178205 cutsets = 9.68E-01)
+19:34:48.81:    QR:Elapsed time 2.327 seconds.
+
+19:34:48:85: Total elapsed time: 4.356 seconds.
+19:34:48:98: Saved HTS-AA (178205 cutsets = 9.680E-01)
+19:34:49.98: ...
+19:34:50.16: HTS-AA = 9.68E-01
+19:34:50.16: Saving cutsets (178205 cutsets)
+19:34:50.63: Sequence HTS-AA run time: 6.4 secs.
+19:36:05.60: -----------------------------
+19:36:05.65: ** Sequence HTS-AD post processing
+19:36:06.80: -----------------------------
+19:36:06.81: ...
+19:34:43:21: PHCalcTool version: 1.0.3.0
+19:34:43:22: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_add68d6971034e9e9616d7232f9d06e7.caf
+19:34:43:85: Top Gate:HTS-AD
+19:34:43:85: Locking probs...
+19:34:44:51: Apply Impacted Events to Fault Tree
+19:34:44:51: --------------------
+19:34:44:51: Start quantification
+19:34:44:53: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AD.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AD.RAW"
+19:34:44:53: Waiting for Quantifier...
+19:34:50:18: --------------------
+19:34:50:18: Start cutset postprocessing
+19:34:50:18: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.08 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.10 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AD.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AD.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AD.RAW
+ TOP EVENT      # = 1 (HTS-AD ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         322
+ EVENT          # =        1463
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AD
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AD.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AD.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.18 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.18 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 105 
+                                          Module 2    # = 59 
+                                          Copy down   # = 15
+ [E].    0.19 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 218 
+                                       Cutset memory  # = 7152 
+ [F].    0.20 sec.  MCS # =     5342 (HTS-AD Expand module 2)
+ [G].    0.22 sec.  MCS # =     5342 (HTS-AD Expand module 1)
+ [H].    1.29 sec.  MCS # =  5165657 (HTS-AD Delterm G1/G2)
+ [I].    3.32 sec.  MCS # =  5165657 (HTS-AD Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AD.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AD.RAW
+ TOP EVENT        = HTS-AD
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 6.1096e-002 (6.109563e-002)
+ PROB (MCUB)      = 6.0613e-002 (6.061341e-002)
+ CUTSET #         =     5165657
+
+
+19:34:50:28: Using QRecover Default Frame
+19:34:50:28: --------------- QRecover
+19:36:01:25:         Object reference not set to an instance of an object.
+19:36:06.85: ...
+19:36:06.88: - HTS-AD: Object reference not set to an instance of an object.
+19:36:15.43: -----------------------------
+19:36:15.43: ** Sequence HTS-AE post processing
+19:36:15.45: -----------------------------
+19:36:15.60: ...
+19:34:42:30: PHCalcTool version: 1.0.3.0
+19:34:42:30: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_147ba80238024fc7befc976c5e97b88d.caf
+19:34:43:06: Top Gate:HTS-AE
+19:34:43:07: Locking probs...
+19:34:43:86: Apply Impacted Events to Fault Tree
+19:34:43:86: --------------------
+19:34:43:86: Start quantification
+19:34:43:90: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AE.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AE.RAW"
+19:34:43:90: Waiting for Quantifier...
+19:34:48:15: --------------------
+19:34:48:15: Start cutset postprocessing
+19:34:48:15: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.05 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.07 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AE.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AE.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AE.RAW
+ TOP EVENT      # = 1 (HTS-AE ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         322
+ EVENT          # =        1463
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AE
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AE.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AE.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.10 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.11 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 105 
+                                          Module 2    # = 59 
+                                          Copy down   # = 15
+ [E].    0.12 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 218 
+                                       Cutset memory  # = 7152 
+ [F].    0.13 sec.  MCS # =     4902 (HTS-AE Expand module 2)
+ [G].    0.13 sec.  MCS # =     4902 (HTS-AE Expand module 1)
+ [H].    1.05 sec.  MCS # =  4102165 (HTS-AE Delterm G1/G2)
+ [I].    2.47 sec.  MCS # =  4102165 (HTS-AE Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AE.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AE.RAW
+ TOP EVENT        = HTS-AE
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 2.7154e-002 (2.715361e-002)
+ PROB (MCUB)      = 2.7058e-002 (2.705815e-002)
+ CUTSET #         =     4102165
+
+
+19:34:48:15: Using QRecover Default Frame
+19:34:48:16: --------------- QRecover
+19:34:48.16:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:48.16:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_8171f9c7ddf34d799bbd5d293d194e5f.default.recv
+19:34:48.16:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AE.RAW
+19:34:48.88:    QR:Recovering module HTS-AE
+19:34:54.06:    QR:Initial Module Prob = 2.71E-02 (4102165 cutsets)
+19:34:55.87:    QR:Loaded database 
+19:35:02.98:    QR:Sorted the cutsets (4102165).
+19:35:03.10:    QR:Pack.
+19:35:03.67:    QR:Calculate.
+19:35:04.05:    QR:Saving HTS-AE (4102165 cutsets = 2.71E-02)
+19:36:01.84:    QR:Elapsed time 73.586 seconds.
+
+19:36:04:95: Total elapsed time: 82.660 seconds.
+19:36:14:40: Saved HTS-AE (4102165 cutsets = 2.706E-02)
+19:36:15.60: ...
+19:36:24.88: HTS-AE = 2.71E-02
+19:36:25.59: Saving cutsets (4102165 cutsets)
+19:38:48.63: Sequence HTS-AE run time: 4.1 mins.
+19:38:54.85: -----------------------------
+19:38:54.85: ** Sequence HTS-AF post processing
+19:38:54.87: -----------------------------
+19:38:54.88: ...
+19:34:41:28: PHCalcTool version: 1.0.3.0
+19:34:41:32: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_0924c5d988d84ec69328e1419e7b2fa9.caf
+19:34:42:70: Top Gate:HTS-AF
+19:34:42:70: Locking probs...
+19:34:43:37: Apply Impacted Events to Fault Tree
+19:34:43:37: --------------------
+19:34:43:37: Start quantification
+19:34:43:39: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AF.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AF.RAW"
+19:34:43:39: Waiting for Quantifier...
+19:34:50:30: --------------------
+19:34:50:30: Start cutset postprocessing
+19:34:50:30: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.05 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.07 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AF.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AF.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AF.RAW
+ TOP EVENT      # = 1 (HTS-AF ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         322
+ EVENT          # =        1463
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AF
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AF.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AF.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.23 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.23 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 105 
+                                          Module 2    # = 59 
+                                          Copy down   # = 15
+ [E].    0.25 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 218 
+                                       Cutset memory  # = 7152 
+ [F].    0.27 sec.  MCS # =     6031 (HTS-AF Expand module 2)
+ [G].    0.27 sec.  MCS # =     6031 (HTS-AF Expand module 1)
+ [H].    1.64 sec.  MCS # =  6680366 (HTS-AF Delterm G1/G2)
+ [I].    3.75 sec.  MCS # =  6680366 (HTS-AF Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AF.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AF.RAW
+ TOP EVENT        = HTS-AF
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 1.8329e-001 (1.832869e-001)
+ PROB (MCUB)      = 1.7898e-001 (1.789799e-001)
+ CUTSET #         =     6680366
+
+
+19:34:50:63: Using QRecover Default Frame
+19:34:50:63: --------------- QRecover
+19:34:50.63:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:50.63:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_2af6c80559534257b4bce7a074480ad4.default.recv
+19:34:50.63:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AF.RAW
+19:34:52.21:    QR:Recovering module HTS-AF
+19:35:04.57:    QR:Initial Module Prob = 1.79E-01 (6680366 cutsets)
+19:35:29.08:    QR:Loaded database 
+19:36:02.19:    QR:Sorted the cutsets (6680366).
+19:36:02.46:    QR:Pack.
+19:36:03.37:    QR:Calculate.
+19:36:03.96:    QR:Saving HTS-AF (6680366 cutsets = 1.79E-01)
+19:38:24.70:    QR:Elapsed time 3.57 minutes.
+
+19:38:26:73: Total elapsed time: 3.76 minutes.
+19:38:42:75: Saved HTS-AF (6680366 cutsets = 1.790E-01)
+19:38:57.08: ...
+19:39:14.40: HTS-AF = 1.79E-01
+19:39:14.40: Saving cutsets (6680366 cutsets)
+19:41:03.53: Sequence HTS-AF run time: 6.4 mins.
+19:41:03.73: -----------------------------
+19:41:03.73: ** Sequence HTS-AC post processing
+19:41:03.74: -----------------------------
+19:41:03.76: ...
+19:34:43:45: PHCalcTool version: 1.0.3.0
+19:34:43:45: Reading C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\FX_FT_61db5cf784fc4682b3e8fd9d17d5154f.caf
+19:34:44:26: Top Gate:HTS-AC
+19:34:44:26: Locking probs...
+19:34:44:91: Apply Impacted Events to Fault Tree
+19:34:44:91: --------------------
+19:34:44:91: Start quantification
+19:34:44:95: Executing: FTREX64.EXE "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AC.FTP" "C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AC.RAW"
+19:34:44:95: Waiting for Quantifier...
+19:34:53:73: --------------------
+19:34:53:73: Start cutset postprocessing
+19:34:53:73: FTREX x64 Log:
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 2.0.0.1 (64 BIT, OCT 22, 2020)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.07 sec.  MCS # =        0 (Read FT)
+---------------------------------------------------------------------------
+ EVENTS ONLY IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN RECOVERY
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ WARNING EVENT NAMING IN FT
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=1.0 by /ASSP=1.0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ [B].    0.09 sec.  MCS # =        0 (Check options)
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AC.FTP]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AC.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AC.RAW
+ TOP EVENT      # = 1 (HTS-AC ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-015
+ GATE           # =         322
+ EVENT          # =        1463
+-GATE           # =           1
+-EVENT          # =           0
+ EVENT (P=1)    # =           0
+ EVENT (P=1)    # =           0 (under OR gate)
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           0
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT HUMAN    # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ LEN(NAME) > 32 # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = HTS-AC
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ FTREX64.EXE C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AC.FTP C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AC.RAW
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX OPTIONS
+---------------------------------------------------------------------------
+ /L           (*)            = 0
+ /L_ACCEL     (***)          = 0
+ /R           (**)           = 3
+ /M           (*)            = 1
+ /M_UTIL      (*)            = 1.0
+ /M_SEQ       (*)            = 2
+ /DELTERM     (*****)        = 1
+ /LDEL        (*****)        = 
+ /LDEL1       (**)           = 0
+ /LDEL2       (**)           = 0
+ /LDEL_MEX    (*****)        = 
+ /LDEL_NEGATE (*****)        = 
+ /VORDER      (**)           = 1
+ /GORDER      (****)         = 1.0
+ /CONV        (*)            = 1
+ /RCON        (*)            = 2
+ /KOON        (*)            = 0
+ /XNEG        (**)           = 
+ /MMF         (*****)        = 0
+ [C].    0.13 sec.  MCS # =        0 (Restructure FT)
+ [D].    0.13 sec.  MCS # =        0 (Find modules)
+                                          Module 1    # = 105 
+                                          Module 2    # = 59 
+                                          Copy down   # = 15
+ [E].    0.15 sec.  MCS # =        0 (Solve top event)
+                                       Solved gates   # = 218 
+                                       Cutset memory  # = 7152 
+ [F].    0.17 sec.  MCS # =     6628 (HTS-AC Expand module 2)
+ [G].    0.18 sec.  MCS # =     6628 (HTS-AC Expand module 1)
+ [H].    1.79 sec.  MCS # =  7988032 (HTS-AC Delterm G1/G2)
+ [I].    4.42 sec.  MCS # =  7988032 (HTS-AC Write cutsets)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ INPUT  FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AC.FTP
+ OUTPUT FILE      = C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AC.RAW
+ TOP EVENT        = HTS-AC
+ TRUNCATION       = 1.0000e-015
+ PROB (SUM)       = 4.0730e-001 (4.073042e-001)
+ PROB (MCUB)      = 3.8633e-001 (3.863297e-001)
+ CUTSET #         =     7988032
+
+
+19:34:53:93: Using QRecover Default Frame
+19:34:53:93: --------------- QRecover
+19:34:53.95:    QR:QRecover version: 10.2.0.9 (64-bit)
+19:34:53.95:    QR:Rule file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\PHCalcTool_45cae04b2d30475eb5321c173f00f6ce.default.recv
+19:34:53.95:    QR:Reading cutset file: C:\Users\mmhamza\AppData\Local\Temp\FX_28630edf5cee45d8b6ae593bca2d672e\HTS-AC.RAW
+19:34:55.64:    QR:Recovering module HTS-AC
+19:35:17.70:    QR:Initial Module Prob = 3.86E-01 (7988032 cutsets)
+19:36:02.23:    QR:Loaded database 
+19:36:17.73:    QR:Sorted the cutsets (7988032).
+19:36:17.90:    QR:Pack.
+19:36:18.86:    QR:Calculate.
+19:36:19.47:    QR:Saving HTS-AC (7988032 cutsets = 3.86E-01)
+19:40:01.30:    QR:Elapsed time 5.12 minutes.
+
+19:40:02:83: Total elapsed time: 5.32 minutes.
+19:40:12:38: Saved HTS-AC (7988032 cutsets = 3.863E-01)
+19:41:03.78: ...
+19:41:24.55: HTS-AC = 3.86E-01
+19:41:24.55: Saving cutsets (7988032 cutsets)
+19:41:50.21: Sequence HTS-AC run time: 7.1 mins.
+19:44:40.69: ============================================
+19:44:40.69: Finished at 4/23/2024 7:44 PM
+19:44:40.71: Total time: 10.1 mins.
+19:44:40.73: ============================================
+19:44:40.73: 

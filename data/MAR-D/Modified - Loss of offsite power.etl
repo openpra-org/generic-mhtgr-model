@@ -1,0 +1,43 @@
+, , LOSP-IE =
+^TOPS
+MODULE# RT-CR RT-RSCE SCS RCCS 
+^LOGIC
++1 +2  3 +4  5 
+         -4 +5 
+            -5 
+   -2 +3 +4  5 
+         -4  5 
+      -3  4  5 
+    2  3 +4  5 
+         -4  5 
+         +4  5 
+         -4  5 
+-1  2  3 +4  5 
+         -4  5 
+^SEQUENCES
+Y, Name, Y, Class, Y, Prob , 
+Y, LOSP-AA, Y, , Y, 0 , 
+Y, LOSP-AB, Y, , Y, 0 , 
+Y, LOSP-AF, Y, , Y, 0 , 
+Y, LOSP-AG, Y, , Y, 0 , 
+Y, LOSP-AH, Y, , Y, 0 , 
+Y, LOSP-AI, Y, , Y, 0 , 
+Y, LOSP-AA, Y, , Y, 0 , 
+Y, LOSP-AC, Y, , Y, 0 , 
+Y, LOSP-AA, Y, , Y, 0 , 
+Y, LOSP-AD, Y, , Y, 0 , 
+Y, LOSP-AA, Y, , Y, 0 , 
+Y, LOSP-AE, Y, , Y, 0 , 
+^TOPDESC
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!

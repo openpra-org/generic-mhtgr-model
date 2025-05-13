@@ -1,0 +1,95 @@
+, , GT-IE =
+^TOPS
+MODULE# RT-CR RT-RSCE RT-OPERATOR HTS SCS RCCS HPS-PMPDWN COOL-RESTORE 
+^LOGIC
++1 +2  3  4 +5  6  7  8  9 
+            -5 +6  7  8  9 
+               -6 +7  8  9 
+                  -7 +8 +9 
+                        -9 
+                     -8 +9 
+                        -9 
+   -2 +3  4 +5  6  7  8  9 
+            -5 +6  7  8  9 
+               -6 +7  8  9 
+                  -7  8  9 
+      -3 +4  5  6  7  8  9 
+         -4  5  6  7  8  9 
+    2  3  4 +5  6  7  8  9 
+            -5 +6  7  8  9 
+               -6 +7  8  9 
+                  -7 +8 +9 
+                        -9 
+                     -8 +9 
+                        -9 
+            +5  6  7  8  9 
+            -5 +6  7  8  9 
+               -6 +7  8  9 
+                  -7 +8 +9 
+                        -9 
+                     -8 +9 
+                        -9 
+-1  2  3  4 +5  6  7  8  9 
+            -5 +6  7  8  9 
+               -6 +7  8  9 
+                  -7 +8 +9 
+                        -9 
+                     -8 +9 
+                        -9 
+^SEQUENCES
+Y, Name, Y, Class, Y, Prob , 
+Y, RS-AA, Y, , Y, 0 , 
+Y, RS-AD, Y, , Y, 0 , 
+Y, RS-AF, Y, , Y, 0 , 
+Y, RS-AJ, Y, , Y, 0 , 
+Y, RS-AK, Y, , Y, 0 , 
+Y, RS-AL, Y, , Y, 0 , 
+Y, RS-AM, Y, , Y, 0 , 
+Y, RS-AN, Y, , Y, 0 , 
+Y, RS-AO, Y, , Y, 0 , 
+Y, RS-AP, Y, , Y, 0 , 
+Y, RS-AQ, Y, , Y, 0 , 
+Y, RS-AR, Y, , Y, 0 , 
+Y, RS-AS, Y, , Y, 0 , 
+Y, RS-AB, Y, , Y, 0 , 
+Y, RS-AD, Y, , Y, 0 , 
+Y, RS-AG, Y, , Y, 0 , 
+Y, RS-AJ, Y, , Y, 0 , 
+Y, RS-AK, Y, , Y, 0 , 
+Y, RS-AL, Y, , Y, 0 , 
+Y, RS-AM, Y, , Y, 0 , 
+Y, RS-AC, Y, , Y, 0 , 
+Y, RS-AD, Y, , Y, 0 , 
+Y, RS-AH, Y, , Y, 0 , 
+Y, RS-AJ, Y, , Y, 0 , 
+Y, RS-AK, Y, , Y, 0 , 
+Y, RS-AL, Y, , Y, 0 , 
+Y, RS-AM, Y, , Y, 0 , 
+Y, RS-AC, Y, , Y, 0 , 
+Y, RS-AE, Y, , Y, 0 , 
+Y, RS-AI, Y, , Y, 0 , 
+Y, RS-AJ, Y, , Y, 0 , 
+Y, RS-AK, Y, , Y, 0 , 
+Y, RS-AL, Y, , Y, 0 , 
+Y, RS-AM, Y, , Y, 0 , 
+^TOPDESC
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!
+""
+!

@@ -1,0 +1,155 @@
+, , SGTL-M-IE =
+^TOPS
+DETECT-MOIST RT-MOIST RT-PRESS SG-ISOLATE SG-ISOLATE-DELAY SG-DUMP SG-PRESS SCS RCCS RELIEF 
+^LOGIC
++1 +2  3 +4  5 +6  7 +8  9  10 
+                     -8 +9 +10 
+                              
+                           -10 
+                        -9  10 
+               -6  7 +8  9  10 
+                     -8 +9 +10 
+                              
+                           -10 
+                        -9  10 
+            +5 +6 +7 +8  9 +10 
+                              
+                           -10 
+                     -8 +9 +10 
+                           -10 
+                        -9  10 
+                     +8  9 +10 
+                           -10 
+                     -8  9  10 
+                  -7  8  9  10 
+               -6  7  8  9  10 
+            -5  6  7  8  9  10 
+            +5 +6  7 +8  9 +10 
+                              
+                           -10 
+                     -8 +9 +10 
+                           -10 
+                        -9  10 
+               -6  7  8  9  10 
+               +6  7 +8  9 +10 
+                           -10 
+                     -8  9  10 
+               -6  7  8  9  10 
+            -5  6  7  8  9  10 
+         -4 +5 +6  7 +8  9 +10 
+                              
+                           -10 
+                     -8 +9 +10 
+                           -10 
+                        -9  10 
+               -6  7  8  9  10 
+            -5  6  7  8  9  10 
+   -2 +3 +4  5 +6  7 +8  9  10 
+                     -8  9  10 
+               -6  7  8  9  10 
+         -4  5  6  7  8  9  10 
+      -3  4  5  6  7  8  9  10 
+-1  2 +3  4 +5 +6  7 +8  9 +10 
+                              
+                           -10 
+                     -8 +9 +10 
+                              
+                           -10 
+                        -9  10 
+               -6  7 +8  9 +10 
+                              
+                           -10 
+                     -8 +9 +10 
+                              
+                           -10 
+                        -9  10 
+            -5  6  7  8  9  10 
+      -3  4  5  6  7  8  9  10 
+^SEQUENCES
+Y, Name, Y, Class, Y, Prob , 
+Y, MS-AA, Y, , Y, 0 , 
+Y, MS-AB, Y, , Y, 0 , 
+Y, MS-AC, Y, , Y, 0 , 
+Y, MS-AD, Y, , Y, 0 , 
+Y, MS-AE, Y, , Y, 0 , 
+Y, MS-AF, Y, , Y, 0 , 
+Y, MS-AG, Y, , Y, 0 , 
+Y, MS-AH, Y, , Y, 0 , 
+Y, MS-AI, Y, , Y, 0 , 
+Y, MS-AJ, Y, , Y, 0 , 
+Y, MS-AK, Y, , Y, 0 , 
+Y, MS-AL, Y, , Y, 0 , 
+Y, MS-AM, Y, , Y, 0 , 
+Y, MS-AN, Y, , Y, 0 , 
+Y, MS-AO, Y, , Y, 0 , 
+Y, MS-AP, Y, , Y, 0 , 
+Y, MS-AQ, Y, , Y, 0 , 
+Y, MS-AR, Y, , Y, 0 , 
+Y, MS-AS, Y, , Y, 0 , 
+Y, MS-AT, Y, , Y, 0 , 
+Y, MS-AU, Y, , Y, 0 , 
+Y, MS-AV, Y, , Y, 0 , 
+Y, MS-AW, Y, , Y, 0 , 
+Y, MS-AX, Y, , Y, 0 , 
+Y, MS-AY, Y, , Y, 0 , 
+Y, MS-AZ, Y, , Y, 0 , 
+Y, MS-BA, Y, , Y, 0 , 
+Y, MS-BB, Y, , Y, 0 , 
+Y, MS-BC, Y, , Y, 0 , 
+Y, MS-BD, Y, , Y, 0 , 
+Y, MS-BE, Y, , Y, 0 , 
+Y, MS-BF, Y, , Y, 0 , 
+Y, MS-BG, Y, , Y, 0 , 
+Y, MS-BH, Y, , Y, 0 , 
+Y, MS-BI, Y, , Y, 0 , 
+Y, MS-BJ, Y, , Y, 0 , 
+Y, MS-BK, Y, , Y, 0 , 
+Y, MS-BL, Y, , Y, 0 , 
+Y, MS-BM, Y, , Y, 0 , 
+Y, MS-BN, Y, , Y, 0 , 
+Y, MS-BO, Y, , Y, 0 , 
+Y, MS-BP, Y, , Y, 0 , 
+Y, MS-BQ, Y, , Y, 0 , 
+Y, MS-BR, Y, , Y, 0 , 
+Y, MS-BS, Y, , Y, 0 , 
+Y, MS-BT, Y, , Y, 0 , 
+Y, MS-BU, Y, , Y, 0 , 
+Y, MS-BV, Y, , Y, 0 , 
+Y, MS-BW, Y, , Y, 0 , 
+Y, MS-BX, Y, , Y, 0 , 
+Y, MS-BY, Y, , Y, 0 , 
+Y, MS-BZ, Y, , Y, 0 , 
+Y, MS-CA, Y, , Y, 0 , 
+Y, MS-CB, Y, , Y, 0 , 
+Y, MS-CC, Y, , Y, 0 , 
+Y, MS-CD, Y, , Y, 0 , 
+Y, MS-CE, Y, , Y, 0 , 
+Y, MS-CF, Y, , Y, 0 , 
+Y, MS-CG, Y, , Y, 0 , 
+Y, MS-CH, Y, , Y, 0 , 
+Y, MS-CI, Y, , Y, 0 , 
+Y, MS-CJ, Y, , Y, 0 , 
+Y, MS-CK, Y, , Y, 0 , 
+^TOPDESC
+"Moderate SG leak occurs"
+!
+"Moisture monitor detection",
+!
+"Reactor trip on high moisture",
+!
+"Reactor trip on high pressure",
+!
+"SG isolation"
+!
+"Delayed SG isolation"
+!
+"SG dump"
+!
+"SG pressure response"
+!
+"SCS cooling"
+!
+"RCCS cooling"
+!
+"Primary relief train response",
+!

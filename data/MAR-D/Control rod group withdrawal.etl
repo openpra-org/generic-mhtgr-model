@@ -1,0 +1,37 @@
+, , CRW-IE =
+^TOPS
+RT-CR RT-RSCE HTS SCS RCCS 
+^LOGIC
++1  2 +3  4  5 
+      -3 +4  5 
+         -4 +5 
+            -5 
+-1 +2 +3  4  5 
+      -3 +4  5 
+         -4  5 
+   -2  3  4  5 
+^SEQUENCES
+Y, Name, Y, Class, Y, Prob , 
+Y, RW-AA, Y, , Y, 0 , 
+Y, RW-AB, Y, , Y, 0 , 
+Y, RW-AC, Y, , Y, 0 , 
+Y, RW-AD, Y, , Y, 0 , 
+Y, RW-AE, Y, , Y, 0 , 
+Y, RW-AF, Y, , Y, 0 , 
+Y, RW-AG, Y, , Y, 0 , 
+Y, RW-AH, Y, , Y, 0 , 
+^TOPDESC
+"Control rod group withdrawal",
+!
+"Reactor successfully tripped",
+"with control rods"
+!
+"Reactor successfully tripped",
+"with RSCE"
+!
+"HTS operates successfully",
+!
+"SCS operates successfully",
+!
+"RCCS operates successfully",
+!

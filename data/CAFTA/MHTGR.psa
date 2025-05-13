@@ -1,0 +1,36 @@
+$$PSA PROJECT MANAGER
+Version 1.1c
+$$Header Section:total=11
+Project Title:
+Date Created:04/18/2024 15:58:22
+Date Last Updated:04/18/2024 15:58:22
+Last Archive File:
+Last Archive Date:01/01/0001 00:00:00
+VSS Database Path:
+Empty Folders:
+@Folders:Event Trees|Fault Trees|Master Fault Tree|Databases|.Cutsets|.Flags|.PostProc Rules|.Mutex Files|.Quantifications|.Block Diagrams|.FMEAs|.Documents
+@<TypeFilter>:<eta;Event Trees:etax;Event Trees:tre;Event Trees:caf;Fault Trees:cafx;Fault Trees:ftl;Fault Trees:lgc;Fault Trees:caf1;Master Fault Tree:rbd;Block Diagrams:rr;Databases:rrx;Databases:be;Databases:tc;Databases:gt;Databases:flg;Flags:cut;Cutsets:recv;PostProc Rules:nrosp;PostProc Rules:mutx;Mutex Files:qnt;Quantifications:fmea;FMEAs:<default>;Documents>
+@Default Database:MHTGR.rr
+@Master Fault Tree:SGTR-MFT.caf
+$$Data Item Section: LPI=21
+;;;MHTGR.caf;
+;;;MHTGR.rr;
+;;;Primary coolant leaks.eta;
+;;;Control rod group withdrawal.eta;
+;;;Small SG tube leak.eta;
+;;;Moderate SG tube leak.eta;
+;;;HTS-MFT.caf;
+;;;Modified - Loss of HTS cooling.eta;
+;;;LOOP.caf;
+;;;Modified - Anticipated transient requiring scram.eta;
+;;;Modified - Loss of offsite power.eta;
+;;;CRW-MFT.caf;
+;;;SGTR-MFT.caf;
+;;;GT-MFT.caf;
+;;;LOOP-MFT.caf;
+;;;DEP-MFT.caf;
+;;;SGTL-MFT.caf;
+;;;SGTR-MFT.ftp;
+;;;SGTL-MFT.ftp;
+;;;MHTGR.ftp;
+;;;LOOP-MFT.ftp;

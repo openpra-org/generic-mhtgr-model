@@ -1,0 +1,123 @@
+, , SGTL-S-IE =
+^TOPS
+DETECT-MOIST RT-MOIST RT-MANUAL RT-PRESS SG-ISOLATE SG-ISOLATE-DELAY SG-DUMP SG-PRESS SCS RCCS RELIEF 
+^LOGIC
++1 +2  3  4 +5  6 +7  8 +9  10  11 
+                        -9 +10  11 
+                           -10  11 
+                  -7  8 +9  10  11 
+                        -9 +10 +11 
+                                 
+                              -11 
+                           -10  11 
+               +6 +7 +8 +9  10  11 
+                        -9 +10  11 
+                           -10  11 
+                        +9  10  11 
+                        -9 +10  11 
+                           -10  11 
+                     -8  9  10  11 
+                  -7 +8 +9  10  11 
+                        -9  10  11 
+                     -8  9  10  11 
+               -6  7  8  9  10  11 
+               +6 +7  8 +9  10  11 
+                        -9 +10  11 
+                           -10  11 
+                  -7  8  9  10  11 
+               -6  7  8  9  10  11 
+            -5 +6 +7  8 +9  10  11 
+                        -9 +10  11 
+                           -10  11 
+                  -7  8  9  10  11 
+               -6  7  8  9  10  11 
+   -2 +3  4 +5  6 +7  8 +9  10  11 
+                        -9 +10  11 
+                           -10  11 
+                  -7  8  9  10  11 
+            -5  6  7  8  9  10  11 
+      -3  4  5  6  7  8  9  10  11 
+-1  2 +3  4  5 +6 +7  8 +9  10  11 
+                        -9 +10  11 
+                           -10  11 
+                  -7  8 +9  10  11 
+                        -9  10  11 
+               -6  7  8  9  10  11 
+      -3 +4  5 +6 +7  8 +9  10  11 
+                        -9  10  11 
+                  -7  8  9  10  11 
+               -6  7  8  9  10  11 
+         -4  5  6  7  8  9  10  11 
+^SEQUENCES
+Y, Name, Y, Class, Y, Prob , 
+Y, SS-AA, Y, , Y, 0 , 
+Y, SS-AB, Y, , Y, 0 , 
+Y, SS-AC, Y, , Y, 0 , 
+Y, SS-AD, Y, , Y, 0 , 
+Y, SS-AE, Y, , Y, 0 , 
+Y, SS-AF, Y, , Y, 0 , 
+Y, SS-AG, Y, , Y, 0 , 
+Y, SS-AH, Y, , Y, 0 , 
+Y, SS-AI, Y, , Y, 0 , 
+Y, SS-AJ, Y, , Y, 0 , 
+Y, SS-AK, Y, , Y, 0 , 
+Y, SS-AL, Y, , Y, 0 , 
+Y, SS-AM, Y, , Y, 0 , 
+Y, SS-AN, Y, , Y, 0 , 
+Y, SS-AO, Y, , Y, 0 , 
+Y, SS-AP, Y, , Y, 0 , 
+Y, SS-AQ, Y, , Y, 0 , 
+Y, SS-AR, Y, , Y, 0 , 
+Y, SS-AS, Y, , Y, 0 , 
+Y, SS-AT, Y, , Y, 0 , 
+Y, SS-AU, Y, , Y, 0 , 
+Y, SS-AV, Y, , Y, 0 , 
+Y, SS-AW, Y, , Y, 0 , 
+Y, SS-AX, Y, , Y, 0 , 
+Y, SS-AY, Y, , Y, 0 , 
+Y, SS-AZ, Y, , Y, 0 , 
+Y, SS-BA, Y, , Y, 0 , 
+Y, SS-BB, Y, , Y, 0 , 
+Y, SS-BC, Y, , Y, 0 , 
+Y, SS-BD, Y, , Y, 0 , 
+Y, SS-BE, Y, , Y, 0 , 
+Y, SS-BF, Y, , Y, 0 , 
+Y, SS-BG, Y, , Y, 0 , 
+Y, SS-BH, Y, , Y, 0 , 
+Y, SS-BI, Y, , Y, 0 , 
+Y, SS-BJ, Y, , Y, 0 , 
+Y, SS-BK, Y, , Y, 0 , 
+Y, SS-BL, Y, , Y, 0 , 
+Y, SS-BM, Y, , Y, 0 , 
+Y, SS-BN, Y, , Y, 0 , 
+Y, SS-BO, Y, , Y, 0 , 
+Y, SS-BP, Y, , Y, 0 , 
+Y, SS-BQ, Y, , Y, 0 , 
+Y, SS-BR, Y, , Y, 0 , 
+Y, SS-BS, Y, , Y, 0 , 
+Y, SS-BT, Y, , Y, 0 , 
+^TOPDESC
+"Small SG leak occurs"
+!
+"Moisture monitor detection",
+!
+"Reactor trip on high moisture",
+!
+"Reactor manual trip"
+!
+"Reactor trip on high pressure",
+!
+"SG isolation"
+!
+"Delayed SG isolation"
+!
+"Automatic SG Dump"
+!
+"SG pressure response"
+!
+"SCS cooling"
+!
+"RCCS cooling"
+!
+"Primary relief train response",
+!

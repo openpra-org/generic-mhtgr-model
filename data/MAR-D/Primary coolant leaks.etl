@@ -1,0 +1,125 @@
+, , DEP-IE =
+^TOPS
+DEP-SIZE RT-CR RT-RSCE HTS SCS RCCS HPS-PMPDWN 
+^LOGIC
++1 +2  3 +4  5  6 +7 
+                  -7 
+         -4 +5  6 +7 
+                  -7 
+            -5 +6 +7 
+                  -7 
+               -6  7 
+   -2 +3 +4  5  6 +7 
+                  -7 
+         -4 +5  6 +7 
+                  -7 
+            -5 +6 +7 
+                  -7 
+               -6  7 
+      -3  4  5  6  7 
+   +2  3 +4  5  6 +7 
+                  -7 
+         -4 +5  6 +7 
+                  -7 
+            -5 +6 +7 
+                  -7 
+               -6  7 
+   -2 +3 +4  5  6 +7 
+                  -7 
+         -4 +5  6 +7 
+                  -7 
+            -5  6  7 
+      -3  4  5  6  7 
+   +2  3 +4  5  6 +7 
+                  -7 
+         -4 +5  6 +7 
+                  -7 
+            -5 +6 +7 
+                  -7 
+               -6  7 
+   -2 +3 +4  5  6 +7 
+                  -7 
+         -4 +5  6 +7 
+                  -7 
+            -5  6  7 
+      -3  4  5  6  7 
+   +2  3 +4  5  6  7 
+         -4 +5  6  7 
+            -5 +6  7 
+               -6  7 
+   -2 +3 +4  5  6  7 
+         -4 +5  6  7 
+            -5  6  7 
+      -3  4  5  6  7 
+-1  2  3  4  5  6  7 
+^SEQUENCES
+Y, Name, Y, Class, Y, Prob , 
+Y, PC-AA, Y, , Y, 0 , 
+Y, PC-AB, Y, , Y, 0 , 
+Y, PC-AC, Y, , Y, 0 , 
+Y, PC-AD, Y, , Y, 0 , 
+Y, PC-AE, Y, , Y, 0 , 
+Y, PC-AF, Y, , Y, 0 , 
+Y, PC-AG, Y, , Y, 0 , 
+Y, PC-AH, Y, , Y, 0 , 
+Y, PC-AI, Y, , Y, 0 , 
+Y, PC-AJ, Y, , Y, 0 , 
+Y, PC-AK, Y, , Y, 0 , 
+Y, PC-AL, Y, , Y, 0 , 
+Y, PC-AM, Y, , Y, 0 , 
+Y, PC-AN, Y, , Y, 0 , 
+Y, PC-AO, Y, , Y, 0 , 
+Y, PC-AP, Y, , Y, 0 , 
+Y, PC-AQ, Y, , Y, 0 , 
+Y, PC-AR, Y, , Y, 0 , 
+Y, PC-AS, Y, , Y, 0 , 
+Y, PC-AT, Y, , Y, 0 , 
+Y, PC-AU, Y, , Y, 0 , 
+Y, PC-AV, Y, , Y, 0 , 
+Y, PC-AW, Y, , Y, 0 , 
+Y, PC-AX, Y, , Y, 0 , 
+Y, PC-AY, Y, , Y, 0 , 
+Y, PC-AZ, Y, , Y, 0 , 
+Y, PC-BA, Y, , Y, 0 , 
+Y, PC-BB, Y, , Y, 0 , 
+Y, PC-BC, Y, , Y, 0 , 
+Y, PC-BD, Y, , Y, 0 , 
+Y, PC-BE, Y, , Y, 0 , 
+Y, PC-BF, Y, , Y, 0 , 
+Y, PC-BG, Y, , Y, 0 , 
+Y, PC-BH, Y, , Y, 0 , 
+Y, PC-BI, Y, , Y, 0 , 
+Y, PC-BJ, Y, , Y, 0 , 
+Y, PC-BK, Y, , Y, 0 , 
+Y, PC-BL, Y, , Y, 0 , 
+Y, PC-BM, Y, , Y, 0 , 
+Y, PC-BN, Y, , Y, 0 , 
+Y, PC-BO, Y, , Y, 0 , 
+Y, PC-BP, Y, , Y, 0 , 
+Y, PC-BQ, Y, , Y, 0 , 
+Y, PC-BR, Y, , Y, 0 , 
+Y, PC-BS, Y, , Y, 0 , 
+Y, PC-BT, Y, , Y, 0 , 
+Y, PC-BU, Y, , Y, 0 , 
+Y, PC-BV, Y, , Y, 0 , 
+Y, PC-BW, Y, , Y, 0 , 
+Y, PC-BX, Y, , Y, 0 , 
+^TOPDESC
+"Primary coolant leak occurs",
+!
+"Leak size distribution"
+!
+"Reactor successfully tripped",
+"with control rods"
+!
+"Reactor successfully tripped",
+"with RSCE"
+!
+"HTS operates successfully",
+!
+"SCS operates successfully",
+!
+"RCCS operates successfully",
+!
+"HPS pumpdown"
+!
