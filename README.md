@@ -1,6 +1,6 @@
 # Generic Modular High Temperature Gas Cooled Reactor (MHTGR) Model
 
-This repository contains the generic Modular High Temperature Gas Cooled Reactor (MHTGR) Probabilistic Risk Assessment (PRA) model in multiple formats, including SAPHIRE and CAFTA. The model is designed to support risk-informed operational decisions and benchmarking studies for advanced reactor concepts.
+This repository contains the generic Modular High Temperature Gas Cooled Reactor (MHTGR) PRA models in multiple formats, including SAPHIRE and CAFTA. The model is designed to support risk-informed operational decisions and benchmarking studies for advanced reactor concepts.
 
 ## Model Overview
 
