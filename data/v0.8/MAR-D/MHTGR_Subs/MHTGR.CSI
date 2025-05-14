@@ -1,0 +1,14 @@
+* Version = 8.2.9.0
+* PROBABILITY HEADER
+* Name          , CalcType,  UncType, Prob, Lambda, Tau, UncValue, UncCorr, MissionT, Flag, UncValue2
+* CLASS HEADER
+* Name,  Group, CompType, CompId, System, Location, FailMode, Train, Init, Template, Is Template, Cat1, Cat2, Cat3, Cat4, Cat5, Cat6, Cat7, Cat8, Cat9, CalcType, UncType, ProcFlag, UncCorr, FreqUnit, OrAnd, MT/Phase Pairs (optional)
+* CLASS PROBABILITY HEADER
+* CalcType,  UncType, Prob, Lambda, Tau, UncValue, UncCorr, MissionT, Flag, UncValue2
+ISOLATE-DELAY, HTS-SPURIOUS-PPIS-TRIP                           =
+^PROBABILITY
+IANDC-X1A-MT                                    , 3, , , 5.000E-005, , ,                                                 , 7.200E+001, , , RANDOM, CD
+IANDC-X1B-MT                                    , 3, , , 5.000E-005, , ,                                                 , 7.200E+001, , , RANDOM, CD
+IANDC-X1C-MT                                    , 3, , , 5.000E-005, , ,                                                 , 7.200E+001, , , RANDOM, CD
+IANDC-X1D-MT                                    , 3, , , 5.000E-005, , ,                                                 , 7.200E+001, , , RANDOM, CD
+^CLASS

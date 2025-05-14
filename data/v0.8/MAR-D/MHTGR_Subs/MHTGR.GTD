@@ -1,0 +1,793 @@
+ISOLATE-DELAY=
+*  Name                 , Description,        Project
+104, Failure to Transfer to Standby Unit, ,ISOLATE-DELAY
+1MOD-LOOP-F, single module, ,ISOLATE-DELAY
+1MOD-SCS-F, single module, ,ISOLATE-DELAY
+1MOD-SCS-S, single module, ,ISOLATE-DELAY
+2MOD-LOOP-F, 2 modules, ,ISOLATE-DELAY
+2MOD-SCS-F, 2 modules, ,ISOLATE-DELAY
+3MOD-LOOP-F, 3 modules, ,ISOLATE-DELAY
+3MOD-SCS-F, 3 modules, ,ISOLATE-DELAY
+4MOD-LOOP-F, 4 modules, ,ISOLATE-DELAY
+4MOD-SCS-F, 4 modules, ,ISOLATE-DELAY
+4MOD-SCS-S, 4 modules, ,ISOLATE-DELAY
+A, ECS Train 1 Fails, ,ISOLATE-DELAY
+A-2, SCS Circulator Failure in One Module, ,ISOLATE-DELAY
+A-2-2, SCS Circulator Failure in One Module, ,ISOLATE-DELAY
+A-2-3, SCS Circulator Failure in One Module, ,ISOLATE-DELAY
+A-2-4, SCS Circulator Failure in One Module, ,ISOLATE-DELAY
+A-2-A1-1, Shutdown Circulator Motor Cooling Failure, ,ISOLATE-DELAY
+A-2-A1-2, Shutdown Circulator Motor Cooling Failure, ,ISOLATE-DELAY
+A-2-A1-22, Circulator Motor Cooler A Fails, ,ISOLATE-DELAY
+A-2-A1-23, Standby Circulator Motor Cooler B Fails, ,ISOLATE-DELAY
+A-2-A1-235, Leaking Coil 'A' Not Isolated, ,ISOLATE-DELAY
+A-2-A1-236, Leaking Coil 'B' Not Isolated, ,ISOLATE-DELAY
+A-2-A1-3, Shutdown Circulator Motor Cooling Failure, ,ISOLATE-DELAY
+A-2-A1-32, Circulator Motor Cooler A Fails, ,ISOLATE-DELAY
+A-2-A1-33, Standby Circulator Motor Cooler B Fails, ,ISOLATE-DELAY
+A-2-A1-335, Leaking Coil 'A' Not Isolated, ,ISOLATE-DELAY
+A-2-A1-336, Leaking Coil 'B' Not Isolated, ,ISOLATE-DELAY
+A-2-A1-42, Circulator Motor Cooler A Fails, ,ISOLATE-DELAY
+A-2-A1-43, Standby Circulator Motor Cooler B Fails, ,ISOLATE-DELAY
+A-2-A1-435, Leaking Coil 'A' Not Isolated, ,ISOLATE-DELAY
+A-2-A1-436, Leaking Coil 'B' Not Isolated, ,ISOLATE-DELAY
+A-2-A1-FOUR, Shutdown Circulator Motor Cooling Failure, ,ISOLATE-DELAY
+A-2-A1-G29, Circulator Motor Cooler A Fails, ,ISOLATE-DELAY
+A-2-A1-G30, Standby Circulator Motor Cooler B Fails, ,ISOLATE-DELAY
+A-2-A1-G31, Leaking Coil 'A' Not Isolated, ,ISOLATE-DELAY
+A-2-A1-G32, Leaking Coil 'B' Not Isolated, ,ISOLATE-DELAY
+A-MT, ECS Train 1 Fails, ,ISOLATE-DELAY
+A-MT5, Steam generator or piping failure, ,ISOLATE-DELAY
+A-MT6, Turbine trip with failure to bypass, ,ISOLATE-DELAY
+A-R1, ECS Train 2 Fails, ,ISOLATE-DELAY
+A-R1-MT, ECS Train 2 Fails, ,ISOLATE-DELAY
+A-R1-MT5, Turbine trip with failure to bypass, ,ISOLATE-DELAY
+A-R1-MT6, Steam generator or piping failure, ,ISOLATE-DELAY
+A-R15, Circulating Water Failure, ,ISOLATE-DELAY
+A-R15-MT, Circulating Water Failure, ,ISOLATE-DELAY
+A-R16, Turbine trip with failure to bypass, ,ISOLATE-DELAY
+A-R17, Steam generator or piping failure, ,ISOLATE-DELAY
+B-1, Loss of Cooling to Modules, ,ISOLATE-DELAY
+B-1-B4, Loss of Service Water, ,ISOLATE-DELAY
+B-1-B4-B1, Normal Service Water Failure, ,ISOLATE-DELAY
+B-1-B4-B1-G10, , ,ISOLATE-DELAY
+B-1-B4-B1-G11, Reverse Check Valve Leakage, ,ISOLATE-DELAY
+B-1-B4-B1-G9, Loss of Pumps, ,ISOLATE-DELAY
+B-1-B4-B3, Loss of Shutdown Service Water Pump 1, ,ISOLATE-DELAY
+B-1-B4-B3-R1, Loss of Shutdown Service Water Pump 2, ,ISOLATE-DELAY
+B-1-B4-B3-R2, Loss of Shutdown Service Water Pump 3, ,ISOLATE-DELAY
+B-1-B4-G12, Loss of Normal Service Water Flow, ,ISOLATE-DELAY
+B-1-B4-G13, Loss of Service Water through PPIS Area Unit Cooler Rupture, ,ISOLATE-DELAY
+B-1-B4-G32, Loss of Shutdown Service Water Flow, ,ISOLATE-DELAY
+B-1-B4-G33, , ,ISOLATE-DELAY
+B-1-B4-G8, Loss of Service Water Flow, ,ISOLATE-DELAY
+B-1-F, Shutdown Cooling Water Subsystem Fails, ,ISOLATE-DELAY
+B-1-F-G15, Loss of Flow Pump 'B', ,ISOLATE-DELAY
+B-1-F-G16, Pump 'A' Fails, ,ISOLATE-DELAY
+B-1-F-G19, , ,ISOLATE-DELAY
+B-1-F-G20, Shutdown Cooling Water Pump Failure, ,ISOLATE-DELAY
+B-1-F-G24, Shutdown Cooling Water Heat Exchanger Failure, ,ISOLATE-DELAY
+B-1-F-G28, Heat Exchanger Valve Spuriously Failure, ,ISOLATE-DELAY
+B-1-F-G28A, Heat Exchanger 'A' Fails, ,ISOLATE-DELAY
+B-1-F-G35, Failure of 100% Capacity Pumps, ,ISOLATE-DELAY
+B-1-F-G36, Failure to Isolate Jockey Pump, ,ISOLATE-DELAY
+B-1-F-I1, Pump 'B' Fails, ,ISOLATE-DELAY
+B-1-F-L1, Heat Exchanger Leak Failure, ,ISOLATE-DELAY
+B-1-F-L1-27A, Heat Exchanger 'A' and 'B' Leak, ,ISOLATE-DELAY
+B-1-F-L1-27B, Heat Exchanger 'A' Leaks with Failure to Isolate, ,ISOLATE-DELAY
+B-1-F-L1-27C, Heat Exchanger 'B' Leaks with Failure to Isolate, ,ISOLATE-DELAY
+B-1-F-L112, , ,ISOLATE-DELAY
+B-1-F-L122, , ,ISOLATE-DELAY
+B-1-F010, Heat Exchanger 'B' Fails, ,ISOLATE-DELAY
+B-1-F4, Chemistry Package Failure, ,ISOLATE-DELAY
+B-1-F40, Chemistry Package Leaks, ,ISOLATE-DELAY
+B-1-F41, Failure to Isolate Leaking Chemistry Package, ,ISOLATE-DELAY
+B-1-I2, Pump Actuation Failure, ,ISOLATE-DELAY
+B-1-I2-1, Pump Actuation Failure, ,ISOLATE-DELAY
+B1-F-I3, Failure to Operate, ,ISOLATE-DELAY
+B1-F-I3-1, Failure to Operate, ,ISOLATE-DELAY
+BREAKSIZE, Primary Coolant Leak Size, ,ISOLATE-DELAY
+BYPASS, S/G Pressure Response, ,ISOLATE-DELAY
+COOL-RESTORE, Cooling restored prior to vessel damage, ,ISOLATE-DELAY
+COOL-RESTORE-PRESS, Cooling restored in a pressurized vessel (HPS PMPDWN failed), ,ISOLATE-DELAY
+COOL-RESTORE-UNPRESS, Cooling restored in an unpressurized vessel (HPS PMPDWN success), ,ISOLATE-DELAY
+CR3-G10-B, Loss of power, ,ISOLATE-DELAY
+CR3-G11-B, 120V AC or 125V DC, ,ISOLATE-DELAY
+CR3-G4-A, Failure to trip reactor using CR, ,ISOLATE-DELAY
+CR3-G4-B, Failure to trip reactor using RSCE, ,ISOLATE-DELAY
+CR3-G7-A, Failure to trip control rods, ,ISOLATE-DELAY
+CR3-G7-A-GT-MANUAL, Operator fails to manually trip the reactor aftera a GT, ,ISOLATE-DELAY
+CR3-G7-A-MOIST-MANUAL, Failure to Detect Presence of High Moisture, ,ISOLATE-DELAY
+CR3-G7-A-PRESS, Failure to Trip Control Rods, ,ISOLATE-DELAY
+CR3-G8-A, Sensors fail to deliver scram signal to PPS logic, ,ISOLATE-DELAY
+CR3-G8-B, Sensors fail to deliver scram signal to PPS logic, ,ISOLATE-DELAY
+D, Turbine Building Closed Cooling Water Failure, ,ISOLATE-DELAY
+D-MT, Turbine Building Closed Cooling Water Failure, ,ISOLATE-DELAY
+D-MT2, Pump Injection Failure, ,ISOLATE-DELAY
+D-MT22, Normal Pump No Flow Path, ,ISOLATE-DELAY
+D-MT223, Normal Pump Fails to Operate, ,ISOLATE-DELAY
+D-MT2233, Electrical Control Shutdown, ,ISOLATE-DELAY
+D-MT224, Injection Valve Closed, ,ISOLATE-DELAY
+D-MT2242, Electrical Control Closing Circuit Estab., ,ISOLATE-DELAY
+D1, Failure of SCS when Four Modules Require Cooling (2), ,ISOLATE-DELAY
+D1-HTS, TBCCWS Loss of Heat Sink, ,ISOLATE-DELAY
+D1-MT, TBCCWS Loss of Heat Sink, ,ISOLATE-DELAY
+D1-MT2, Heat Exchanger Bypass Valve Opens Spuriously, ,ISOLATE-DELAY
+D1-MT3, Loss of Heat Exchangers, ,ISOLATE-DELAY
+D1-MT32, Normal Heat Exchanger Failure, ,ISOLATE-DELAY
+D1-MT322, No Flow Through Heat Exchanger, ,ISOLATE-DELAY
+D1-MT3222, Isolation Valve Closed, ,ISOLATE-DELAY
+D1-MT32222, Inlet Isolation Valve Closed, ,ISOLATE-DELAY
+D1-MT32223, Outlet Isolation Valve Closed, ,ISOLATE-DELAY
+D1-MT33, Backup Heat Exchanger Failure, ,ISOLATE-DELAY
+D1-MT332, No Flow Through Heat Exchanger, ,ISOLATE-DELAY
+D1-MT3322, Isolation Valve Closed, ,ISOLATE-DELAY
+D1-MT33222, Inlet Isolation Valve Closed, ,ISOLATE-DELAY
+D1-MT33223, Outlet Isolation Valve Closed, ,ISOLATE-DELAY
+D2, Backup Pump No Flow Path, ,ISOLATE-DELAY
+D2-MT, Backup Pump No Flow Path, ,ISOLATE-DELAY
+D2-MT3, Backup Pump Fails to Operate, ,ISOLATE-DELAY
+D2-MT33, Electrical Failure, ,ISOLATE-DELAY
+D2-MT332, Electrical Control Failure to Start, ,ISOLATE-DELAY
+D2-MT333, Electrical Control Shutdown, ,ISOLATE-DELAY
+D2-MT4, Backup Pump Flow Path Injection Valve Closed, ,ISOLATE-DELAY
+D2-MT42, Injection Valve Fails to Open, ,ISOLATE-DELAY
+D2-MT422, Fails to Open Mechanically, ,ISOLATE-DELAY
+D2-MT423, Fails to Open Electrically, ,ISOLATE-DELAY
+D2-MT43, Injection Valve Inadvertent Closure, ,ISOLATE-DELAY
+D2-MT432, Electrical Control Closure, ,ISOLATE-DELAY
+D2-SCS, NSSS Failure, ,ISOLATE-DELAY
+D3-SCS, BOP Failure, ,ISOLATE-DELAY
+DF, > than 13 inch2, ,ISOLATE-DELAY
+DUMP, SG Dump System Fails, ,ISOLATE-DELAY
+DUMP-UNKNOWN, SG Dump System Fails, ,ISOLATE-DELAY
+E, Reactor Plant Cooling Water Fails, ,ISOLATE-DELAY
+E-1, SCS Heat Exchanger Failure, ,ISOLATE-DELAY
+E-1-G22, SCS Heat Exchanger Valves Spuriously Close, ,ISOLATE-DELAY
+E-2, SCS Heat Exchanger Faillure in Module 2, ,ISOLATE-DELAY
+E-22, SCS Heat Exchanger Valves Spuriously Close, ,ISOLATE-DELAY
+E-3, SCS Heat Exchanger Faillure in Module 3, ,ISOLATE-DELAY
+E-32, SCS Heat Exchanger Valves Spuriously Close, ,ISOLATE-DELAY
+E-4, SCS Heat Exchanger Faillure in Module 4, ,ISOLATE-DELAY
+E-42, SCS Heat Exchanger Valves Spuriously Close, ,ISOLATE-DELAY
+E-MT, Reactor Plant Cooling Water Fails, ,ISOLATE-DELAY
+E-MT4, Loss of System Pressure, ,ISOLATE-DELAY
+E1, Loss of Cooling Water Flow, ,ISOLATE-DELAY
+E1-MT, Loss of Cooling Water Flow, ,ISOLATE-DELAY
+E1-MT3, Loss of Pump No. 1, ,ISOLATE-DELAY
+E1-MT4, Loss of Pump No. 2, ,ISOLATE-DELAY
+E1-MT5, Loss of Pump No. 3, ,ISOLATE-DELAY
+E4, Loss of Heat Exchanger, ,ISOLATE-DELAY
+E4-MT, Loss of Heat Exchanger, ,ISOLATE-DELAY
+E4-MT2, Failure to Transfer to Standby Unit, ,ISOLATE-DELAY
+E4-MT23, Failure to Isolate Leaking Heat Exchanger, ,ISOLATE-DELAY
+E4-MT24, Failure to Establish Standby Unit, ,ISOLATE-DELAY
+ECS-FAILURE, ECS Failure to Remove Heat From At least One Module, ,ISOLATE-DELAY
+EIEMT, Reactor Plant Cooling Water Fails during IE or MT, ,ISOLATE-DELAY
+FAILOPEN, New Fault Tree, ,ISOLATE-DELAY
+FTC, Dump Valves Fail to Close, ,ISOLATE-DELAY
+FTO, Dump Valves Fail to Open, ,ISOLATE-DELAY
+FW, , ,ISOLATE-DELAY
+FWSLASHST, FWSLASHST, ,ISOLATE-DELAY
+G, Loss of Class 1E 120 VAC Uninteruptible Power Supply, ,ISOLATE-DELAY
+G-MT, Loss of Class 1E 120 VAC Uninteruptible Power Supply, ,ISOLATE-DELAY
+G-MT4, Channel A distribution panel, ,ISOLATE-DELAY
+G-MT42, Panel or load feeder breaker fails open, ,ISOLATE-DELAY
+G-MT5, Channel B distribution panel, ,ISOLATE-DELAY
+G-MT52, Panel or load feeder breaker fails open, ,ISOLATE-DELAY
+G-MT6, Channel C distribution panel, ,ISOLATE-DELAY
+G-MT62, Panel or load feeder breaker fails open, ,ISOLATE-DELAY
+G-MT7, Channel D distribution panel, ,ISOLATE-DELAY
+G-MT72, Panel or load feeder breaker fails open, ,ISOLATE-DELAY
+G1-1-R15, 120 VAC Normal  Backup and Alternate Supply Failure, ,ISOLATE-DELAY
+G1-1-R153, Backup Power Supply Failure, ,ISOLATE-DELAY
+G1-1-R154, Alternate Supply Failure, ,ISOLATE-DELAY
+G1-1-R155, Normal Supply Failure, ,ISOLATE-DELAY
+G1-1-R16, Manual Bypass Switch Contacts Open, ,ISOLATE-DELAY
+G1-3, Failure of SCS When One Module Requires Cooling, ,ISOLATE-DELAY
+G1-32, Loss of Class 1E UPS during IE or MT, ,ISOLATE-DELAY
+G1-33, Loss of 480 Power Supply during IE or MT, ,ISOLATE-DELAY
+G10, Unit Generator Supply to Unit 1 Side Failure, ,ISOLATE-DELAY
+G10-MT, Unit Generators Supply to Unit 1 Side Failure, ,ISOLATE-DELAY
+G100, Electrical Control Closure, ,ISOLATE-DELAY
+G102, Loss of System Pressure, ,ISOLATE-DELAY
+G105, Failure to Isolate Leaking Heat Exchanger, ,ISOLATE-DELAY
+G106, Failure to Establish Standby Unit, ,ISOLATE-DELAY
+G108, Loss of Pump No. 1, ,ISOLATE-DELAY
+G109, Loss of Pump No. 2, ,ISOLATE-DELAY
+G11, Loss of Class 1E 125 VDC Electric Power, ,ISOLATE-DELAY
+G11-MT, Loss of Class 1E 125 VDC Electric Power, ,ISOLATE-DELAY
+G11-MT4, No 125 VDC Power to Channel C Dist BD 1 Loads, ,ISOLATE-DELAY
+G11-MT42, Load Feeder Breaker Dist BD Channel C Fails Open, ,ISOLATE-DELAY
+G11-MT5, No 125 VDC Power to Channel D Dist BD 1 Loads, ,ISOLATE-DELAY
+G11-MT52, Load Feeder Breaker Dist BD Channel D Fails Open, ,ISOLATE-DELAY
+G11-MT6, No 125 VDC Power to Channel A Dist BD 1 Loads, ,ISOLATE-DELAY
+G11-MT62, Load Feeder Breaker Dist BD Channel A Fails Open, ,ISOLATE-DELAY
+G11-MT7, No 125V DC power to channel B dist bd 2 loads, ,ISOLATE-DELAY
+G11-MT72, Load Feeder Breaker Dist BD Channel B Fails Open, ,ISOLATE-DELAY
+G110, Loss of Pump No. 3, ,ISOLATE-DELAY
+G12, No 125 VDC Power to Dist BD Channel A, ,ISOLATE-DELAY
+G12-MT, No 125 VDC Power to Dist BD Channel A, ,ISOLATE-DELAY
+G12-MT2, No 125V DC Power to Dist BD from Battery Charger, ,ISOLATE-DELAY
+G12-MT22, No Power from Battery Charger, ,ISOLATE-DELAY
+G12-MT222, No Power From Backup Battery Charger, ,ISOLATE-DELAY
+G12-MT2223, Backup Battery Charger Output Breaker Open (N.O.), ,ISOLATE-DELAY
+G12-MT223, No Power From Normal Battery Charger, ,ISOLATE-DELAY
+G12-MT2233, Normal Battery Charger Output Breaker Open (N.C.), ,ISOLATE-DELAY
+G12-MT3, No 125V DC Power from Battery, ,ISOLATE-DELAY
+G12-R1, No 125 VDC Power to Dist BD Channel B, ,ISOLATE-DELAY
+G12-R1-MT, No 125 VDC Power to Dist BD Channel B, ,ISOLATE-DELAY
+G12-R1-MT2, No 125V DC Power to Dist BD from Battery Charger, ,ISOLATE-DELAY
+G12-R1-MT22, No Power from Battery Charger, ,ISOLATE-DELAY
+G12-R1-MT222, No Power From Backup Battery Charger, ,ISOLATE-DELAY
+G12-R1-MT2223, Backup Battery Charger Output Breaker Open (N.O.), ,ISOLATE-DELAY
+G12-R1-MT223, No Power From Normal Battery Charger, ,ISOLATE-DELAY
+G12-R1-MT2233, Normal Battery Charger Output Breaker Open (N.C.), ,ISOLATE-DELAY
+G12-R1-MT3, No 125V DC Power from Battery, ,ISOLATE-DELAY
+G12-R14, No 125V DC Power to Dist BD from Battery Charger, ,ISOLATE-DELAY
+G12-R142, No Power from Battery Charger, ,ISOLATE-DELAY
+G12-R1422, No Power From Backup Battery Charger, ,ISOLATE-DELAY
+G12-R14223, Backup Battery Charger Output Breaker Open (N.O.), ,ISOLATE-DELAY
+G12-R1423, No Power From Normal Battery Charger, ,ISOLATE-DELAY
+G12-R14233, Normal Battery Charger Output Breaker Open (N.C.), ,ISOLATE-DELAY
+G12-R15, No 125V DC Power from Battery, ,ISOLATE-DELAY
+G12-R2, No 125 VDC Power to Dist BD Channel C, ,ISOLATE-DELAY
+G12-R2-NOT-MT, No 125 VDC Power to Dist BD Channel C, ,ISOLATE-DELAY
+G12-R2-NOT-MT2, No 125V DC Power to Dist BD from Battery Charger, ,ISOLATE-DELAY
+G12-R2-NOT-MT22, No Power from Battery Charger, ,ISOLATE-DELAY
+G12-R2-NOT-MT222, No Power From Backup Battery Charger, ,ISOLATE-DELAY
+G12-R2-NOT-MT2223, Backup Battery Charger Output Breaker Open (N.O.), ,ISOLATE-DELAY
+G12-R2-NOT-MT223, No Power From Normal Battery Charger, ,ISOLATE-DELAY
+G12-R2-NOT-MT2233, Normal Battery Charger Output Breaker Open (N.C.), ,ISOLATE-DELAY
+G12-R2-NOT-MT3, No 125V DC Power from BatteryNo 125V DC Power from Battery, ,ISOLATE-DELAY
+G12-R24, No 125V DC Power to Dist BD from Battery Charger, ,ISOLATE-DELAY
+G12-R242, No Power from Battery Charger, ,ISOLATE-DELAY
+G12-R2422, No Power From Backup Battery Charger, ,ISOLATE-DELAY
+G12-R24223, Backup Battery Charger Output Breaker Open (N.O.), ,ISOLATE-DELAY
+G12-R2423, No Power From Normal Battery Charger, ,ISOLATE-DELAY
+G12-R24233, Normal Battery Charger Output Breaker Open (N.C.), ,ISOLATE-DELAY
+G12-R25, No 125V DC Power from Battery, ,ISOLATE-DELAY
+G12-R3, No 125 VDC Power to Dist BD Channel D, ,ISOLATE-DELAY
+G12-R3-MT, No 125 VDC Power to Dist BD Channel D, ,ISOLATE-DELAY
+G12-R3-MT2, No 125V DC Power to Dist BD from Battery Charger, ,ISOLATE-DELAY
+G12-R3-MT22, No Power from Battery Charger, ,ISOLATE-DELAY
+G12-R3-MT222, No Power From Backup Battery Charger, ,ISOLATE-DELAY
+G12-R3-MT2223, Backup Battery Charger Output Breaker Open (N.O.), ,ISOLATE-DELAY
+G12-R3-MT223, No Power From Normal Battery Charger, ,ISOLATE-DELAY
+G12-R3-MT2233, Normal Battery Charger Output Breaker Open (N.C.), ,ISOLATE-DELAY
+G12-R3-MT3, No 125V DC Power from Battery, ,ISOLATE-DELAY
+G12-R34, No 125V DC Power to Dist BD from Battery Charger, ,ISOLATE-DELAY
+G12-R342, No Power from Battery Charger, ,ISOLATE-DELAY
+G12-R3422, No Power From Backup Battery Charger, ,ISOLATE-DELAY
+G12-R34223, Backup Battery Charger Output Breaker Open (N.O.), ,ISOLATE-DELAY
+G12-R3423, No Power From Normal Battery Charger, ,ISOLATE-DELAY
+G12-R34233, Normal Battery Charger Output Breaker Open (N.C.), ,ISOLATE-DELAY
+G12-R35, No 125V DC Power from Battery, ,ISOLATE-DELAY
+G123, Channel A distribution panel, ,ISOLATE-DELAY
+G124, Channel B distribution panel, ,ISOLATE-DELAY
+G125, Channel C distribution panel, ,ISOLATE-DELAY
+G126, Channel D distribution panel, ,ISOLATE-DELAY
+G127, Panel or load feeder breaker fails open, ,ISOLATE-DELAY
+G128, Panel or load feeder breaker fails open, ,ISOLATE-DELAY
+G129, Panel or load feeder breaker fails open, ,ISOLATE-DELAY
+G130, Panel or load feeder breaker fails open, ,ISOLATE-DELAY
+G131-1, Power Failure fom Normal and Alternate Supply Panel, ,ISOLATE-DELAY
+G131-1-MT, Power Failure fom Normal and Alternate Supply Panel, ,ISOLATE-DELAY
+G131-1-MT3, 120 VAC Normal  Backup and Alternate Supply Failure, ,ISOLATE-DELAY
+G131-1-MT33, Backup Power Supply Failure, ,ISOLATE-DELAY
+G131-1-MT34, Alternate Supply Failure, ,ISOLATE-DELAY
+G131-1-MT35, Normal Supply Failure, ,ISOLATE-DELAY
+G131-1-MT4, Manual Bypass Switch Contacts Open, ,ISOLATE-DELAY
+G131-2, Power Failure fom Normal and Alternate Supply Panel, ,ISOLATE-DELAY
+G131-2-MT, Power Failure fom Normal and Alternate Supply Panel, ,ISOLATE-DELAY
+G131-2-MT3, 120 VAC Normal  Backup and Alternate Supply Failure, ,ISOLATE-DELAY
+G131-2-MT33, Backup Power Supply Failure, ,ISOLATE-DELAY
+G131-2-MT34, Alternate Supply Failure, ,ISOLATE-DELAY
+G131-2-MT35, Normal Supply Failure, ,ISOLATE-DELAY
+G131-2-MT4, Manual Bypass Switch Contacts Open, ,ISOLATE-DELAY
+G131-23, 120 VAC Normal  Backup and Alternate Supply Failure, ,ISOLATE-DELAY
+G131-233, Backup Power Supply Failure, ,ISOLATE-DELAY
+G131-234, Alternate Supply Failure, ,ISOLATE-DELAY
+G131-235, Normal Supply Failure, ,ISOLATE-DELAY
+G131-24, Manual Bypass Switch Contacts Open, ,ISOLATE-DELAY
+G131-3, Power Failure fom Normal and Alternate Supply Panel, ,ISOLATE-DELAY
+G131-3-MT, Power Failure fom Normal and Alternate Supply Panel, ,ISOLATE-DELAY
+G131-3-MT3, 120 VAC Normal  Backup and Alternate Supply Failure, ,ISOLATE-DELAY
+G131-3-MT33, Backup Power Supply Failure, ,ISOLATE-DELAY
+G131-3-MT34, Alternate Supply Failure, ,ISOLATE-DELAY
+G131-3-MT35, Normal Supply Failure, ,ISOLATE-DELAY
+G131-3-MT4, Manual Bypass Switch Contacts Open, ,ISOLATE-DELAY
+G131-33, 120 VAC Normal  Backup and Alternate Supply Failure, ,ISOLATE-DELAY
+G131-333, Backup Power Supply Failure, ,ISOLATE-DELAY
+G131-334, Alternate Supply Failure, ,ISOLATE-DELAY
+G131-335, Normal Supply Failure, ,ISOLATE-DELAY
+G131-34, Manual Bypass Switch Contacts Open, ,ISOLATE-DELAY
+G131-4, Power Failure fom Normal and Alternate Supply Panel, ,ISOLATE-DELAY
+G131-4-MT, Power Failure fom Normal and Alternate Supply Panel, ,ISOLATE-DELAY
+G131-4-MT3, 120 VAC Normal  Backup and Alternate Supply Failure, ,ISOLATE-DELAY
+G131-4-MT33, Backup Power Supply Failure, ,ISOLATE-DELAY
+G131-4-MT34, Alternate Supply Failure, ,ISOLATE-DELAY
+G131-4-MT35, Normal Supply Failure, ,ISOLATE-DELAY
+G131-4-MT4, Manual Bypass Switch Contacts Open, ,ISOLATE-DELAY
+G131-43, 120 VAC Normal  Backup and Alternate Supply Failure, ,ISOLATE-DELAY
+G131-433, Backup Power Supply Failure, ,ISOLATE-DELAY
+G131-434, Alternate Supply Failure, ,ISOLATE-DELAY
+G131-435, Normal Supply Failure, ,ISOLATE-DELAY
+G131-44, Manual Bypass Switch Contacts Open, ,ISOLATE-DELAY
+G14-R1, Failure to bypass, ,ISOLATE-DELAY
+G149, No 125 VDC Power to Channel C Dist BD 1 Loads, ,ISOLATE-DELAY
+G15-R1, FAILURE TO BYPASS, ,ISOLATE-DELAY
+G150, No 125 VDC Power to Channel D Dist BD 1 Loads, ,ISOLATE-DELAY
+G16-A, Failure to Bypass, ,ISOLATE-DELAY
+G16-B, Failure to Bypass, ,ISOLATE-DELAY
+G162D, Bearing Failure, ,ISOLATE-DELAY
+G169, No 125 VDC Power to Channel A Dist BD 1 Loads, ,ISOLATE-DELAY
+G17-R1, Valve C fails without flow redirection, ,ISOLATE-DELAY
+G170-1, No 125V DC power to channel B dist bd 2 loads, ,ISOLATE-DELAY
+G173-1, Load Feeder Breaker Dist BD Channel A Fails Open, ,ISOLATE-DELAY
+G173-2, Load Feeder Breaker Dist BD Channel C Fails Open, ,ISOLATE-DELAY
+G176, Load Feeder Breaker Dist BD Channel B Fails Open, ,ISOLATE-DELAY
+G176-1, Load Feeder Breaker Dist BD Channel D Fails Open, ,ISOLATE-DELAY
+G179, No 125V DC Power to Dist BD from Battery Charger, ,ISOLATE-DELAY
+G18-R1, Inlet valve fails without flow redirection, ,ISOLATE-DELAY
+G180, No 125V DC Power from Battery, ,ISOLATE-DELAY
+G181, No Power from Battery Charger, ,ISOLATE-DELAY
+G182, No Power From Backup Battery Charger, ,ISOLATE-DELAY
+G183, No Power From Normal Battery Charger, ,ISOLATE-DELAY
+G184, Backup Battery Charger Output Breaker Open (N.O.), ,ISOLATE-DELAY
+G185, Normal Battery Charger Output Breaker Open (N.C.), ,ISOLATE-DELAY
+G19-R1, Valve C and D fail to open, ,ISOLATE-DELAY
+G2, Startup Aux TFR 1 No Output, ,ISOLATE-DELAY
+G2-2, NSSS Failure, ,ISOLATE-DELAY
+G2-MT, Startup Aux TFR 1 No Output, ,ISOLATE-DELAY
+G20-R1, Outlet valve fails without flow redirection, ,ISOLATE-DELAY
+G200, Non Class 1E Electric Power Supply Failure, ,ISOLATE-DELAY
+G200-1, Non-Class 1E Electric Power Supply Failure from 111/112, ,ISOLATE-DELAY
+G200-1021, Failure to Feed Bus 111 From Unit Generators, ,ISOLATE-DELAY
+G200-1022, Failure to Feed Bus 111 From Offsite Source, ,ISOLATE-DELAY
+G200-11201, Unit Generator Supply to Unit 2 Side Failure, ,ISOLATE-DELAY
+G200-11201-MT, Unit Generator Supply to Unit 2 Side Failure, ,ISOLATE-DELAY
+G200-2, Non-Class 1E Electric Power Supply Failure from 213/214, ,ISOLATE-DELAY
+G200-23, No 4KV Power Supplied to Bus 111, ,ISOLATE-DELAY
+G200-232, Failure to Feed Bus 111 From Offsite Source, ,ISOLATE-DELAY
+G200-233, Failure to Feed Bus 111 From Unit Generators, ,ISOLATE-DELAY
+G200-24, No 4KV Power Supplied ot Bus 112, ,ISOLATE-DELAY
+G200-242, Failure To Feed Bus 112 From Unit Generators, ,ISOLATE-DELAY
+G200-243, Failure to Feed Bus 112 From Offsite Source, ,ISOLATE-DELAY
+G200-MT, Non Class 1E Electric Power Supply Failure, ,ISOLATE-DELAY
+G200-MT1, Non-Class 1E Electric Power Supply Failure from 111/112, ,ISOLATE-DELAY
+G200-MT113, No 4KV Power Supplied to Bus 111, ,ISOLATE-DELAY
+G200-MT1132, Failure to Feed Bus 111 From Unit Generators, ,ISOLATE-DELAY
+G200-MT1133, Failure to Feed Bus 111 From Offsite Source, ,ISOLATE-DELAY
+G200-MT114, No 4KV Power Supplied ot Bus 112, ,ISOLATE-DELAY
+G200-MT1142, Failure To Feed Bus 112 From Unit Generators, ,ISOLATE-DELAY
+G200-MT1143, Failure to Feed Bus 112 From Offsite Source, ,ISOLATE-DELAY
+G200-MT2, Non-Class 1E Electric Power Supply Failure from 213/214, ,ISOLATE-DELAY
+G200-MT23, No 4KV Power Supplied to Bus 111, ,ISOLATE-DELAY
+G200-MT232, Failure to Feed Bus 111 From Offsite Source, ,ISOLATE-DELAY
+G200-MT233, Failure to Feed Bus 111 From Unit Generators, ,ISOLATE-DELAY
+G200-MT24, No 4KV Power Supplied ot Bus 112, ,ISOLATE-DELAY
+G200-MT242, Failure To Feed Bus 112 From Unit Generators, ,ISOLATE-DELAY
+G200-MT243, Failure to Feed Bus 112 From Offsite Source, ,ISOLATE-DELAY
+G200IEMT, Non Class 1E Electric Power Supply Failure during IE or MT, ,ISOLATE-DELAY
+G201, No 4KV Power Supplied to Bus 111, ,ISOLATE-DELAY
+G202, No 4KV Power Supplied ot Bus 112, ,ISOLATE-DELAY
+G206, Failure To Feed Bus 112 From Unit Generators, ,ISOLATE-DELAY
+G209, No Unit  Generator Power to Unit Auxiliary TFR 1, ,ISOLATE-DELAY
+G209-MT, No Unit  Generator Power to Unit Auxiliary TFR 1, ,ISOLATE-DELAY
+G209-MT2, Unit Generator 1 Fails to Sipply Unit Aux TFR 1, ,ISOLATE-DELAY
+G209-MT22, Unit Generator 1 Output Failure, ,ISOLATE-DELAY
+G209-MT223, Unit 1 turbine trip, ,ISOLATE-DELAY
+G209-MT2233, Unit 1 Turbine Trip Logic Actuation, ,ISOLATE-DELAY
+G209-MT3, Unit Generator 2 Fails to Sipply Unit Aux TFR 1, ,ISOLATE-DELAY
+G209-MT34, Unit Generator 2 Output Failure, ,ISOLATE-DELAY
+G209-MT343, Unit 2 Turbine Trip, ,ISOLATE-DELAY
+G209-MT3433, Unit 2 Turbine Trip Logic Actuation, ,ISOLATE-DELAY
+G209-R1, No Unit  Generator Power to Unit Auxiliary TFR 1, ,ISOLATE-DELAY
+G209-R1-MT, No Unit  Generator Power to Unit Auxiliary TFR 1, ,ISOLATE-DELAY
+G209-R1-MT2, Unit Generator 1 Fails to supply Unit Aux TFR 1, ,ISOLATE-DELAY
+G209-R1-MT22, Unit Generator 1 Output Failure, ,ISOLATE-DELAY
+G209-R1-MT223, Unit 1 Turbine Trip, ,ISOLATE-DELAY
+G209-R1-MT2233, Unit 1 Turbine Trip Logic Actuation, ,ISOLATE-DELAY
+G209-R1-MT3, Unit Generator 2 Fails to supply Unit Aux TFR 1, ,ISOLATE-DELAY
+G209-R1-MT34, Unit Generator 2 Output Failure, ,ISOLATE-DELAY
+G209-R1-MT343, Unit 2 Turbine Trip, ,ISOLATE-DELAY
+G209-R1-MT3433, Unit 2 Turbine Trip Logic Actuation, ,ISOLATE-DELAY
+G209-R12, Unit Generator 1 Fails to supply Unit Aux TFR 1, ,ISOLATE-DELAY
+G209-R122, Unit Generator 1 Output Failure, ,ISOLATE-DELAY
+G209-R1223, Unit 1 Turbine Trip, ,ISOLATE-DELAY
+G209-R12233, Unit 1 Turbine Trip Logic Actuation, ,ISOLATE-DELAY
+G209-R13, Unit Generator 2 Fails to supply Unit Aux TFR 1, ,ISOLATE-DELAY
+G209-R134, Unit Generator 2 Output Failure, ,ISOLATE-DELAY
+G209-R1343, Unit 2 Turbine Trip, ,ISOLATE-DELAY
+G209-R13433, Unit 2 Turbine Trip Logic Actuation, ,ISOLATE-DELAY
+G21-D-1-MT, Failure to Bypass, ,ISOLATE-DELAY
+G21-D-1-NOT-MT, Failure to Bypass, ,ISOLATE-DELAY
+G21-D-2, Failure to Bypass, ,ISOLATE-DELAY
+G21-D-2-MT, Failure to Bypass, ,ISOLATE-DELAY
+G210, Unit Generator 1 Fails to Sipply Unit Aux TFR 1, ,ISOLATE-DELAY
+G210-1, Unit generator 1 fails to supply unit auxiliary transformer 1, ,ISOLATE-DELAY
+G211, Unit Generator 2 Fails to Sipply Unit Aux TFR 1, ,ISOLATE-DELAY
+G211-1, Unit generator 2 fails to supply auxiliary transformer 1, ,ISOLATE-DELAY
+G212, Unit Generator 1 Output Failure, ,ISOLATE-DELAY
+G212-1, Unit generator 1 output failure, ,ISOLATE-DELAY
+G213, Unit Generator 2 Output Failure, ,ISOLATE-DELAY
+G213-1, Unit generator 1 output failure, ,ISOLATE-DELAY
+G214, Unit 1 turbine trip, ,ISOLATE-DELAY
+G214-1, Unit 1 turbine trip, ,ISOLATE-DELAY
+G215, Unit 2 Turbine Trip, ,ISOLATE-DELAY
+G215-1, Unit 1 turbine trip, ,ISOLATE-DELAY
+G216, , ,ISOLATE-DELAY
+G216-1, Unit 1 turbine trip logic actuation, ,ISOLATE-DELAY
+G217, , ,ISOLATE-DELAY
+G217-1, Unit 1 turbine trip logic actuation, ,ISOLATE-DELAY
+G22-R1, Flow redirection fails/Failure to bypass 3rd pont LP heater, ,ISOLATE-DELAY
+G22-R1-MT, Flow redirection fails/Failure to bypass 3rd pont LP heater, ,ISOLATE-DELAY
+G22-R2, Flow redirection fails/Failure to bypass 3rd pont LP heater, ,ISOLATE-DELAY
+G22-R2-MT, Flow redirection fails/Failure to bypass 3rd pont LP heater, ,ISOLATE-DELAY
+G228, Failure to Feed Bus 122 from Offsite Source, ,ISOLATE-DELAY
+G229, Failure to Feed Bus 122 from Unit Generators, ,ISOLATE-DELAY
+G230, Failure to Feed Bus 122 from Backup Generators, ,ISOLATE-DELAY
+G231, Failure to Feed Bus 112 From Offsite Source Unit 1 Site, ,ISOLATE-DELAY
+G232, No Supply from Backup Gen 2 to Bus 122, ,ISOLATE-DELAY
+G233, No Supply from Backup Gen 1 to Bus 122, ,ISOLATE-DELAY
+G24-R1, Flow redirection fails, ,ISOLATE-DELAY
+G2A, SCS Actuation Failure, ,ISOLATE-DELAY
+G2A-2, SCS Actuation Failure, ,ISOLATE-DELAY
+G2A-22, Failure to Initiate SCS Cooling, ,ISOLATE-DELAY
+G2A-3, SCS Actuation Failure, ,ISOLATE-DELAY
+G2A-32, Failure to Initiate SCS Cooling, ,ISOLATE-DELAY
+G2A-4, SCS Actuation Failure, ,ISOLATE-DELAY
+G2A-42, Failure to Initiate SCS Cooling, ,ISOLATE-DELAY
+G2AA, Failure to Initiate SCS Cooling, ,ISOLATE-DELAY
+G3, Failure to Feed Bus 122 from Offsite Source Unit 2 Side, ,ISOLATE-DELAY
+G3-1, BOP Failure, ,ISOLATE-DELAY
+G3-MT, Failure to Feed Bus 122 from Offsite Source Unit 2 Side, ,ISOLATE-DELAY
+G35-R, Condenser Inlet Isolation Valve 1 Closed, ,ISOLATE-DELAY
+G36-R, Condenser Inlet Isolation Valve 2 Closed, ,ISOLATE-DELAY
+G38-R, Condensor Outlet Isolation Valve 1 Closed, ,ISOLATE-DELAY
+G39-R, Condensor Outlet Isolation Valve 2 Closed, ,ISOLATE-DELAY
+G4, Startup Aux TFR 2 No Output, ,ISOLATE-DELAY
+G4-MT, Startup Aux TFR 2 No Output, ,ISOLATE-DELAY
+G4-R1, Steam generator or piping failure, ,ISOLATE-DELAY
+G41, Loss of Pumps, ,ISOLATE-DELAY
+G42, Failure of Valve(s) with Shutdown Service Connection, ,ISOLATE-DELAY
+G43, Reverse Check Valve Leakage, ,ISOLATE-DELAY
+G45, Pump Injection Failure, ,ISOLATE-DELAY
+G46, Normal Pump No Flow Path, ,ISOLATE-DELAY
+G47, Normal Pump Fails to Operate, ,ISOLATE-DELAY
+G48, Injection Valve Closed, ,ISOLATE-DELAY
+G49, Electrical Control Shutdown, ,ISOLATE-DELAY
+G5, Power Fails to 480 VAC Bus Loads, ,ISOLATE-DELAY
+G5-MT, Power Fails to 480 VAC Bus Loads, ,ISOLATE-DELAY
+G5-MT4, 4.16 KV to 480 VAC Transformer Failure, ,ISOLATE-DELAY
+G50, Electrical Control Closing Circuit Estab., ,ISOLATE-DELAY
+G52, Heat Exchanger Bypass Valve Opens Spuriously, ,ISOLATE-DELAY
+G53, Normal Heat Exchanger Failure, ,ISOLATE-DELAY
+G54, No Flow Through Heat Exchanger, ,ISOLATE-DELAY
+G54-R1, No Flow Through Heat Exchanger, ,ISOLATE-DELAY
+G55, Isolation Valve Closed, ,ISOLATE-DELAY
+G55-R1, Isolation Valve Closed, ,ISOLATE-DELAY
+G56, Inlet Isolation Valve Closed, ,ISOLATE-DELAY
+G56-R1, Inlet Isolation Valve Closed, ,ISOLATE-DELAY
+G57, Outlet Isolation Valve Closed, ,ISOLATE-DELAY
+G57-R1, Outlet Isolation Valve Closed, ,ISOLATE-DELAY
+G58, Backup Heat Exchanger Failure, ,ISOLATE-DELAY
+G59, Loss of Heat Exchangers, ,ISOLATE-DELAY
+G6, Loss of 480 VAC Power Supply, ,ISOLATE-DELAY
+G6-222, No 4 KV Power Supplied to Bus 121, ,ISOLATE-DELAY
+G6-222-MT, No 4 KV Power Supplied to Bus 121, ,ISOLATE-DELAY
+G6-222-MT3, Failure to Feed Bus 121 from Offsite Source, ,ISOLATE-DELAY
+G6-222-MT32, Failure to Feed Bus 121 from Offsite Source Unit 2 Side, ,ISOLATE-DELAY
+G6-222-MT4, Failure to Feed Bus 121 from Unit Generators, ,ISOLATE-DELAY
+G6-222-MT5, Failure to Feed Bus 121 from Backup Generators, ,ISOLATE-DELAY
+G6-222-MT52, No Supply from Backup Gen 2 to Bus 121, ,ISOLATE-DELAY
+G6-222-MT53, No Supply from Backup Gen 1 to Bus 121, ,ISOLATE-DELAY
+G6-COPY-22, Loss of 4KV Power to Bus 121, ,ISOLATE-DELAY
+G6-COPY-2223, Failure to Feed Bus 121 from Offsite Source, ,ISOLATE-DELAY
+G6-COPY-22232, Failure to Feed Bus 121 from Offsite Source Unit 2 Side, ,ISOLATE-DELAY
+G6-COPY-2224, Failure to Feed Bus 121 from Unit Generators, ,ISOLATE-DELAY
+G6-COPY-2225, Failure to Feed Bus 121 from Backup Generators, ,ISOLATE-DELAY
+G6-COPY-22252, No Supply from Backup Gen 2 to Bus 121, ,ISOLATE-DELAY
+G6-COPY-22253, No Supply from Backup Gen 1 to Bus 121, ,ISOLATE-DELAY
+G6-COPY-23, Loss of 4 KV Power to Bus 122, ,ISOLATE-DELAY
+G6-MT, Loss of 480 VAC Power Supply, ,ISOLATE-DELAY
+G6-MT2, Loss of 4KV Power to Bus 121, ,ISOLATE-DELAY
+G6-MT3, Loss of 4 KV Power to Bus 122, ,ISOLATE-DELAY
+G6-R1, Turbine trip with failure to bypass, ,ISOLATE-DELAY
+G7, No 4 KV Power Supplied to Bus 122, ,ISOLATE-DELAY
+G7-MT, No 4 KV Power Supplied to Bus 122, ,ISOLATE-DELAY
+G7-MT3, Failure to Feed Bus 122 from Offsite Source, ,ISOLATE-DELAY
+G7-MT32, Failure to Feed Bus 112 From Offsite Source Unit 1 Site, ,ISOLATE-DELAY
+G7-MT4, Failure to Feed Bus 122 from Unit Generators, ,ISOLATE-DELAY
+G7-MT5, Failure to Feed Bus 122 from Backup Generators, ,ISOLATE-DELAY
+G7-MT52, No Supply from Backup Gen 2 to Bus 122, ,ISOLATE-DELAY
+G7-MT53, No Supply from Backup Gen 1 to Bus 122, ,ISOLATE-DELAY
+G8, Failure to Feed Bus 121 from Offsite Source Unit 2 Side, ,ISOLATE-DELAY
+G8-MT, Failure to Feed Bus 121 from Offsite Source Unit 2 Side, ,ISOLATE-DELAY
+G9, No Unit Generator Power to Unit Aux TFR 1, ,ISOLATE-DELAY
+G9-MT, No Unit Generator Power to Unit Aux TFR 1, ,ISOLATE-DELAY
+G9-MT2, Unit generator 1 fails to supply unit auxiliary transformer 1, ,ISOLATE-DELAY
+G9-MT22, Unit generator 1 output failure, ,ISOLATE-DELAY
+G9-MT223, Unit 1 turbine trip, ,ISOLATE-DELAY
+G9-MT2233, Unit 1 turbine trip logic actuation, ,ISOLATE-DELAY
+G9-MT3, Unit generator 2 fails to supply auxiliary transformer 1, ,ISOLATE-DELAY
+G9-MT34, Unit generator 1 output failure, ,ISOLATE-DELAY
+G9-MT343, Unit 1 turbine trip, ,ISOLATE-DELAY
+G9-MT3433, Unit 1 turbine trip logic actuation, ,ISOLATE-DELAY
+G91, Backup Pump Fails to Operate, ,ISOLATE-DELAY
+G917, SG Dump System, ,ISOLATE-DELAY
+G92, Backup Pump Flow Path Injection Valve Closed, ,ISOLATE-DELAY
+G93, Electrical Failure, ,ISOLATE-DELAY
+G94, Injection Valve Fails to Open, ,ISOLATE-DELAY
+G95, Injection Valve Inadvertent Closure, ,ISOLATE-DELAY
+G96, Electrical Control Failure to Start, ,ISOLATE-DELAY
+G97, Electrical Control Shutdown, ,ISOLATE-DELAY
+G98, Fails to Open Mechanically, ,ISOLATE-DELAY
+G99, Fails to Open Electrically, ,ISOLATE-DELAY
+H-R1, HTS Circulator 1 Fails, ,ISOLATE-DELAY
+H-R1-MT, HTS Circulator 1 Fails, ,ISOLATE-DELAY
+H-R1-MT4, Bearing Failure, ,ISOLATE-DELAY
+H-R13, Bearing Failure, ,ISOLATE-DELAY
+H-R2, HTS Circulator 2 Fails, ,ISOLATE-DELAY
+H-R2-MT, HTS Circulator 2 Fails, ,ISOLATE-DELAY
+H-R2-MT4, Bearing Failure, ,ISOLATE-DELAY
+H-R23, Bearing Failure, ,ISOLATE-DELAY
+H1-R3, HTS Circulator 3 Fails, ,ISOLATE-DELAY
+H1-R3-MT, HTS Circulator 3 Fails, ,ISOLATE-DELAY
+H1-R3-MT4, Bearing Failure, ,ISOLATE-DELAY
+H1-R33, Bearing Failure, ,ISOLATE-DELAY
+H1-R4, HTS Circulator 4 Fails, ,ISOLATE-DELAY
+H1-R4-MT, HTS Circulator 4 Fails, ,ISOLATE-DELAY
+H1-R4-MT4, Bearing Failure, ,ISOLATE-DELAY
+HPS-PMPDWN, Intentional depressurization fails, ,ISOLATE-DELAY
+HTS-CIRCULATOR-FAILS, NSSS Failures that Result in Loss of HTS in at least One Module, ,ISOLATE-DELAY
+HTS-FAILURE-AT-LEAST-1-MOD, Failure of HTS in at least One Module, ,ISOLATE-DELAY
+HTS-FAILURE-AT-LEAST-1-MOD-MT, Failure of HTS in at least One Module (MT), ,ISOLATE-DELAY
+HTS-FAILURE-AT-LEAST-1-MOD-MT10, NSSS Failures that Result in Loss of HTS in at least One Module, ,ISOLATE-DELAY
+HTS-FAILURE-AT-LEAST-1-MOD-MT11, Spurious PPIS Trip, ,ISOLATE-DELAY
+HTS-FAILURE-AT-LEAST-1-MOD-MT9, ECS Failure to Remove Heat From At least One Module, ,ISOLATE-DELAY
+HTS-IE-AND-MT, Failure of HTS in at least One Module (IE and MT), ,ISOLATE-DELAY
+I, Circulating Water Failure, ,ISOLATE-DELAY
+I-MT, Circulating Water Failure, ,ISOLATE-DELAY
+I1, Failure of SCS when Four Modules Require Cooling (4), ,ISOLATE-DELAY
+I2, Circulating Water Pumps Fail, ,ISOLATE-DELAY
+I2-MT, Circulating Water Pumps Fail, ,ISOLATE-DELAY
+I2-MT2, Circulating water pump 1 fails, ,ISOLATE-DELAY
+I2-MT3, Circulating water pump 2 fails, ,ISOLATE-DELAY
+I2-R1, Circulating Water Pumps Fail, ,ISOLATE-DELAY
+I2-R1-MT, Circulating Water Pumps Fail, ,ISOLATE-DELAY
+I2-R1-MT2, Circulating water pump 1 fails, ,ISOLATE-DELAY
+I2-R1-MT3, Circulating water pump 2 fails, ,ISOLATE-DELAY
+I2-SCS, NSSS Failure, ,ISOLATE-DELAY
+I20-R1, Circulating water pump 1 fails, ,ISOLATE-DELAY
+I21-R1, Circulating water pump 2 fails, ,ISOLATE-DELAY
+I212, Circulating water pump 1 fails, ,ISOLATE-DELAY
+I213, Circulating water pump 2 fails, ,ISOLATE-DELAY
+I3-1, Circulating water pump #1 isolation valve closed, ,ISOLATE-DELAY
+I3-1-1, Circulating water pump #1 isolation valve closed, ,ISOLATE-DELAY
+I3-1-1-MT, Circulating water pump #1 isolation valve closed, ,ISOLATE-DELAY
+I3-1-1-MT2, CIRCULATING WATER PUMP ISOLATION VALVE 1 CLOSED, ,ISOLATE-DELAY
+I3-1-1-MT3, CIRCULATING WATER PUMP ISOLATION VALVE 2 CLOSED, ,ISOLATE-DELAY
+I3-1-12, CIRCULATING WATER PUMP ISOLATION VALVE 1 CLOSED, ,ISOLATE-DELAY
+I3-1-13, CIRCULATING WATER PUMP ISOLATION VALVE 2 CLOSED, ,ISOLATE-DELAY
+I3-1-MT, Circulating water pump #1 isolation valve closed, ,ISOLATE-DELAY
+I3-1-MT2, CIRCULATING WATER PUMP ISOLATION VALVE 1 CLOSED, ,ISOLATE-DELAY
+I3-1-MT3, CIRCULATING WATER PUMP ISOLATION VALVE 2 CLOSED, ,ISOLATE-DELAY
+I3-2, Circulating water pump #1 isolation valve closed, ,ISOLATE-DELAY
+I3-2-1, Circulating water pump #2 isolation valve closed, ,ISOLATE-DELAY
+I3-2-1-MT, Circulating water pump #2 isolation valve closed, ,ISOLATE-DELAY
+I3-2-1-MT2, CIRCULATING WATER PUMP ISOLATION VALVE 1 CLOSED, ,ISOLATE-DELAY
+I3-2-1-MT3, CIRCULATING WATER PUMP ISOLATION VALVE 2 CLOSED, ,ISOLATE-DELAY
+I3-2-12, CIRCULATING WATER PUMP ISOLATION VALVE 1 CLOSED, ,ISOLATE-DELAY
+I3-2-13, CIRCULATING WATER PUMP ISOLATION VALVE 2 CLOSED, ,ISOLATE-DELAY
+I3-2-MT, Circulating water pump #2 isolation valve closed, ,ISOLATE-DELAY
+I3-2-MT2, CIRCULATING WATER PUMP ISOLATION VALVE 1 CLOSED, ,ISOLATE-DELAY
+I3-2-MT3, CIRCULATING WATER PUMP ISOLATION VALVE 2 CLOSED, ,ISOLATE-DELAY
+I3-22, CIRCULATING WATER PUMP ISOLATION VALVE 1 CLOSED, ,ISOLATE-DELAY
+I3-23, CIRCULATING WATER PUMP ISOLATION VALVE 2 CLOSED, ,ISOLATE-DELAY
+I3-SCS, BOP Failure, ,ISOLATE-DELAY
+I31-R, CIRCULATING WATER PUMP ISOLATION VALVE 1 CLOSED, ,ISOLATE-DELAY
+I34-R, CIRCULATING WATER PUMP ISOLATION VALVE 2 CLOSED, ,ISOLATE-DELAY
+I4, Condensor Inlet Isolation Valves Fail, ,ISOLATE-DELAY
+I4-MT, Condensor Inlet Isolation Valves Fail, ,ISOLATE-DELAY
+I4-MT2, Condenser Inlet Isolation Valve 1 Closed, ,ISOLATE-DELAY
+I4-MT3, Condenser Inlet Isolation Valve 2 Closed, ,ISOLATE-DELAY
+I4-R, Condensor Inlet Isolation Valves Fail, ,ISOLATE-DELAY
+I4-R-MT, Condensor Inlet Isolation Valves Fail, ,ISOLATE-DELAY
+I4-R-MT2, Condenser Inlet Isolation Valve 1 Closed, ,ISOLATE-DELAY
+I4-R-MT3, Condenser Inlet Isolation Valve 2 Closed, ,ISOLATE-DELAY
+I42, Condenser Inlet Isolation Valve 1 Closed, ,ISOLATE-DELAY
+I43, Condenser Inlet Isolation Valve 2 Closed, ,ISOLATE-DELAY
+I5, Condensor Outlet Isolation Valves Closed, ,ISOLATE-DELAY
+I5-MT, Condensor Outlet Isolation Valves Closed, ,ISOLATE-DELAY
+I5-MT2, Condensor Outlet Isolation Valve 1 Closed, ,ISOLATE-DELAY
+I5-MT3, Condensor Outlet Isolation Valve 2 Closed, ,ISOLATE-DELAY
+I5-R, Condensor Outlet Isolation Valves Closed, ,ISOLATE-DELAY
+I5-R-MT, Condensor Outlet Isolation Valves Closed, ,ISOLATE-DELAY
+I5-R-MT2, Condensor Outlet Isolation Valve 1 Closed, ,ISOLATE-DELAY
+I5-R-MT3, Condensor Outlet Isolation Valve 2 Closed, ,ISOLATE-DELAY
+I52, Condensor Outlet Isolation Valve 1 Closed, ,ISOLATE-DELAY
+I53, Condensor Outlet Isolation Valve 2 Closed, ,ISOLATE-DELAY
+ISOLATE, Failure to isolate leaking steam generator, ,ISOLATE-DELAY
+ISOLATE-DELAY, Isolate Delay, ,ISOLATE-DELAY
+ISOLATE-DELAY-L, ISOLATE-DELAY-L, ,ISOLATE-DELAY
+ISOLATE-FW, Both Feedwater Isolation Valves Fail to Close, ,ISOLATE-DELAY
+ISOLATE-FW1, Feedwater Valve N.1 Fails to Close, ,ISOLATE-DELAY
+ISOLATE-FW2, Feedwater Valve N.2 Fails to Close, ,ISOLATE-DELAY
+ISOLATE-HOV-FW1, Hydraulic System Fails to Close Valve, ,ISOLATE-DELAY
+ISOLATE-HOV-FW2, Hydraulic System Fails to Close Valve, ,ISOLATE-DELAY
+ISOLATE-HOV-ST1, Hydraulic System Fails to Close Valve, ,ISOLATE-DELAY
+ISOLATE-HOV-ST2, Hydraulic System Fails to Close Valve, ,ISOLATE-DELAY
+ISOLATE-SIGNAL, No isolation commad recieved isolation valve, ,ISOLATE-DELAY
+ISOLATE-SIGNAL-A, No Isolation Command Recieved from Output Channel A, ,ISOLATE-DELAY
+ISOLATE-SIGNAL-B, No Isolation Command Recieved from Output Channel B, ,ISOLATE-DELAY
+ISOLATE-ST, Both Main Steam Isolation Valves fail to Close, ,ISOLATE-DELAY
+ISOLATE-ST1, Steam Valve N.1. Fails to Close, ,ISOLATE-DELAY
+ISOLATE-ST2, Steam Valve N.2. Fails to Close, ,ISOLATE-DELAY
+J, Feedwater and Condensate Subsystem Fails, ,ISOLATE-DELAY
+J-MT, Feedwater and Condensate Subsystem Fails, ,ISOLATE-DELAY
+J-R1, Feedwater and Condensate Subsystem Fails, ,ISOLATE-DELAY
+J-R1-MT, Feedwater and Condensate Subsystem Fails, ,ISOLATE-DELAY
+J1, Loss of Pumping, ,ISOLATE-DELAY
+J1-MT, Loss of Pumping, ,ISOLATE-DELAY
+J1-MT2, Feedwater pump failure, ,ISOLATE-DELAY
+J1-MT22, Standby Pump Fails, ,ISOLATE-DELAY
+J1-MT3, Condensate pump failure, ,ISOLATE-DELAY
+J1-MT32, Standby Pump Fails, ,ISOLATE-DELAY
+J1-R22, Feedwater pump failure, ,ISOLATE-DELAY
+J1-R222, Standby Pump Fails, ,ISOLATE-DELAY
+J1-R23, Condensate pump failure, ,ISOLATE-DELAY
+J1-R232, Standby Pump Fails, ,ISOLATE-DELAY
+J2, Loss of Pumping, ,ISOLATE-DELAY
+J2-MT, Loss of Pumping, ,ISOLATE-DELAY
+J2-MT2, Feedwater pump failure, ,ISOLATE-DELAY
+J2-MT22, Standby Pump Fails, ,ISOLATE-DELAY
+J2-MT3, Condensate pump failure, ,ISOLATE-DELAY
+J2-MT32, Standby Pump Fails, ,ISOLATE-DELAY
+J2-R1, Heater Failure, ,ISOLATE-DELAY
+J2-R1-MT, Heater Failure, ,ISOLATE-DELAY
+J2-R1-MT05, Excessive Leakage, ,ISOLATE-DELAY
+J2-R1-MT105, Excessive Leakage, ,ISOLATE-DELAY
+J2-R1-MT115, Excessive Leakage, ,ISOLATE-DELAY
+J2-R1-MT25, Excessive Leakage, ,ISOLATE-DELAY
+J2-R1-MT3, 3rd point LP heater fails, ,ISOLATE-DELAY
+J2-R1-MT32, FAILURE TO BYPASS, ,ISOLATE-DELAY
+J2-R1-MT325, Valve C and D fail to open, ,ISOLATE-DELAY
+J2-R1-MT326, Outlet valve fails without flow redirection, ,ISOLATE-DELAY
+J2-R1-MT3262, Flow redirection fails, ,ISOLATE-DELAY
+J2-R1-MT4, 4th point LP  Heater Fails, ,ISOLATE-DELAY
+J2-R1-MT42, Heater A, ,ISOLATE-DELAY
+J2-R1-MT422, Failure to Bypass, ,ISOLATE-DELAY
+J2-R1-MT43, Heater B, ,ISOLATE-DELAY
+J2-R1-MT432, Failure to Bypass, ,ISOLATE-DELAY
+J2-R1-MT5, 2nd point LP heater fails, ,ISOLATE-DELAY
+J2-R1-MT52, Failure to bypass, ,ISOLATE-DELAY
+J2-R1-MT524, Valve C fails without flow redirection, ,ISOLATE-DELAY
+J2-R1-MT525, Inlet valve fails without flow redirection, ,ISOLATE-DELAY
+J2-R1-MT5252, Flow redirection fails, ,ISOLATE-DELAY
+J2-R102, Excessive Leakage, ,ISOLATE-DELAY
+J2-R1105, Excessive Leakage, ,ISOLATE-DELAY
+J2-R1115, Excessive Leakage, ,ISOLATE-DELAY
+J2-R125, Excessive Leakage, ,ISOLATE-DELAY
+J2-R2, Heater Failure, ,ISOLATE-DELAY
+J2-R2-MT, Heater Failure, ,ISOLATE-DELAY
+J2-R2-MT005, Excessive Leakage, ,ISOLATE-DELAY
+J2-R2-MT015, Excessive Leakage, ,ISOLATE-DELAY
+J2-R2-MT15, Excessive Leakage, ,ISOLATE-DELAY
+J2-R2-MT25, Excessive Leakage, ,ISOLATE-DELAY
+J2-R2-MT3, 4th Point LP Heater Fails, ,ISOLATE-DELAY
+J2-R2-MT32, Heater A, ,ISOLATE-DELAY
+J2-R2-MT322, Failure to Bypass, ,ISOLATE-DELAY
+J2-R2-MT33, Heater B, ,ISOLATE-DELAY
+J2-R2-MT332, Failure to Bypass, ,ISOLATE-DELAY
+J2-R2-MT4, 3rd point LP heater fails, ,ISOLATE-DELAY
+J2-R2-MT42, FAILURE TO BYPASS, ,ISOLATE-DELAY
+J2-R2-MT425, Valve C and D fail to open, ,ISOLATE-DELAY
+J2-R2-MT426, Outlet valve fails without flow redirection, ,ISOLATE-DELAY
+J2-R2-MT4262, Flow redirection fails, ,ISOLATE-DELAY
+J2-R2-MT5, 2nd point LP heater fails, ,ISOLATE-DELAY
+J2-R2-MT52, Failure to bypass, ,ISOLATE-DELAY
+J2-R2-MT524, Valve C fails without flow redirection, ,ISOLATE-DELAY
+J2-R2-MT525, Inlet valve fails without flow redirection, ,ISOLATE-DELAY
+J2-R2-MT5252, Flow redirection fails, ,ISOLATE-DELAY
+J2-R2005, Excessive Leakage, ,ISOLATE-DELAY
+J2-R2015, Excessive Leakage, ,ISOLATE-DELAY
+J2-R215, Excessive Leakage, ,ISOLATE-DELAY
+J2-R225, Excessive Leakage, ,ISOLATE-DELAY
+J2-R23, 4th point LP Heater, ,ISOLATE-DELAY
+J2-R232, Heater B, ,ISOLATE-DELAY
+J2-R2322, Failure to Bypass, ,ISOLATE-DELAY
+J2-R233, Heater A, ,ISOLATE-DELAY
+J2-R2332, Failure to Bypass, ,ISOLATE-DELAY
+J2-R24, 3rd point LP heater fails, ,ISOLATE-DELAY
+J2-R242, FAILURE TO BYPASS, ,ISOLATE-DELAY
+J2-R2425, Valve C and D fail to open, ,ISOLATE-DELAY
+J2-R2426, Outlet valve fails without flow redirection, ,ISOLATE-DELAY
+J2-R24262, Flow redirection fails, ,ISOLATE-DELAY
+J2-R25, 2nd point LP heater fails, ,ISOLATE-DELAY
+J2-R252, Failure to bypass, ,ISOLATE-DELAY
+J2-R2524, Valve C fails without flow redirection, ,ISOLATE-DELAY
+J2-R2525, Inlet valve fails without flow redirection, ,ISOLATE-DELAY
+J2-R25252, Flow redirection fails, ,ISOLATE-DELAY
+J21-R1, 3rd point LP heater fails, ,ISOLATE-DELAY
+J212, Feedwater pump failure, ,ISOLATE-DELAY
+J2122, Standby Pump Fails, ,ISOLATE-DELAY
+J213, Condensate pump failure, ,ISOLATE-DELAY
+J2132, Standby Pump Fails, ,ISOLATE-DELAY
+J22-R1, 4th point LP  Heater Fails, ,ISOLATE-DELAY
+J221-R1, Heater A, ,ISOLATE-DELAY
+J222-R1, Heater B, ,ISOLATE-DELAY
+J23-R1, 2nd point LP heater fails, ,ISOLATE-DELAY
+J233111-R1, Flow redirection fails, ,ISOLATE-DELAY
+K2, Pumpdown initating failure, ,ISOLATE-DELAY
+K3, Actuation failure, ,ISOLATE-DELAY
+K4, No automatic actuation, ,ISOLATE-DELAY
+L, 3E-5->2E-5 in2, ,ISOLATE-DELAY
+L-LEAK, PPS Fails to respond to large leak, ,ISOLATE-DELAY
+LD, 1->13 in2, ,ISOLATE-DELAY
+LEAK, Plant Protection System Fails to Respod to Steam Leak, ,ISOLATE-DELAY
+LOOP-F, Number of modules where SCS is successful, ,ISOLATE-DELAY
+MD, 0.03->1 in2, ,ISOLATE-DELAY
+MODULES, Number of modules experiencing IE, ,ISOLATE-DELAY
+MOIST-DETECT, Failure to detect presence of high moisture, ,ISOLATE-DELAY
+MOIST-DETECT-3, Failure of at least 2 of 3 moisture monitor channels, ,ISOLATE-DELAY
+MULTIMOD-ACTUATION-FAILURE-2, SCS Actuation Fails in at least One Module, ,ISOLATE-DELAY
+MULTIMOD-ACTUATION-FAILURE-3, SCS Actuation Fails in at least One Module, ,ISOLATE-DELAY
+MULTIMOD-ACTUATION-FAILURE-4, SCS Actuation Fails in at least One Module, ,ISOLATE-DELAY
+MULTIMOD-CIRC-FAILURE-2, SCS Circulator Fails in at least One Module, ,ISOLATE-DELAY
+MULTIMOD-CIRC-FAILURE-3, SCS Circulator Failure in One Module, ,ISOLATE-DELAY
+MULTIMOD-CIRC-FAILURE-4, SCS Circulator Failure in One Module, ,ISOLATE-DELAY
+MULTIMOD-HE-FAILURE-2, SCS Heat Exchanger Fails in at least One Module, ,ISOLATE-DELAY
+MULTIMOD-HE-FAILURE-3, SCS Heat Exchanger Fails in at least One Module, ,ISOLATE-DELAY
+MULTIMOD-HE-FAILURE-4, SCS Heat Exchanger Fails in at least One Module, ,ISOLATE-DELAY
+N, Demineralizer Failure, ,ISOLATE-DELAY
+N-MT, Demineralizer Failure, ,ISOLATE-DELAY
+N-R1, Demineralizer Failure, ,ISOLATE-DELAY
+N-R1-MT, Demineralizer Failure, ,ISOLATE-DELAY
+N1-R1, Excessive Leakage, ,ISOLATE-DELAY
+N1-R1-MT, Excessive Leakage, ,ISOLATE-DELAY
+N1-R2, Excessive Leakage, ,ISOLATE-DELAY
+N1-R2-MT, Excessive Leakage, ,ISOLATE-DELAY
+OA-C-MOIST-DETECT, , ,ISOLATE-DELAY
+OA-C-SG-ISOLATE10, , ,ISOLATE-DELAY
+OA-C-SG-ISOLATE20, , ,ISOLATE-DELAY
+OA-C-SG-ISOLATE30, , ,ISOLATE-DELAY
+OPENSCLOSES, New Fault Tree, ,ISOLATE-DELAY
+OTHERS, , ,ISOLATE-DELAY
+Q, Service Water Failure, ,ISOLATE-DELAY
+Q-MT, Service Water Failure, ,ISOLATE-DELAY
+Q-MT4, Loss of Pumps, ,ISOLATE-DELAY
+Q-MT5, Failure of Valve(s) with Shutdown Service Connection, ,ISOLATE-DELAY
+Q-MT52, Reverse Check Valve Leakage, ,ISOLATE-DELAY
+QIEMT, Service Water Failure during IE or MT, ,ISOLATE-DELAY
+RCCS, RCCS operates successfully  Cooling provided by RCCS, ,ISOLATE-DELAY
+RCCS-1, RCCS cooling single module, ,ISOLATE-DELAY
+RCCS-4, RCCS cooling several modules, ,ISOLATE-DELAY
+RELIEF, Pimary Relief Train Response, ,ISOLATE-DELAY
+RELIEF-FO, Relief Valves Fail to Reclose, ,ISOLATE-DELAY
+RELIEF-FTO, Relief Valves Fail to Open, ,ISOLATE-DELAY
+S-LEAK, PPS Fails to respond to slow leak, ,ISOLATE-DELAY
+SCS-F, Number of modules where SCS is successful, ,ISOLATE-DELAY
+SCS-FAIL, Failure of SCS, ,ISOLATE-DELAY
+SCS-S, Number of modules where SCS fail, ,ISOLATE-DELAY
+SD, 2E-3->0.03 in2, ,ISOLATE-DELAY
+SG-BYPASS, , ,ISOLATE-DELAY
+SG-FO, , ,ISOLATE-DELAY
+SG-OPENS-CLOSES, , ,ISOLATE-DELAY
+SPURIOUS-PPIS-TRIP, Spurious PPIS Trip, ,ISOLATE-DELAY
+ST, ST, ,ISOLATE-DELAY
+T1, Failure of SCS when Four Modules Require Cooling (3), ,ISOLATE-DELAY
+T2-SCS, NSSS Failure, ,ISOLATE-DELAY
+T3-SCS, BOP Failure, ,ISOLATE-DELAY
+VLVE-FTC, Dump Valves Fail to Close, ,ISOLATE-DELAY
+VLVE1SLASH3-FTC, Dump Valves 1 slash 3 Fail to Close, ,ISOLATE-DELAY
+VLVE2SLASH4-FTC, Dump Valves 2 slash 4 Fail to Close, ,ISOLATE-DELAY
+X1, Startup Auxiliary Transformer 1 No Output, ,ISOLATE-DELAY
+X1-MT, Startup Auxiliary Transformer 1 No Output, ,ISOLATE-DELAY
+X1-R, Startup Auxiliary Transformer 2 No Output, ,ISOLATE-DELAY
+X1-R-MT, Startup Auxiliary Transformer 2 No Output, ,ISOLATE-DELAY
+X156, 480-120 VAC Regulated Transformer Fails, ,ISOLATE-DELAY
+X2, Unit Generator Supply to Unit 1 Side Failure, ,ISOLATE-DELAY
+X2-MT, Unit Generator Supply to Unit 1 Side Failure, ,ISOLATE-DELAY
+X210, Failure to Feed Bus 112 From Offsite Source, ,ISOLATE-DELAY

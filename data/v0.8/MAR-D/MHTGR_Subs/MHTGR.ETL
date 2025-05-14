@@ -1,0 +1,1092 @@
+﻿ISOLATE-DELAY, ATRS, GT-IE =
+^WINVER2.1
+^PHASES 1 34 1 1  //# phases defined, max count sequences, view phase, initial phase idx
+CD 16155777 Core Damage
+^TOPTYPES
+IE, FT, FT, FT, FT, FT, FT, FT, FT, FT
+^TOPS
+MODULES, CR3-G4-A, CR3-G4-B, CR3-G7-A-GT-MANUAL, HTS-FAILURE-AT-LEAST-1-MOD-MT, 
+SCS-FAIL, RCCS, HPS-PMPDWN, COOL-RESTORE
+^LOGIC 1                  // initial phase, following are offset
+ +1.0 +2.0  3.0  4.0 +5.0  6.0  7.0  8.0  9.0
+                     -5.0 +6.0  7.0  8.0  9.0
+                          -6.0 +7.0  8.0  9.0
+                               -7.0 +8.0 +9.0
+                                         -9.0
+                                    -8.0 +9.0
+                                         -9.0
+      -2.0 +3.0  4.0 +5.0  6.0  7.0  8.0  9.0
+                     -5.0 +6.0  7.0  8.0  9.0
+                          -6.0 +7.0  8.0  9.0
+                               -7.0  8.0  9.0
+           -3.0 +4.0  5.0  6.0  7.0  8.0  9.0
+                -4.0  5.0  6.0  7.0  8.0  9.0
+ -1.0  2.0  3.0  4.0 +5.0  6.0  7.0  8.0  9.0
+                     -5.0 +6.0  7.0  8.0  9.0
+                          -6.0 +7.0  8.0  9.0
+                               -7.0 +8.0 +9.0
+                                         -9.0
+                                    -8.0 +9.0
+                                         -9.0
+ -1.0  2.0  3.0  4.0 +5.0  6.0  7.0  8.0  9.0
+                     -5.0 +6.0  7.0  8.0  9.0
+                          -6.0 +7.0  8.0  9.0
+                               -7.0 +8.0 +9.0
+                                         -9.0
+                                    -8.0 +9.0
+                                         -9.0
+ -1.0  2.0  3.0  4.0 +5.0  6.0  7.0  8.0  9.0
+                     -5.0 +6.0  7.0  8.0  9.0
+                          -6.0 +7.0  8.0  9.0
+                               -7.0 +8.0 +9.0
+                                         -9.0
+                                    -8.0 +9.0
+                                         -9.0
+^SEQUENCES 0                          // offset from initial phase
+Y, Sequence Name, Y, End State, N, Frequency, N, Comments, 
+Y, RS-AA,Y, INTACT_RS-AA,Y, ,Y, ,, 
+Y, RS-AD,Y, INTACT_RS-AD,Y, ,Y, ,, 
+Y, RS-AF,Y, INTACT_RS-AF,Y, ,Y, ,, 
+Y, RS-AJ,Y, INTACT_RS-AJ,Y, ,Y, ,, 
+Y, RS-AK,Y, DC-2_RS-AK,Y, ,Y, ,, 
+Y, RS-AL,Y, INTACT_RS-AL,Y, ,Y, ,, 
+Y, RS-AM,Y, INTACT_RS-AM,Y, ,Y, ,, 
+Y, RS-AN,Y, INTACT_RS-AN,Y, ,Y, ,, 
+Y, RS-AO,Y, INTACT_RS-AN,Y, ,Y, ,, 
+Y, RS-AP,Y, INTACT_RS-AP,Y, ,Y, ,, 
+Y, RS-AQ,Y, EPSILON_RS-AQ,Y, ,Y, ,, 
+Y, RS-AR,Y, INTACT_RS-AQ,Y, ,Y, ,, 
+Y, RS-AS,Y, EPSILON_RS-AS,Y, ,Y, ,, 
+Y, RS-AB,Y, INTACT_RS-AB,Y, ,Y, ,, 
+Y, RS-AD,Y, INTACT_RS-AD,Y, ,Y, ,, 
+Y, RS-AG,Y, INTACT_RS-AG,Y, ,Y, ,, 
+Y, RS-AJ,Y, INTACT_RS-AJ,Y, ,Y, ,, 
+Y, RS-AK,Y, DC-2_RS-AK,Y, ,Y, ,, 
+Y, RS-AL,Y, INTACT_RS-AL,Y, ,Y, ,, 
+Y, RS-AM,Y, EPSILON_RS-AM,Y, ,Y, ,, 
+Y, RS-AC,Y, INTACT_RS-AC,Y, ,Y, ,, 
+Y, RS-AD,Y, INTACT_RS-AD,Y, ,Y, ,, 
+Y, RS-AH,Y, INTACT_RS-AH,Y, ,Y, ,, 
+Y, RS-AJ,Y, INTACT_RS-AJ,Y, ,Y, ,, 
+Y, RS-AK,Y, DC-2_RS-AK,Y, ,Y, ,, 
+Y, RS-AL,Y, INTACT_RS-AL,Y, ,Y, ,, 
+Y, RS-AM,Y, EPSILON_RS-AM,Y, ,Y, ,, 
+Y, RS-AC,Y, INTACT_RS-AC,Y, ,Y, ,, 
+Y, RS-AE,Y, INTACT_RS-AE,Y, ,Y, ,, 
+Y, RS-AI,Y, INTACT_RS-AI,Y, ,Y, ,, 
+Y, RS-AJ,Y, INTACT_RS-AJ,Y, ,Y, ,, 
+Y, RS-AK,Y, DC-2_RS-AK,Y, ,Y, ,, 
+Y, RS-AL,Y, INTACT_RS-AL,Y, ,Y, ,, 
+Y, RS-AM,Y, DC-2_RS-AM,Y, ,Y, ,, 
+^ENDSEQUENCES      //Now postprocess end names
+^TOPDESC
+"Anticipated transients requiring "
+"scram"
+!
+"Number of modules experiencing "
+"IE"
+!
+"Failure to trip reactor using "
+"CR"
+!
+"Failure to trip reactor using "
+"RSCE"
+!
+"Operator fails to manually "
+"trip the reactor aftera a "
+"GT"
+!
+"Failure of HTS in at least "
+"One Module (MT)"
+!
+"Failure of SCS"
+!
+"RCCS operates successfully, "
+"Cooling provided by RCCS"
+!
+"Intentional depressurization "
+"fails"
+!
+"Cooling restored prior to "
+"vessel damage"
+!
+^NODESUBS
+NODEPOS 2
+MODULES = 1MOD-SCS-F
+!
+NODEPOS 16
+SCS-FAIL = G1-3
+!
+NODEPOS 20
+RCCS = RCCS-1
+!
+NODEPOS 23
+COOL-RESTORE = COOL-RESTORE-UNPRESS
+!
+NODEPOS 26
+COOL-RESTORE = COOL-RESTORE-PRESS
+!
+NODEPOS 40
+SCS-FAIL = G1-3
+!
+NODEPOS 44
+RCCS = RCCS-1
+!
+NODEPOS 60
+MODULES = 2MOD-SCS-F
+!
+NODEPOS 74
+SCS-FAIL = D1
+!
+NODEPOS 78
+RCCS = RCCS-4
+!
+NODEPOS 81
+COOL-RESTORE = COOL-RESTORE-UNPRESS
+!
+NODEPOS 84
+COOL-RESTORE = COOL-RESTORE-PRESS
+!
+NODEPOS 85
+MODULES = 3MOD-SCS-F
+!
+NODEPOS 99
+SCS-FAIL = T1
+!
+NODEPOS 103
+RCCS = RCCS-4
+!
+NODEPOS 106
+COOL-RESTORE = COOL-RESTORE-UNPRESS
+!
+NODEPOS 109
+COOL-RESTORE = COOL-RESTORE-PRESS
+!
+NODEPOS 110
+MODULES = 4MOD-SCS-F
+!
+NODEPOS 124
+SCS-FAIL = I1
+!
+NODEPOS 128
+RCCS = RCCS-4
+!
+NODEPOS 131
+COOL-RESTORE = COOL-RESTORE-UNPRESS
+!
+NODEPOS 134
+COOL-RESTORE = COOL-RESTORE-PRESS
+!
+^TEXT
+^PARMS
+^EOS
+﻿ISOLATE-DELAY, CRW, CRW-IE =
+^WINVER2.1
+^PHASES 1 8 1 1  //# phases defined, max count sequences, view phase, initial phase idx
+CD 16155777 Core Damage
+^TOPTYPES
+IE, FT, FT, FT, FT, FT
+^TOPS
+CR3-G4-A, CR3-G4-B, HTS-FAILURE-AT-LEAST-1-MOD-MT, SCS-FAIL, RCCS
+^LOGIC 1                  // initial phase, following are offset
+ +1.0  2.0 +3.0  4.0  5.0
+           -3.0 +4.0  5.0
+                -4.0 +5.0
+                     -5.0
+ -1.0 +2.0 +3.0  4.0  5.0
+           -3.0 +4.0  5.0
+                -4.0  5.0
+      -2.0  3.0  4.0  5.0
+^SEQUENCES 0                          // offset from initial phase
+Y, Sequence Name, Y, End State, N, Frequency, N, Comments, 
+Y, RW-AA,Y, INTACT_RW-AA,Y, ,Y, ,, 
+Y, RW-AB,Y, INTACT_RW-AB,Y, ,Y, ,, 
+Y, RW-AC,Y, INTACT_RW-AC,Y, ,Y, ,, 
+Y, RW-AD,Y, EPSILON_RW-AD,Y, ,Y, ,, 
+Y, RW-AE,Y, INTACT_RW-AE,Y, ,Y, ,, 
+Y, RW-AF,Y, INTACT_RW-AF,Y, ,Y, ,, 
+Y, RW-AG,Y, EPSILON_RW-AG,Y, ,Y, ,, 
+Y, RW-AH,Y, EPSILON_RW-AH,Y, ,Y, ,, 
+^ENDSEQUENCES      //Now postprocess end names
+^TOPDESC
+"Control Rod Withdrawal"
+!
+"Failure to trip reactor using "
+"CR"
+!
+"Failure to trip reactor using "
+"RSCE"
+!
+"Failure of HTS in at least "
+"One Module (MT)"
+!
+"Failure of SCS"
+!
+"RCCS operates successfully, "
+"Cooling provided by RCCS"
+!
+^NODESUBS
+NODEPOS 10
+SCS-FAIL = G1-3
+!
+NODEPOS 12
+RCCS = RCCS-1
+!
+NODEPOS 21
+SCS-FAIL = G1-3
+!
+^TEXT
+^PARMS
+^EOS
+﻿ISOLATE-DELAY, LOHTL, INIT-EV =
+^WINVER2.1
+^PHASES 1 28 1 1  //# phases defined, max count sequences, view phase, initial phase idx
+CD 16155777 Core Damage
+^TOPTYPES
+IE, FT, FT, FT, FT, FT, FT, FT
+^TOPS
+MODULES, CR3-G4-A, CR3-G4-B, SCS-FAIL, RCCS, 
+HPS-PMPDWN, COOL-RESTORE
+^LOGIC 1                  // initial phase, following are offset
+ +1.0 +2.0  3.0 +4.0  5.0  6.0  7.0
+                -4.0 +5.0  6.0  7.0
+                     -5.0 +6.0 +7.0
+                               -7.0
+                          -6.0 +7.0
+                               -7.0
+      -2.0 +3.0 +4.0  5.0  6.0  7.0
+                -4.0 +5.0  6.0  7.0
+                     -5.0  6.0  7.0
+           -3.0  4.0  5.0  6.0  7.0
+ -1.0  2.0  3.0 +4.0  5.0  6.0  7.0
+                -4.0 +5.0  6.0  7.0
+                     -5.0 +6.0 +7.0
+                               -7.0
+                          -6.0 +7.0
+                               -7.0
+ -1.0  2.0  3.0 +4.0  5.0  6.0  7.0
+                -4.0 +5.0  6.0  7.0
+                     -5.0 +6.0 +7.0
+                               -7.0
+                          -6.0 +7.0
+                               -7.0
+ -1.0  2.0  3.0 +4.0  5.0  6.0  7.0
+                -4.0 +5.0  6.0  7.0
+                     -5.0 +6.0 +7.0
+                               -7.0
+                          -6.0 +7.0
+                               -7.0
+^SEQUENCES 0                          // offset from initial phase
+Y, Sequence Name, Y, End State, N, Frequency, N, Comments, 
+Y, HTS-AA,Y, INTACT_HTS-AA,Y, ,Y, ,, 
+Y, HTS-AC,Y, INTACT_HTS-AC,Y, ,Y, ,, 
+Y, HTS-AG,Y, INTACT_HTS-AG,Y, ,Y, ,, 
+Y, HTS-AH,Y, DC-2_HTS-AH,Y, ,Y, ,, 
+Y, HTS-AI,Y, INTACT_HTS-AI,Y, ,Y, ,, 
+Y, HTS-AJ,Y, EPSILON_HTS-AJ,Y, ,Y, ,, 
+Y, HTS-AK,Y, INTACT_HTS-AK,Y, ,Y, ,, 
+Y, HTS-AL,Y, INTACT_HTS-AL,Y, ,Y, ,, 
+Y, HTS-AM,Y, EPSILON_HTS-AM,Y, ,Y, ,, 
+Y, HTS-AN,Y, EPSILON_HTS-AN,Y, ,Y, ,, 
+Y, HTS-AA,Y, INTACT_HTS-AA,Y, ,Y, ,, 
+Y, HTS-AD,Y, INTACT_HTS-AD,Y, ,Y, ,, 
+Y, HTS-AG,Y, INTACT_HTS-AG,Y, ,Y, ,, 
+Y, HTS-AH,Y, DC-2_HTS-AH,Y, ,Y, ,, 
+Y, HTS-AI,Y, INTACT_HTS-AI,Y, ,Y, ,, 
+Y, HTS-AJ,Y, EPSILON_HTS-AJ,Y, ,Y, ,, 
+Y, HTS-AA,Y, INTACT_HTS-AA,Y, ,Y, ,, 
+Y, HTS-AE,Y, INTACT_HTS-AE,Y, ,Y, ,, 
+Y, HTS-AG,Y, INTACT_HTS-AG,Y, ,Y, ,, 
+Y, HTS-AH,Y, DC-2_HTS-AH,Y, ,Y, ,, 
+Y, HTS-AI,Y, INTACT_HTS-AI,Y, ,Y, ,, 
+Y, HTS-AJ,Y, EPSILON_HTS-AJ,Y, ,Y, ,, 
+Y, HTS-AB,Y, INTACT_HTS-AB,Y, ,Y, ,, 
+Y, HTS-AF,Y, INTACT_HTS-AF,Y, ,Y, ,, 
+Y, HTS-AG,Y, INTACT_HTS-AG,Y, ,Y, ,, 
+Y, HTS-AH,Y, DC-2_HTS-AH,Y, ,Y, ,, 
+Y, HTS-AI,Y, INTACT_HTS-AI,Y, ,Y, ,, 
+Y, HTS-AJ,Y, EPSILON_HTS-AJ,Y, ,Y, ,, 
+^ENDSEQUENCES      //Now postprocess end names
+^TOPDESC
+"Loss of HTS Cooling"
+!
+"Number of modules experiencing "
+"IE"
+!
+"Failure to trip reactor using "
+"CR"
+!
+"Failure to trip reactor using "
+"RSCE"
+!
+"Failure of SCS"
+!
+"RCCS operates successfully, "
+"Cooling provided by RCCS"
+!
+"Intentional depressurization "
+"fails"
+!
+"Cooling restored prior to "
+"vessel damage"
+!
+^NODESUBS
+NODEPOS 2
+MODULES = 1MOD-SCS-F
+!
+NODEPOS 9
+SCS-FAIL = G1-3
+!
+NODEPOS 13
+RCCS = RCCS-1
+!
+NODEPOS 16
+COOL-RESTORE = COOL-RESTORE-UNPRESS
+!
+NODEPOS 19
+COOL-RESTORE = COOL-RESTORE-PRESS
+!
+NODEPOS 26
+SCS-FAIL = G1-3
+!
+NODEPOS 30
+RCCS = RCCS-1
+!
+NODEPOS 38
+MODULES = 2MOD-SCS-F
+!
+NODEPOS 45
+SCS-FAIL = D1
+!
+NODEPOS 49
+RCCS = RCCS-4
+!
+NODEPOS 52
+COOL-RESTORE = COOL-RESTORE-UNPRESS
+!
+NODEPOS 55
+COOL-RESTORE = COOL-RESTORE-PRESS
+!
+NODEPOS 56
+MODULES = 3MOD-SCS-F
+!
+NODEPOS 63
+SCS-FAIL = T1
+!
+NODEPOS 67
+RCCS = RCCS-4
+!
+NODEPOS 70
+COOL-RESTORE = COOL-RESTORE-UNPRESS
+!
+NODEPOS 73
+COOL-RESTORE = COOL-RESTORE-PRESS
+!
+NODEPOS 74
+MODULES = 4MOD-SCS-F
+!
+NODEPOS 81
+SCS-FAIL = I1
+!
+NODEPOS 85
+RCCS = RCCS-4
+!
+NODEPOS 88
+COOL-RESTORE = COOL-RESTORE-UNPRESS
+!
+NODEPOS 91
+COOL-RESTORE = COOL-RESTORE-PRESS
+!
+^TEXT
+^PARMS
+^EOS
+﻿ISOLATE-DELAY, LOOP, LOOP-IE =
+^WINVER2.1
+^PHASES 1 12 1 1  //# phases defined, max count sequences, view phase, initial phase idx
+CD 16155777 Core Damage
+^TOPTYPES
+IE, FT, FT, FT, FT, FT
+^TOPS
+MODULES, CR3-G4-A, CR3-G4-B, SCS-FAIL, RCCS
+^LOGIC 1                  // initial phase, following are offset
+ +1.0 +2.0  3.0 +4.0  5.0
+                -4.0 +5.0
+                     -5.0
+      -2.0 +3.0 +4.0  5.0
+                -4.0  5.0
+           -3.0  4.0  5.0
+ -1.0  2.0  3.0 +4.0  5.0
+                -4.0  5.0
+ -1.0  2.0  3.0 +4.0  5.0
+                -4.0  5.0
+ -1.0  2.0  3.0 +4.0  5.0
+                -4.0  5.0
+^SEQUENCES 0                          // offset from initial phase
+Y, Sequence Name, Y, End State, N, Frequency, N, Comments, 
+Y, LOSP-AA,Y, INTACT_LOSP-AA,Y, ,Y, ,, 
+Y, LOSP-AB,Y, INTACT_LOSP-AB,Y, ,Y, ,, 
+Y, LOSP-AF,Y, EPSILON_LOSP-AF,Y, ,Y, ,, 
+Y, LOSP-AG,Y, INTACT_LOSP-AG,Y, ,Y, ,, 
+Y, LOSP-AH,Y, EPSILON_LOSP-AH,Y, ,Y, ,, 
+Y, LOSP-AI,Y, EPSILON_LOSP-AI,Y, ,Y, ,, 
+Y, LOSP-AA,Y, INTACT_LOSP-AA,Y, ,Y, ,, 
+Y, LOSP-AC,Y, INTACT_LOSP-AC,Y, ,Y, ,, 
+Y, LOSP-AA,Y, INTACT_LOSP-AA,Y, ,Y, ,, 
+Y, LOSP-AD,Y, INTACT_LOSP-AD,Y, ,Y, ,, 
+Y, LOSP-AA,Y, INTACT_LOSP-AA,Y, ,Y, ,, 
+Y, LOSP-AE,Y, INTACT_LOSP-AE,Y, ,Y, ,, 
+^ENDSEQUENCES      //Now postprocess end names
+^TOPDESC
+"Loss of offsite power"
+!
+"Number of modules experiencing "
+"IE"
+!
+"Failure to trip reactor using "
+"CR"
+!
+"Failure to trip reactor using "
+"RSCE"
+!
+"Failure of SCS"
+!
+"RCCS operates successfully, "
+"Cooling provided by RCCS"
+!
+^NODESUBS
+NODEPOS 2
+MODULES = 1MOD-LOOP-F
+!
+NODEPOS 7
+SCS-FAIL = G1-3
+!
+NODEPOS 9
+RCCS = RCCS-1
+!
+NODEPOS 14
+SCS-FAIL = G1-3
+!
+NODEPOS 19
+MODULES = 2MOD-LOOP-F
+!
+NODEPOS 24
+SCS-FAIL = D1
+!
+NODEPOS 26
+MODULES = 3MOD-LOOP-F
+!
+NODEPOS 31
+SCS-FAIL = T1
+!
+NODEPOS 33
+MODULES = 4MOD-LOOP-F
+!
+NODEPOS 38
+SCS-FAIL = I1
+!
+^TEXT
+^PARMS
+^EOS
+﻿ISOLATE-DELAY, PCL, DEP-IE =
+^WINVER2.1
+^PHASES 1 50 1 1  //# phases defined, max count sequences, view phase, initial phase idx
+CD 16155777 Core Damage
+^TOPTYPES
+IE, FT, FT, FT, FT, FT, FT, FT
+^TOPS
+BREAKSIZE, CR3-G4-A, CR3-G4-B, HTS-FAILURE-AT-LEAST-1-MOD-MT, G1-3, 
+RCCS-1, HPS-PMPDWN
+^LOGIC 1                  // initial phase, following are offset
+ +1.0 +2.0  3.0 +4.0  5.0  6.0 +7.0
+                               -7.0
+                -4.0 +5.0  6.0 +7.0
+                               -7.0
+                     -5.0 +6.0 +7.0
+                               -7.0
+                          -6.0  7.0
+      -2.0 +3.0 +4.0  5.0  6.0 +7.0
+                               -7.0
+                -4.0 +5.0  6.0 +7.0
+                               -7.0
+                     -5.0 +6.0 +7.0
+                               -7.0
+                          -6.0  7.0
+           -3.0  4.0  5.0  6.0  7.0
+ -1.0 +2.0  3.0 +4.0  5.0  6.0 +7.0
+                               -7.0
+                -4.0 +5.0  6.0 +7.0
+                               -7.0
+                     -5.0 +6.0 +7.0
+                               -7.0
+                          -6.0  7.0
+      -2.0 +3.0 +4.0  5.0  6.0 +7.0
+                               -7.0
+                -4.0 +5.0  6.0 +7.0
+                               -7.0
+                     -5.0  6.0  7.0
+           -3.0  4.0  5.0  6.0  7.0
+ -1.0 +2.0  3.0 +4.0  5.0  6.0 +7.0
+                               -7.0
+                -4.0 +5.0  6.0 +7.0
+                               -7.0
+                     -5.0 +6.0 +7.0
+                               -7.0
+                          -6.0  7.0
+      -2.0 +3.0 +4.0  5.0  6.0 +7.0
+                               -7.0
+                -4.0 +5.0  6.0 +7.0
+                               -7.0
+                     -5.0  6.0  7.0
+           -3.0  4.0  5.0  6.0  7.0
+ -1.0 +2.0  3.0 +4.0  5.0  6.0  7.0
+                -4.0 +5.0  6.0  7.0
+                     -5.0 +6.0  7.0
+                          -6.0  7.0
+      -2.0  3.0 +4.0  5.0  6.0  7.0
+                -4.0 +5.0  6.0  7.0
+                     -5.0 +6.0  7.0
+                          -6.0  7.0
+ -1.0  2.0  3.0  4.0  5.0  6.0  7.0
+^SEQUENCES 0                          // offset from initial phase
+Y, Sequence Name, Y, End State, N, Frequency, N, Comments, 
+Y, PC-AA,Y, DF-4_PC-AA,Y, ,Y, ,, 
+Y, PC-AB,Y, DF-3_PC-AB,Y, ,Y, ,, 
+Y, PC-AC,Y, DF-4_PC-AC,Y, ,Y, ,, 
+Y, PC-AD,Y, DF-3_PC-AD,Y, ,Y, ,, 
+Y, PC-AE,Y, DC-9_PC-AE,Y, ,Y, ,, 
+Y, PC-AF,Y, DC-9_PC-AF,Y, ,Y, ,, 
+Y, PC-AG,Y, EPSILON_PC-AG,Y, ,Y, ,, 
+Y, PC-AH,Y, DF-4_PC-AH,Y, ,Y, ,, 
+Y, PC-AI,Y, EPSILON_PC-AI,Y, ,Y, ,, 
+Y, PC-AJ,Y, DF-4_PC-AJ,Y, ,Y, ,, 
+Y, PC-AK,Y, DF-3_PC-AK,Y, ,Y, ,, 
+Y, PC-AL,Y, DC-9_PC-AL,Y, ,Y, ,, 
+Y, PC-AM,Y, EPSILON_PC-AM,Y, ,Y, ,, 
+Y, PC-AN,Y, EPSILON_PC-AN,Y, ,Y, ,, 
+Y, PC-AO,Y, EPSILON_PC-AO,Y, ,Y, ,, 
+Y, PC-AP,Y, DF-4_PC-AP,Y, ,Y, ,, 
+Y, PC-AQ,Y, DF-4_PC-AP,Y, ,Y, ,, 
+Y, PC-AR,Y, DF-4_PC-AR,Y, ,Y, ,, 
+Y, PC-AS,Y, DF-3_PC-AS,Y, ,Y, ,, 
+Y, PC-AT,Y, DC-6_PC-AT,Y, ,Y, ,, 
+Y, PC-AU,Y, DC-4_PC-AU,Y, ,Y, ,, 
+Y, PC-AV,Y, EPSILON_PC-AV,Y, ,Y, ,, 
+Y, PC-AW,Y, DF-4_PC-AW,Y, ,Y, ,, 
+Y, PC-AX,Y, EPSILON_PC-AX,Y, ,Y, ,, 
+Y, PC-AY,Y, DF-4_PC-AY,Y, ,Y, ,, 
+Y, PC-AZ,Y, EPSILON_PC-AZ,Y, ,Y, ,, 
+Y, PC-BA,Y, EPSILON_PC-BA,Y, ,Y, ,, 
+Y, PC-BB,Y, EPSILON_PC-BB,Y, ,Y, ,, 
+Y, PC-BC,Y, DF-2_PC-BC,Y, ,Y, ,, 
+Y, PC-BD,Y, DF-2_PC-BD,Y, ,Y, ,, 
+Y, PC-BE,Y, DF-2_PC-BE,Y, ,Y, ,, 
+Y, PC-BF,Y, DF-2_PC-BF,Y, ,Y, ,, 
+Y, PC-BG,Y, DC-7_PC-BG,Y, ,Y, ,, 
+Y, PC-BH,Y, DC-5_PC-BH,Y, ,Y, ,, 
+Y, PC-BI,Y, EPSILON_PC-BI,Y, ,Y, ,, 
+Y, PC-BJ,Y, DF-2_PC-BJ,Y, ,Y, ,, 
+Y, PC-BK,Y, EPSILON_PC-BK,Y, ,Y, ,, 
+Y, PC-BL,Y, DF-2_PC-BL,Y, ,Y, ,, 
+Y, PC-BM,Y, EPSILON_PC-BM,Y, ,Y, ,, 
+Y, PC-BN,Y, EPSILON_PC-BN,Y, ,Y, ,, 
+Y, PC-BO,Y, EPSILON_PC-BO,Y, ,Y, ,, 
+Y, PC-BP,Y, DF-1_PC-BP,Y, ,Y, ,, 
+Y, PC-BQ,Y, DF-1_PC-BQ,Y, ,Y, ,, 
+Y, PC-BR,Y, DC-8_PC-BR,Y, ,Y, ,, 
+Y, PC-BS,Y, EPSILON_PC-BS,Y, ,Y, ,, 
+Y, PC-BT,Y, DASH_PC-BT,Y, ,Y, ,, 
+Y, PC-BU,Y, DF-1_PC-BU,Y, ,Y, ,, 
+Y, PC-BV,Y, EPSILON_PC-BV,Y, ,Y, ,, 
+Y, PC-BW,Y, EPSILON_PC-BW,Y, ,Y, ,, 
+Y, PC-BX,Y, EPSILON_PC-BX,Y, ,Y, ,, 
+^ENDSEQUENCES      //Now postprocess end names
+^TOPDESC
+"Primary Coolant Leak"
+!
+"Primary Coolant Leak Size"
+!
+"Failure to trip reactor using "
+"CR"
+!
+"Failure to trip reactor using "
+"RSCE"
+!
+"Failure of HTS in at least "
+"One Module (MT)"
+!
+"Failure of SCS When One Module "
+"Requires Cooling"
+!
+"RCCS cooling single module"
+!
+"Intentional depressurization "
+"fails"
+!
+^NODESUBS
+NODEPOS 2
+BREAKSIZE = L
+!
+NODEPOS 44
+BREAKSIZE = SD
+!
+NODEPOS 83
+BREAKSIZE = MD
+!
+NODEPOS 122
+BREAKSIZE = LD
+!
+NODEPOS 153
+BREAKSIZE = DF
+!
+^TEXT
+^PARMS
+^EOS
+﻿ISOLATE-DELAY, SGTL-M, SGTR-IE =
+^WINVER2.1
+^PHASES 1 63 1 1  //# phases defined, max count sequences, view phase, initial phase idx
+CD 16155777 Core Damage
+^TOPTYPES
+IE, FT, FT, FT, FT, FT, FT, FT, FT, FT, FT
+^TOPS
+MOIST-DETECT, CR3-G7-A, CR3-G7-A-PRESS, ISOLATE, ISOLATE-DELAY, 
+FTO, BYPASS, G1-3, RCCS-1, RELIEF
+^LOGIC 1                  // initial phase, following are offset
+ +1.0 +2.0  3.0 +4.0  5.0 +6.0  7.0 +8.0  9.0  10.0
+                                    -8.0 +9.0 +10.0
+                                              -10.0
+                                              -10.0
+                                         -9.0  10.0
+                          -6.0  7.0 +8.0  9.0  10.0
+                                    -8.0 +9.0 +10.0
+                                              -10.0
+                                              -10.0
+                                         -9.0  10.0
+                -4.0 +5.0 +6.0 +7.0 +8.0  9.0 +10.0
+                                              -10.0
+                                              -10.0
+                                    -8.0 +9.0 +10.0
+                                              -10.0
+                                         -9.0  10.0
+                               -7.0 +8.0  9.0 +10.0
+                                              -10.0
+                                    -8.0  9.0  10.0
+                               -7.0  8.0  9.0  10.0
+                          -6.0  7.0  8.0  9.0  10.0
+                     -5.0  6.0  7.0  8.0  9.0  10.0
+                -4.0 +5.0 +6.0  7.0 +8.0  9.0 +10.0
+                                              -10.0
+                                              -10.0
+                                    -8.0 +9.0 +10.0
+                                              -10.0
+                                         -9.0  10.0
+                          -6.0  7.0  8.0  9.0  10.0
+                     -5.0 +6.0  7.0 +8.0  9.0 +10.0
+                                              -10.0
+                                    -8.0  9.0  10.0
+                          -6.0  7.0  8.0  9.0  10.0
+                     -5.0  6.0  7.0  8.0  9.0  10.0
+                -4.0 +5.0 +6.0  7.0 +8.0  9.0 +10.0
+                                              -10.0
+                                              -10.0
+                                    -8.0 +9.0 +10.0
+                                              -10.0
+                                         -9.0  10.0
+                          -6.0  7.0  8.0  9.0  10.0
+                     -5.0  6.0  7.0  8.0  9.0  10.0
+      -2.0 +3.0 +4.0  5.0 +6.0  7.0 +8.0  9.0  10.0
+                                    -8.0  9.0  10.0
+                          -6.0  7.0  8.0  9.0  10.0
+                -4.0  5.0  6.0  7.0  8.0  9.0  10.0
+           -3.0  4.0  5.0  6.0  7.0  8.0  9.0  10.0
+ -1.0  2.0 +3.0  4.0 +5.0 +6.0  7.0 +8.0  9.0 +10.0
+                                              -10.0
+                                              -10.0
+                                    -8.0 +9.0 +10.0
+                                              -10.0
+                                              -10.0
+                                         -9.0  10.0
+                          -6.0  7.0 +8.0  9.0 +10.0
+                                              -10.0
+                                              -10.0
+                                    -8.0 +9.0 +10.0
+                                              -10.0
+                                              -10.0
+                                         -9.0  10.0
+                     -5.0  6.0  7.0  8.0  9.0  10.0
+           -3.0  4.0  5.0  6.0  7.0  8.0  9.0  10.0
+^SEQUENCES 0                          // offset from initial phase
+Y, Sequence Name, Y, End State, N, Frequency, N, Comments, 
+Y, MS-AA,Y, INTACT_MS-AA,Y, ,Y, ,, 
+Y, MS-AB,Y, INTACT_MS-AB,Y, ,Y, ,, 
+Y, MS-AC,Y, WC-7_MS-AC,Y, ,Y, ,, 
+Y, MS-AD,Y, WC-5_MS-AD,Y, ,Y, ,, 
+Y, MS-AE,Y, EPSILON_MS-AE,Y, ,Y, ,, 
+Y, MS-AF,Y, INTACT_MS-AF,Y, ,Y, ,, 
+Y, MS-AG,Y, WC-6_MS-AG,Y, ,Y, ,, 
+Y, MS-AH,Y, WC-2_MS-AH,Y, ,Y, ,, 
+Y, MS-AI,Y, EPSILON_MS-AI,Y, ,Y, ,, 
+Y, MS-AJ,Y, EPSILON_MS-AJ,Y, ,Y, ,, 
+Y, MS-AK,Y, WF-4_MS-AK,Y, ,Y, ,, 
+Y, MS-AL,Y, WF-2_MS-AL,Y, ,Y, ,, 
+Y, MS-AM,Y, EPSILON_MS-AM,Y, ,Y, ,, 
+Y, MS-AN,Y, WC-6_MS-AN,Y, ,Y, ,, 
+Y, MS-AO,Y, EPSILON_MS-AO,Y, ,Y, ,, 
+Y, MS-AP,Y, EPSILON_MS-AP,Y, ,Y, ,, 
+Y, MS-AQ,Y, WF-4_MS-AQ,Y, ,Y, ,, 
+Y, MS-AR,Y, EPSILON_MS-AR,Y, ,Y, ,, 
+Y, MS-AS,Y, EPSILON_MS-AS,Y, ,Y, ,, 
+Y, MS-AT,Y, EPSILON_MS-AT,Y, ,Y, ,, 
+Y, MS-AU,Y, DASH_MS-AU,Y, ,Y, ,, 
+Y, MS-AV,Y, EPSILON_MS-AV,Y, ,Y, ,, 
+Y, MS-AW,Y, WF-3_MS-AW,Y, ,Y, ,, 
+Y, MS-AX,Y, WF-1_MS-AX,Y, ,Y, ,, 
+Y, MS-AY,Y, EPSILON_MS-AY,Y, ,Y, ,, 
+Y, MS-AZ,Y, WC-4_MS-AZ,Y, ,Y, ,, 
+Y, MS-BA,Y, EPSILON_MS-BA,Y, ,Y, ,, 
+Y, MS-BB,Y, EPSILON_MS-BB,Y, ,Y, ,, 
+Y, MS-BC,Y, DASH_MS-BC,Y, ,Y, ,, 
+Y, MS-BD,Y, WF-3_MS-BD,Y, ,Y, ,, 
+Y, MS-BE,Y, EPSILON_MS-BE,Y, ,Y, ,, 
+Y, MS-BF,Y, EPSILON_MS-BF,Y, ,Y, ,, 
+Y, MS-BG,Y, EPSILON_MS-BG,Y, ,Y, ,, 
+Y, MS-BH,Y, EPSILON_MS-BH,Y, ,Y, ,, 
+Y, MS-BI,Y, WF-4_MS-BI,Y, ,Y, ,, 
+Y, MS-BJ,Y, WF-2_MS-BJ,Y, ,Y, ,, 
+Y, MS-BK,Y, EPSILON_MS-BK,Y, ,Y, ,, 
+Y, MS-BL,Y, EPSILON_MS-BK,Y, ,Y, ,, 
+Y, MS-BM,Y, EPSILON_MS-BM,Y, ,Y, ,, 
+Y, MS-BN,Y, EPSILON_MS-BN,Y, ,Y, ,, 
+Y, MS-BO,Y, EPSILON_MS-BO,Y, ,Y, ,, 
+Y, MS-BP,Y, EPSILON_MS-BP,Y, ,Y, ,, 
+Y, MS-BQ,Y, INTACT_MS-BQ,Y, ,Y, ,, 
+Y, MS-BR,Y, EPSILON_MS-BR,Y, ,Y, ,, 
+Y, MS-BS,Y, EPSILON_MS-BS,Y, ,Y, ,, 
+Y, MS-BT,Y, EPSILON_MS-BT,Y, ,Y, ,, 
+Y, MS-BU,Y, EPSILON_MS-BU,Y, ,Y, ,, 
+Y, MS-BV,Y, WF-4_MS-BV,Y, ,Y, ,, 
+Y, MS-BW,Y, WF-2_MS-BW,Y, ,Y, ,, 
+Y, MS-BX,Y, EPSILON_MS-BX,Y, ,Y, ,, 
+Y, MS-BY,Y, WC-6_MS-BY,Y, ,Y, ,, 
+Y, MS-BZ,Y, WC-2_MS-BZ,Y, ,Y, ,, 
+Y, MS-CA,Y, EPSILON_MS-CA,Y, ,Y, ,, 
+Y, MS-CB,Y, EPSILON_MS-CB,Y, ,Y, ,, 
+Y, MS-CC,Y, WF-4_MS-CC,Y, ,Y, ,, 
+Y, MS-CD,Y, WF-2_MS-CD,Y, ,Y, ,, 
+Y, MS-CE,Y, EPSILON_MS-CE,Y, ,Y, ,, 
+Y, MS-CF,Y, WC-6_MS-CF,Y, ,Y, ,, 
+Y, MS-CG,Y, WC-2_MS-CG,Y, ,Y, ,, 
+Y, MS-CH,Y, EPSILON_MS-CH,Y, ,Y, ,, 
+Y, MS-CI,Y, EPSILON_MS-CI,Y, ,Y, ,, 
+Y, MS-CJ,Y, EPSILON_MS-CJ,Y, ,Y, ,, 
+Y, MS-CK,Y, EPSILON_MS-CK,Y, ,Y, ,, 
+^ENDSEQUENCES      //Now postprocess end names
+^TOPDESC
+"Moderate SG Tube Leak"
+!
+"Failure to detect presence "
+"of high moisture"
+!
+"Failure to trip control rods"
+!
+"Failure to Trip Control Rods"
+!
+"Failure to isolate leaking "
+"steam generator"
+!
+"Isolate Delay"
+!
+"Dump Valves Fail to Open"
+!
+"S/G Pressure Response"
+!
+"Failure of SCS When One Module "
+"Requires Cooling"
+!
+"RCCS cooling single module"
+!
+"Pimary Relief Train Response"
+!
+^NODESUBS
+NODEPOS 15
+RELIEF = OPENSCLOSES
+!
+NODEPOS 16
+RELIEF = FAILOPEN
+!
+NODEPOS 27
+RELIEF = RELIEF-FO
+!
+NODEPOS 28
+RELIEF = RELIEF-FTO
+!
+NODEPOS 31
+ISOLATE = FW
+!
+NODEPOS 38
+RELIEF = RELIEF-FO
+!
+NODEPOS 39
+RELIEF = RELIEF-FTO
+!
+NODEPOS 43
+RELIEF = RELIEF
+!
+NODEPOS 50
+RELIEF = RELIEF
+!
+NODEPOS 63
+ISOLATE-DELAY = OA-C-MOIST-DETECT
+!
+NODEPOS 69
+ISOLATE = ST
+!
+NODEPOS 70
+ISOLATE-DELAY = OA-C-SG-ISOLATE30
+!
+NODEPOS 76
+RELIEF = RELIEF-FO
+!
+NODEPOS 77
+RELIEF = RELIEF-FTO
+!
+NODEPOS 81
+RELIEF = RELIEF
+!
+NODEPOS 89
+ISOLATE-DELAY = OA-C-SG-ISOLATE20
+!
+NODEPOS 95
+RELIEF = RELIEF
+!
+NODEPOS 104
+ISOLATE-DELAY = OA-C-SG-ISOLATE10
+!
+NODEPOS 110
+ISOLATE = FWSLASHST
+!
+NODEPOS 117
+RELIEF = RELIEF-FO
+!
+NODEPOS 118
+RELIEF = RELIEF-FTO
+!
+NODEPOS 122
+RELIEF = RELIEF
+!
+NODEPOS 130
+ISOLATE-DELAY = OA-C-MOIST-DETECT
+!
+NODEPOS 153
+ISOLATE = ISOLATE-SIGNAL
+!
+NODEPOS 178
+RELIEF = RELIEF-FO
+!
+NODEPOS 179
+RELIEF = RELIEF-FTO
+!
+NODEPOS 183
+RELIEF = RELIEF-FO
+!
+NODEPOS 184
+RELIEF = RELIEF-FTO
+!
+NODEPOS 187
+FTO = DUMP-UNKNOWN
+!
+NODEPOS 192
+RELIEF = RELIEF-FO
+!
+NODEPOS 193
+RELIEF = RELIEF-FTO
+!
+NODEPOS 197
+RELIEF = RELIEF-FO
+!
+NODEPOS 198
+RELIEF = RELIEF-FTO
+!
+NODEPOS 201
+ISOLATE-DELAY = ISOLATE-SIGNAL
+!
+^TEXT
+NODEPOS 1
+"SGTR              "
+!
+^PARMS
+^EOS
+﻿ISOLATE-DELAY, SGTL-S, SGTL-IE =
+^WINVER2.1
+^PHASES 1 46 1 1  //# phases defined, max count sequences, view phase, initial phase idx
+CD 16155777 Core Damage
+^TOPTYPES
+IE, FT, FT, FT, FT, FT, FT, FT, FT, FT, FT, FT
+^TOPS
+MOIST-DETECT, CR3-G7-A, CR3-G7-A-MOIST-MANUAL, CR3-G7-A-PRESS, ISOLATE, 
+ISOLATE-DELAY, FTO, BYPASS, G1-3, RCCS-1, 
+RELIEF
+^LOGIC 1                  // initial phase, following are offset
+ +1.0 +2.0  3.0  4.0 +5.0  6.0 +7.0  8.0 +9.0  10.0  11.0
+                                         -9.0 +10.0  11.0
+                                              -10.0  11.0
+                               -7.0  8.0 +9.0  10.0  11.0
+                                         -9.0 +10.0 +11.0
+                                                    -11.0
+                                                    -11.0
+                                              -10.0  11.0
+                     -5.0 +6.0 +7.0 +8.0 +9.0  10.0  11.0
+                                         -9.0 +10.0  11.0
+                                              -10.0  11.0
+                                    -8.0 +9.0  10.0  11.0
+                                         -9.0 +10.0  11.0
+                                              -10.0  11.0
+                                    -8.0  9.0  10.0  11.0
+                               -7.0 +8.0 +9.0  10.0  11.0
+                                         -9.0  10.0  11.0
+                                    -8.0  9.0  10.0  11.0
+                          -6.0  7.0  8.0  9.0  10.0  11.0
+                     -5.0 +6.0 +7.0  8.0 +9.0  10.0  11.0
+                                         -9.0 +10.0  11.0
+                                              -10.0  11.0
+                               -7.0  8.0  9.0  10.0  11.0
+                          -6.0  7.0  8.0  9.0  10.0  11.0
+                     -5.0 +6.0 +7.0  8.0 +9.0  10.0  11.0
+                                         -9.0 +10.0  11.0
+                                              -10.0  11.0
+                               -7.0  8.0  9.0  10.0  11.0
+                          -6.0  7.0  8.0  9.0  10.0  11.0
+      -2.0 +3.0  4.0 +5.0  6.0 +7.0  8.0 +9.0  10.0  11.0
+                                         -9.0 +10.0  11.0
+                                              -10.0  11.0
+                               -7.0  8.0  9.0  10.0  11.0
+                     -5.0  6.0  7.0  8.0  9.0  10.0  11.0
+           -3.0  4.0  5.0  6.0  7.0  8.0  9.0  10.0  11.0
+ -1.0  2.0 +3.0  4.0  5.0 +6.0 +7.0  8.0 +9.0  10.0  11.0
+                                         -9.0 +10.0  11.0
+                                              -10.0  11.0
+                               -7.0  8.0 +9.0  10.0  11.0
+                                         -9.0  10.0  11.0
+                          -6.0  7.0  8.0  9.0  10.0  11.0
+           -3.0 +4.0  5.0 +6.0 +7.0  8.0 +9.0  10.0  11.0
+                                         -9.0  10.0  11.0
+                               -7.0  8.0  9.0  10.0  11.0
+                          -6.0  7.0  8.0  9.0  10.0  11.0
+                -4.0  5.0  6.0  7.0  8.0  9.0  10.0  11.0
+^SEQUENCES 0                          // offset from initial phase
+Y, Sequence Name, Y, End State, N, Frequency, N, Comments, 
+Y, SS-AA,Y, INTACT_SS-AA,Y, ,Y, ,, 
+Y, SS-AB,Y, INTACT_SS-AB,Y, ,Y, ,, 
+Y, SS-AC,Y, EPSILON_SS-AC,Y, ,Y, ,, 
+Y, SS-AD,Y, INTACT_SS-AD,Y, ,Y, ,, 
+Y, SS-AE,Y, WC-3_SS-AE,Y, ,Y, ,, 
+Y, SS-AF,Y, WC-1_SS-AF,Y, ,Y, ,, 
+Y, SS-AG,Y, EPSILON_SS-AG,Y, ,Y, ,, 
+Y, SS-AH,Y, EPSILON_SS-AH,Y, ,Y, ,, 
+Y, SS-AI,Y, INTACT_SS-AI,Y, ,Y, ,, 
+Y, SS-AJ,Y, INTACT_SS-AJ,Y, ,Y, ,, 
+Y, SS-AK,Y, EPSILON_SS-AK,Y, ,Y, ,, 
+Y, SS-AL,Y, INTACT_SS-AL,Y, ,Y, ,, 
+Y, SS-AM,Y, INTACT_SS-AM,Y, ,Y, ,, 
+Y, SS-AN,Y, EPSILON_SS-AN,Y, ,Y, ,, 
+Y, SS-AO,Y, EPSILON_SS-AO,Y, ,Y, ,, 
+Y, SS-AP,Y, INTACT_SS-AP,Y, ,Y, ,, 
+Y, SS-AQ,Y, EPSILON_SS-AQ,Y, ,Y, ,, 
+Y, SS-AR,Y, EPSILON_SS-AR,Y, ,Y, ,, 
+Y, SS-AS,Y, EPSILON_SS-AS,Y, ,Y, ,, 
+Y, SS-AT,Y, INTACT_SS-AT,Y, ,Y, ,, 
+Y, SS-AU,Y, INTACT_SS-AU,Y, ,Y, ,, 
+Y, SS-AV,Y, EPSILON_SS-AV,Y, ,Y, ,, 
+Y, SS-AW,Y, EPSILON_SS-AW,Y, ,Y, ,, 
+Y, SS-AX,Y, EPSILON_SS-AX,Y, ,Y, ,, 
+Y, SS-AY,Y, INTACT_SS-AY,Y, ,Y, ,, 
+Y, SS-AZ,Y, INTACT_SS-AZ,Y, ,Y, ,, 
+Y, SS-BA,Y, EPSILON_SS-BA,Y, ,Y, ,, 
+Y, SS-BB,Y, EPSILON_SS-BB,Y, ,Y, ,, 
+Y, SS-BC,Y, EPSILON_SS-BC,Y, ,Y, ,, 
+Y, SS-BD,Y, INTACT_SS-BD,Y, ,Y, ,, 
+Y, SS-BE,Y, INTACT_SS-BE,Y, ,Y, ,, 
+Y, SS-BF,Y, EPSILON_SS-BF,Y, ,Y, ,, 
+Y, SS-BG,Y, EPSILON_SS-BG,Y, ,Y, ,, 
+Y, SS-BH,Y, EPSILON_SS-BH,Y, ,Y, ,, 
+Y, SS-BI,Y, EPSILON_SS-BI,Y, ,Y, ,, 
+Y, SS-BJ,Y, INTACT_SS-BJ,Y, ,Y, ,, 
+Y, SS-BK,Y, INTACT_SS-BK,Y, ,Y, ,, 
+Y, SS-BL,Y, EPSILON_SS-BL,Y, ,Y, ,, 
+Y, SS-BM,Y, INTACT_SS-BM,Y, ,Y, ,, 
+Y, SS-BN,Y, EPSILON_SS-BN,Y, ,Y, ,, 
+Y, SS-BO,Y, EPSILON_SS-BO,Y, ,Y, ,, 
+Y, SS-BP,Y, INTACT_SS-BP,Y, ,Y, ,, 
+Y, SS-BQ,Y, EPSILON_SS-BQ,Y, ,Y, ,, 
+Y, SS-BR,Y, EPSILON_SS-BR,Y, ,Y, ,, 
+Y, SS-BS,Y, EPSILON_SS-BS,Y, ,Y, ,, 
+Y, SS-BT,Y, EPSILON_SS-BT,Y, ,Y, ,, 
+^ENDSEQUENCES      //Now postprocess end names
+^TOPDESC
+"Small SG Tube Leak"
+!
+"Failure to detect presence "
+"of high moisture"
+!
+"Failure to trip control rods"
+!
+"Failure to Detect Presence "
+"of High Moisture"
+!
+"Failure to Trip Control Rods"
+!
+"Failure to isolate leaking "
+"steam generator"
+!
+"Isolate Delay"
+!
+"Dump Valves Fail to Open"
+!
+"S/G Pressure Response"
+!
+"Failure of SCS When One Module "
+"Requires Cooling"
+!
+"RCCS cooling single module"
+!
+"Pimary Relief Train Response"
+!
+^NODESUBS
+NODEPOS 26
+RELIEF = RELIEF-FO
+!
+NODEPOS 27
+RELIEF = RELIEF-FTO
+!
+NODEPOS 30
+ISOLATE = FW
+!
+NODEPOS 33
+BYPASS = SG-BYPASS
+!
+NODEPOS 42
+BYPASS = SG-OPENS-CLOSES
+!
+NODEPOS 51
+BYPASS = SG-FO
+!
+NODEPOS 56
+BYPASS = SG-BYPASS
+!
+NODEPOS 63
+BYPASS = OTHERS
+!
+NODEPOS 73
+ISOLATE = ST
+!
+NODEPOS 96
+ISOLATE = FWSLASHST
+!
+NODEPOS 139
+ISOLATE = ISOLATE-SIGNAL
+!
+^TEXT
+NODEPOS 1
+"SGTR               "
+!
+^PARMS
+^EOS

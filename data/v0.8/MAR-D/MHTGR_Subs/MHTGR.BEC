@@ -1,0 +1,119 @@
+*Saphire 8.2.9 
+ISOLATE-DELAY                                   =
+* Name  , tTypeName, COM, DLL Name, Proc Name, ModelType, PhaseType, Project
+* "consts", params, ...
+* ^EOS
+CCF-BOP-PIPING-RUPTURE                          , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X3-1, X3-2, BETA-FACTOR-BOP-PIPING
+^EOS
+CCF-BOP-PIPING-RUPTURE-MT                       , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X3-MT1, X3-MT2, BETA-FACTOR-BOP-PIPING
+^EOS
+CCF-CONDENSORS-LEAK                             , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X12-1, X12-2, BETA-FACTOR-CONDENSOR-LEAK
+^EOS
+CCF-CONDENSORS-LEAK-MT                          , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X12-MT1, X12-MT2, BETA-FACTOR-CONDENSOR-LEAK
+^EOS
+CCF-DEAERATOR-LOW-LEVEL                         , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X10-1, X10-2, BETA-FACTOR-DEARATOR-LOW-LEVEL
+^EOS
+CCF-FEEDER-BREAKER-TO-INVERTER                  , 0, COM, PLUGCCFBETA, FourEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"4", IANDC-UPSS-FBI-PT-A-MT, IANDC-UPSS-FBI-PT-B-MT, IANDC-UPSS-FBI-PT-C-MT, IANDC-UPSS-FBI-PT-D-MT, BETA-FACTOR-FEEDER-FTO
+^EOS
+CCF-HE-FR                                       , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X85-2, X85-1, BETA-FACTOR-HE-FLOW-RESTRICTION
+^EOS
+CCF-HE-FR-MT                                    , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X85-MT2, X85-MT1, BETA-FACTOR-HE-FLOW-RESTRICTION
+^EOS
+CCF-INVERTER-FTO                                , 0, COM, PLUGCCFBETA, FourEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"4", X149-1, X149-2, X149-3, X149-4, BETA-FACTOR-INVERTER
+^EOS
+CCF-MOB-VALVES                                  , 0, COM, PLUGCCFBETA, ThreeEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", Z55, Z56, Z57, BETA-FACTOR-MOBV-FTCS-2OO2
+^EOS
+CCF-TBV-FTCS-ECS-TRAIN                          , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X32-1, X32-2, BETA-FACTOR-TBV-FTCS
+^EOS
+CCF-TBV-FTCS-ECS-TRAIN-MT                       , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X32-MT1, X32-MT2, BETA-FACTOR-TBV-FTCS
+^EOS
+CCF-X17-X24-B-1                                 , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X17-1, X24-B-1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X17-X24-B-2                                 , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X17-2, X24-B-2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X17-X24-B-MT1                               , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X17-MT1, X24-B-MT1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X17-X24-B-MT2                               , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X17-MT2, X24-B-MT2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X17-1                                   , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-1, X17-1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X17-2                                   , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-2, X17-2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X17-MT1                                 , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-MT1, X17-MT1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X17-MT2                                 , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-MT2, X17-MT2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X24-A-1                                 , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-1, X24-A-1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X24-A-2                                 , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-2, X24-A-2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X24-A-MT1                               , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-MT1, X24-A-MT1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X24-A-MT2                               , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-MT2, X24-A-MT2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X24-B-1                                 , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-1, X24-B-1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X24-B-2                                 , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-2, X24-B-2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X24-B-MT1                               , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-MT1, X24-B-MT1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X18-X24-B-MT2                               , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X18-MT2, X24-B-MT2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X24-A-X17-1                                 , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X24-A-1, X17-1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X24-A-X17-2                                 , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X24-A-2, X17-2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X24-A-X17-MT1                               , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X24-A-MT1, X17-MT1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X24-A-X17-MT2                               , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X24-A-MT2, X17-MT2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X24-B-X17-MT2                               , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X24-B-MT2, X17-MT2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X24-B-X24-A-1                               , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X24-A-1, X24-B-1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X24-B-X24-A-2                               , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X24-A-2, X24-B-2, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X24-B-X24-A-MT1                             , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X24-B-MT1, X24-A-MT1, BETA-FACTOR-FWH-LEAK
+^EOS
+CCF-X24-B-X24-A-MT2                             , 0, COM, PLUGCCFBETA, TwoEventGroupX,RANDOM                                          , CD                                              , ISOLATE-DELAY
+"2", X24-B-MT2, X24-A-MT2, BETA-FACTOR-FWH-LEAK
+^EOS
+J4                                              , 0, COM, , ,RANDOM                                          , CD                                              , ISOLATE-DELAY
+
+^EOS

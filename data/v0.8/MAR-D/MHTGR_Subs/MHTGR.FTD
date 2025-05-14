@@ -1,0 +1,242 @@
+ISOLATE-DELAY                                   =
+*  Name                 , Description,        SubTree, Alternate, Project
+1MOD-LOOP-F                                     , single module                                                                                                           , S ,  , ISOLATE-DELAY
+1MOD-SCS-F                                      , single module                                                                                                           , S ,  , ISOLATE-DELAY
+1MOD-SCS-S                                      , single module                                                                                                           , S ,  , ISOLATE-DELAY
+2MOD-LOOP-F                                     , 2 modules                                                                                                               , S ,  , ISOLATE-DELAY
+2MOD-SCS-F                                      , 2 modules                                                                                                               , S ,  , ISOLATE-DELAY
+3MOD-LOOP-F                                     , 3 modules                                                                                                               , S ,  , ISOLATE-DELAY
+3MOD-SCS-F                                      , 3 modules                                                                                                               , S ,  , ISOLATE-DELAY
+4MOD-LOOP-F                                     , 4 modules                                                                                                               , S ,  , ISOLATE-DELAY
+4MOD-SCS-F                                      , 4 modules                                                                                                               , S ,  , ISOLATE-DELAY
+4MOD-SCS-S                                      , 4 modules                                                                                                               , S ,  , ISOLATE-DELAY
+A                                               , ECS Train 1 Fails                                                                                                       , S ,  , ISOLATE-DELAY
+A-2                                             , SCS Circulator Failure in One Module                                                                                    , S ,  , ISOLATE-DELAY
+A-2-2                                           , SCS Circulator Failure in One Module                                                                                    , S ,  , ISOLATE-DELAY
+A-2-3                                           , SCS Circulator Failure in One Module                                                                                    , S ,  , ISOLATE-DELAY
+A-2-4                                           , SCS Circulator Failure in One Module                                                                                    , S ,  , ISOLATE-DELAY
+A-2-A1-1                                        , Shutdown Circulator Motor Cooling Failure                                                                               , S ,  , ISOLATE-DELAY
+A-2-A1-2                                        , Shutdown Circulator Motor Cooling Failure                                                                               , S ,  , ISOLATE-DELAY
+A-2-A1-3                                        , Shutdown Circulator Motor Cooling Failure                                                                               , S ,  , ISOLATE-DELAY
+A-2-A1-FOUR                                     , Shutdown Circulator Motor Cooling Failure                                                                               , S ,  , ISOLATE-DELAY
+A-MT                                            , ECS Train 1 Fails                                                                                                       , S ,  , ISOLATE-DELAY
+A-R1                                            , ECS Train 2 Fails                                                                                                       , S ,  , ISOLATE-DELAY
+A-R1-MT                                         , ECS Train 2 Fails                                                                                                       , S ,  , ISOLATE-DELAY
+A-R15                                           , Circulating Water Failure                                                                                               ,   ,  , ISOLATE-DELAY
+A-R15-MT                                        , Circulating Water Failure                                                                                               ,   ,  , ISOLATE-DELAY
+B-1                                             , Loss of Cooling to Modules                                                                                              , S ,  , ISOLATE-DELAY
+B-1-B4                                          , Loss of Service Water                                                                                                   , S ,  , ISOLATE-DELAY
+B-1-B4-B1                                       , Normal Service Water Failure                                                                                            , S ,  , ISOLATE-DELAY
+B-1-B4-B3                                       , Loss of Shutdown Service Water Pump 1                                                                                   , S ,  , ISOLATE-DELAY
+B-1-B4-B3-R1                                    , Loss of Shutdown Service Water Pump 2                                                                                   , S ,  , ISOLATE-DELAY
+B-1-B4-B3-R2                                    , Loss of Shutdown Service Water Pump 3                                                                                   , S ,  , ISOLATE-DELAY
+B-1-F                                           , Shutdown Cooling Water Subsystem Fails                                                                                  , S ,  , ISOLATE-DELAY
+B-1-F-G16                                       , Pump 'A' Fails                                                                                                          , S ,  , ISOLATE-DELAY
+B-1-F-G28A                                      , Heat Exchanger 'A' Fails                                                                                                , S ,  , ISOLATE-DELAY
+B-1-F-I1                                        , Pump 'B' Fails                                                                                                          , S ,  , ISOLATE-DELAY
+B-1-F-L1                                        , Heat Exchanger Leak Failure                                                                                             , S ,  , ISOLATE-DELAY
+B-1-F010                                        , Heat Exchanger 'B' Fails                                                                                                , S ,  , ISOLATE-DELAY
+B-1-I2                                          , Pump Actuation Failure                                                                                                  , S ,  , ISOLATE-DELAY
+B-1-I2-1                                        , Pump Actuation Failure                                                                                                  ,   ,  , ISOLATE-DELAY
+B1-F-I3                                         , Failure to Operate                                                                                                      , S ,  , ISOLATE-DELAY
+B1-F-I3-1                                       , Failure to Operate                                                                                                      ,   ,  , ISOLATE-DELAY
+BREAKSIZE                                       , Primary Coolant Leak Size                                                                                               ,   ,  , ISOLATE-DELAY
+BYPASS                                          , S/G Pressure Response                                                                                                   ,   ,  , ISOLATE-DELAY
+COOL-RESTORE                                    , Cooling restored prior to vessel damage                                                                                 ,   ,  , ISOLATE-DELAY
+COOL-RESTORE-PRESS                              , Cooling restored in a pressurized vessel (HPS PMPDWN failed)                                                            , S ,  , ISOLATE-DELAY
+COOL-RESTORE-UNPRESS                            , Cooling restored in an unpressurized vessel (HPS PMPDWN success)                                                        , S ,  , ISOLATE-DELAY
+CR3-G4-A                                        , Failure to trip reactor using CR                                                                                        ,   ,  , ISOLATE-DELAY
+CR3-G4-B                                        , Failure to trip reactor using RSCE                                                                                      ,   ,  , ISOLATE-DELAY
+CR3-G7-A                                        , Failure to trip control rods                                                                                            , S ,  , ISOLATE-DELAY
+CR3-G7-A-GT-MANUAL                              , Operator fails to manually trip the reactor aftera a GT                                                                 ,   ,  , ISOLATE-DELAY
+CR3-G7-A-MOIST-MANUAL                           , Failure to Detect Presence of High Moisture                                                                             ,   ,  , ISOLATE-DELAY
+CR3-G7-A-PRESS                                  , Failure to Trip Control Rods                                                                                            ,   ,  , ISOLATE-DELAY
+D                                               , Turbine Building Closed Cooling Water Failure                                                                           , S ,  , ISOLATE-DELAY
+D-MT                                            , Turbine Building Closed Cooling Water Failure                                                                           , S ,  , ISOLATE-DELAY
+D1                                              , Failure of SCS when Four Modules Require Cooling (2)                                                                    , S ,  , ISOLATE-DELAY
+D1-HTS                                          , TBCCWS Loss of Heat Sink                                                                                                , S ,  , ISOLATE-DELAY
+D1-MT                                           , TBCCWS Loss of Heat Sink                                                                                                , S ,  , ISOLATE-DELAY
+D2                                              , Backup Pump No Flow Path                                                                                                , S ,  , ISOLATE-DELAY
+D2-MT                                           , Backup Pump No Flow Path                                                                                                , S ,  , ISOLATE-DELAY
+DF                                              , > than 13 inch2                                                                                                         , S ,  , ISOLATE-DELAY
+DUMP                                            , SG Dump System Fails                                                                                                    , S ,  , ISOLATE-DELAY
+DUMP-UNKNOWN                                    , SG Dump System Fails                                                                                                    ,   ,  , ISOLATE-DELAY
+E                                               , Reactor Plant Cooling Water Fails                                                                                       , S ,  , ISOLATE-DELAY
+E-1                                             , SCS Heat Exchanger Failure                                                                                              , S ,  , ISOLATE-DELAY
+E-2                                             , SCS Heat Exchanger Faillure in Module 2                                                                                 , S ,  , ISOLATE-DELAY
+E-3                                             , SCS Heat Exchanger Faillure in Module 3                                                                                 , S ,  , ISOLATE-DELAY
+E-4                                             , SCS Heat Exchanger Faillure in Module 4                                                                                 , S ,  , ISOLATE-DELAY
+E-MT                                            , Reactor Plant Cooling Water Fails                                                                                       , S ,  , ISOLATE-DELAY
+E1                                              , Loss of Cooling Water Flow                                                                                              , S ,  , ISOLATE-DELAY
+E1-MT                                           , Loss of Cooling Water Flow                                                                                              , S ,  , ISOLATE-DELAY
+E4                                              , Loss of Heat Exchanger                                                                                                  , S ,  , ISOLATE-DELAY
+E4-MT                                           , Loss of Heat Exchanger                                                                                                  , S ,  , ISOLATE-DELAY
+FAILOPEN                                        , New Fault Tree                                                                                                          ,   ,  , ISOLATE-DELAY
+FTO                                             , Dump Valves Fail to Open                                                                                                , S ,  , ISOLATE-DELAY
+FW                                              , FW                                                                                                                      , S ,  , ISOLATE-DELAY
+FWSLASHST                                       , FWSLASHST                                                                                                               , S ,  , ISOLATE-DELAY
+G                                               , Loss of Class 1E 120 VAC Uninteruptible Power Supply                                                                    , S ,  , ISOLATE-DELAY
+G-MT                                            , Loss of Class 1E 120 VAC Uninteruptible Power Supply                                                                    , S ,  , ISOLATE-DELAY
+G1-3                                            , Failure of SCS When One Module Requires Cooling                                                                         ,   ,  , ISOLATE-DELAY
+G1-32                                           , Loss of Class 1E UPS during IE or MT                                                                                    , S ,  , ISOLATE-DELAY
+G1-33                                           , Loss of 480 Power Supply during IE or MT                                                                                , S ,  , ISOLATE-DELAY
+G10                                             , Unit Generators Supply to Unit 1 Side Failure                                                                           , S ,  , ISOLATE-DELAY
+G10-MT                                          , Unit Generators Supply to Unit 1 Side Failure                                                                           , S ,  , ISOLATE-DELAY
+G11                                             , Loss of Class 1E 125 VDC Electric Power                                                                                 , S ,  , ISOLATE-DELAY
+G11-MT                                          , Loss of Class 1E 125 VDC Electric Power                                                                                 , S ,  , ISOLATE-DELAY
+G12                                             , No 125 VDC Power to Dist BD Channel A                                                                                   , S ,  , ISOLATE-DELAY
+G12-MT                                          , No 125 VDC Power to Dist BD Channel A                                                                                   , S ,  , ISOLATE-DELAY
+G12-R1                                          , No 125 VDC Power to Dist BD Channel B                                                                                   , S ,  , ISOLATE-DELAY
+G12-R1-MT                                       , No 125 VDC Power to Dist BD Channel B                                                                                   , S ,  , ISOLATE-DELAY
+G12-R2                                          , No 125 VDC Power to Dist BD Channel C                                                                                   ,   ,  , ISOLATE-DELAY
+G12-R2-NOT-MT                                   , No 125 VDC Power to Dist BD Channel C                                                                                   , S ,  , ISOLATE-DELAY
+G12-R3                                          , No 125 VDC Power to Dist BD Channel D                                                                                   , S ,  , ISOLATE-DELAY
+G12-R3-MT                                       , No 125 VDC Power to Dist BD Channel D                                                                                   , S ,  , ISOLATE-DELAY
+G131-1                                          , Power Failure fom Normal and Alternate Supply Panel                                                                     , S ,  , ISOLATE-DELAY
+G131-1-MT                                       , Power Failure fom Normal and Alternate Supply Panel                                                                     , S ,  , ISOLATE-DELAY
+G131-2                                          , Power Failure fom Normal and Alternate Supply Panel                                                                     , S ,  , ISOLATE-DELAY
+G131-2-MT                                       , Power Failure fom Normal and Alternate Supply Panel                                                                     , S ,  , ISOLATE-DELAY
+G131-3                                          , Power Failure fom Normal and Alternate Supply Panel                                                                     , S ,  , ISOLATE-DELAY
+G131-3-MT                                       , Power Failure fom Normal and Alternate Supply Panel                                                                     , S ,  , ISOLATE-DELAY
+G131-4                                          , Power Failure fom Normal and Alternate Supply Panel                                                                     , S ,  , ISOLATE-DELAY
+G131-4-MT                                       , Power Failure fom Normal and Alternate Supply Panel                                                                     , S ,  , ISOLATE-DELAY
+G2                                              , Startup Aux TFR 1 No Output                                                                                             , S ,  , ISOLATE-DELAY
+G2-MT                                           , Startup Aux TFR 1 No Output                                                                                             , S ,  , ISOLATE-DELAY
+G200                                            , Non Class 1E Electric Power Supply Failure                                                                              ,   ,  , ISOLATE-DELAY
+G200-1                                          , Non-Class 1E Electric Power Supply Failure from 111/112                                                                 ,   ,  , ISOLATE-DELAY
+G200-11201                                      , Unit Generator Supply to Unit 2 Side Failure                                                                            ,   ,  , ISOLATE-DELAY
+G200-11201-MT                                   , Unit Generator Supply to Unit 2 Side Failure                                                                            ,   ,  , ISOLATE-DELAY
+G200-2                                          , Non-Class 1E Electric Power Supply Failure from 213/214                                                                 ,   ,  , ISOLATE-DELAY
+G200-MT                                         , Non Class 1E Electric Power Supply Failure                                                                              ,   ,  , ISOLATE-DELAY
+G200-MT1                                        , Non-Class 1E Electric Power Supply Failure from 111/112                                                                 ,   ,  , ISOLATE-DELAY
+G200-MT2                                        , Non-Class 1E Electric Power Supply Failure from 213/214                                                                 ,   ,  , ISOLATE-DELAY
+G209                                            , No Unit  Generator Power to Unit Auxiliary TFR 1                                                                        ,   ,  , ISOLATE-DELAY
+G209-MT                                         , No Unit  Generator Power to Unit Auxiliary TFR 1                                                                        ,   ,  , ISOLATE-DELAY
+G209-R1                                         , No Unit  Generator Power to Unit Auxiliary TFR 1                                                                        ,   ,  , ISOLATE-DELAY
+G209-R1-MT                                      , No Unit  Generator Power to Unit Auxiliary TFR 1                                                                        ,   ,  , ISOLATE-DELAY
+G21-D-1-MT                                      , Failure to Bypass                                                                                                       , S ,  , ISOLATE-DELAY
+G21-D-1-NOT-MT                                  , Failure to Bypass                                                                                                       ,   ,  , ISOLATE-DELAY
+G21-D-2                                         , Failure to Bypass                                                                                                       , S ,  , ISOLATE-DELAY
+G21-D-2-MT                                      , Failure to Bypass                                                                                                       , S ,  , ISOLATE-DELAY
+G22-R1                                          , Flow redirection fails/Failure to bypass 3rd pont LP heater                                                             , S ,  , ISOLATE-DELAY
+G22-R1-MT                                       , Flow redirection fails/Failure to bypass 3rd pont LP heater                                                             , S ,  , ISOLATE-DELAY
+G22-R2                                          , Flow redirection fails/Failure to bypass 3rd pont LP heater                                                             , S ,  , ISOLATE-DELAY
+G22-R2-MT                                       , Flow redirection fails/Failure to bypass 3rd pont LP heater                                                             , S ,  , ISOLATE-DELAY
+G2A                                             , SCS Actuation Failure                                                                                                   , S ,  , ISOLATE-DELAY
+G2A-2                                           , SCS Actuation Failure                                                                                                   , S ,  , ISOLATE-DELAY
+G2A-3                                           , SCS Actuation Failure                                                                                                   , S ,  , ISOLATE-DELAY
+G2A-4                                           , SCS Actuation Failure                                                                                                   , S ,  , ISOLATE-DELAY
+G3                                              , Failure to Feed Bus 122 from Offsite Source Unit 2 Side                                                                 , S ,  , ISOLATE-DELAY
+G3-MT                                           , Failure to Feed Bus 122 from Offsite Source Unit 2 Side                                                                 , S ,  , ISOLATE-DELAY
+G4                                              , Startup Aux TFR 2 No Output                                                                                             , S ,  , ISOLATE-DELAY
+G4-MT                                           , Startup Aux TFR 2 No Output                                                                                             , S ,  , ISOLATE-DELAY
+G5                                              , Power Fails to 480 VAC Bus Loads                                                                                        , S ,  , ISOLATE-DELAY
+G5-MT                                           , Power Fails to 480 VAC Bus Loads                                                                                        , S ,  , ISOLATE-DELAY
+G6                                              , Loss of 480 VAC Power Supply                                                                                            , S ,  , ISOLATE-DELAY
+G6-222                                          , No 4 KV Power Supplied to Bus 121                                                                                       , S ,  , ISOLATE-DELAY
+G6-222-MT                                       , No 4 KV Power Supplied to Bus 121                                                                                       , S ,  , ISOLATE-DELAY
+G6-MT                                           , Loss of 480 VAC Power Supply                                                                                            , S ,  , ISOLATE-DELAY
+G7                                              , No 4 KV Power Supplied to Bus 122                                                                                       , S ,  , ISOLATE-DELAY
+G7-MT                                           , No 4 KV Power Supplied to Bus 122                                                                                       , S ,  , ISOLATE-DELAY
+G8                                              , Failure to Feed Bus 121 from Offsite Source Unit 2 Side                                                                 , S ,  , ISOLATE-DELAY
+G8-MT                                           , Failure to Feed Bus 121 from Offsite Source Unit 2 Side                                                                 , S ,  , ISOLATE-DELAY
+G9                                              , No Unit Generator Power to Unit Aux TFR 1                                                                               , S ,  , ISOLATE-DELAY
+G9-MT                                           , No Unit Generator Power to Unit Aux TFR 1                                                                               , S ,  , ISOLATE-DELAY
+G917                                            , SG Dump System                                                                                                          ,   ,  , ISOLATE-DELAY
+H-R1                                            , HTS Circulator 1 Fails                                                                                                  , S ,  , ISOLATE-DELAY
+H-R1-MT                                         , HTS Circulator 1 Fails                                                                                                  , S ,  , ISOLATE-DELAY
+H-R2                                            , HTS Circulator 2 Fails                                                                                                  , S ,  , ISOLATE-DELAY
+H-R2-MT                                         , HTS Circulator 2 Fails                                                                                                  , S ,  , ISOLATE-DELAY
+H1-R3                                           , HTS Circulator 3 Fails                                                                                                  , S ,  , ISOLATE-DELAY
+H1-R3-MT                                        , HTS Circulator 3 Fails                                                                                                  , S ,  , ISOLATE-DELAY
+H1-R4                                           , HTS Circulator 4 Fails                                                                                                  , S ,  , ISOLATE-DELAY
+H1-R4-MT                                        , HTS Circulator 4 Fails                                                                                                  , S ,  , ISOLATE-DELAY
+HPS-PMPDWN                                      , Intentional depressurization fails                                                                                      ,   ,  , ISOLATE-DELAY
+HTS-FAILURE-AT-LEAST-1-MOD                      , Failure of HTS in at least One Module                                                                                   ,   ,  , ISOLATE-DELAY
+HTS-FAILURE-AT-LEAST-1-MOD-MT                   , Failure of HTS in at least One Module (MT)                                                                              ,   ,  , ISOLATE-DELAY
+HTS-IE-AND-MT                                   , Failure of HTS in at least One Module (IE and MT)                                                                       ,   ,  , ISOLATE-DELAY
+I                                               , Circulating Water Failure                                                                                               ,   ,  , ISOLATE-DELAY
+I-MT                                            , Circulating Water Failure                                                                                               ,   ,  , ISOLATE-DELAY
+I1                                              , Failure of SCS when Four Modules Require Cooling (4)                                                                    , S ,  , ISOLATE-DELAY
+I2                                              , Circulating Water Pumps Fail                                                                                            , S ,  , ISOLATE-DELAY
+I2-MT                                           , Circulating Water Pumps Fail                                                                                            , S ,  , ISOLATE-DELAY
+I2-R1                                           , Circulating Water Pumps Fail                                                                                            , S ,  , ISOLATE-DELAY
+I2-R1-MT                                        , Circulating Water Pumps Fail                                                                                            , S ,  , ISOLATE-DELAY
+I3-1                                            , Circulating water pump #1 isolation valve closed                                                                        ,   ,  , ISOLATE-DELAY
+I3-1-1                                          , Circulating water pump #1 isolation valve closed                                                                        ,   ,  , ISOLATE-DELAY
+I3-1-1-MT                                       , Circulating water pump #1 isolation valve closed                                                                        ,   ,  , ISOLATE-DELAY
+I3-1-MT                                         , Circulating water pump #1 isolation valve closed                                                                        ,   ,  , ISOLATE-DELAY
+I3-2                                            , Circulating water pump #2 isolation valve closed                                                                        ,   ,  , ISOLATE-DELAY
+I3-2-1                                          , Circulating water pump #2 isolation valve closed                                                                        ,   ,  , ISOLATE-DELAY
+I3-2-1-MT                                       , Circulating water pump #2 isolation valve closed                                                                        ,   ,  , ISOLATE-DELAY
+I3-2-MT                                         , Circulating water pump #2 isolation valve closed                                                                        ,   ,  , ISOLATE-DELAY
+I4                                              , Condensor Inlet Isolation Valves Fail                                                                                   , S ,  , ISOLATE-DELAY
+I4-MT                                           , Condensor Inlet Isolation Valves Fail                                                                                   , S ,  , ISOLATE-DELAY
+I4-R                                            , Condensor Inlet Isolation Valves Fail                                                                                   , S ,  , ISOLATE-DELAY
+I4-R-MT                                         , Condensor Inlet Isolation Valves Fail                                                                                   , S ,  , ISOLATE-DELAY
+I5                                              , Condensor Outlet Isolation Valves Closed                                                                                , S ,  , ISOLATE-DELAY
+I5-MT                                           , Condensor Outlet Isolation Valves Closed                                                                                , S ,  , ISOLATE-DELAY
+I5-R                                            , Condensor Outlet Isolation Valves Closed                                                                                , S ,  , ISOLATE-DELAY
+I5-R-MT                                         , Condensor Outlet Isolation Valves Closed                                                                                , S ,  , ISOLATE-DELAY
+ISOLATE                                         , Failure to isolate leaking steam generator                                                                              , S ,  , ISOLATE-DELAY
+ISOLATE-DELAY                                   , Isolate Delay                                                                                                           ,   ,  , ISOLATE-DELAY
+ISOLATE-DELAY-L                                 , ISOLATE-DELAY-L                                                                                                         ,   ,  , ISOLATE-DELAY
+ISOLATE-FW                                      , Both Feedwater Isolation Valves Fail to Close                                                                           , S ,  , ISOLATE-DELAY
+ISOLATE-SIGNAL                                  , No isolation commad recieved isolation valve                                                                            , S ,  , ISOLATE-DELAY
+ISOLATE-SIGNAL-B                                , No Isolation Command Recieved from Output Channel B                                                                     , S ,  , ISOLATE-DELAY
+ISOLATE-ST                                      , Both Main Steam Isolation Valves fail to Close                                                                          , S ,  , ISOLATE-DELAY
+J                                               , Feedwater and Condensate Subsystem Fails                                                                                , S ,  , ISOLATE-DELAY
+J-MT                                            , Feedwater and Condensate Subsystem Fails                                                                                , S ,  , ISOLATE-DELAY
+J-R1                                            , Feedwater and Condensate Subsystem Fails                                                                                , S ,  , ISOLATE-DELAY
+J-R1-MT                                         , Feedwater and Condensate Subsystem Fails                                                                                , S ,  , ISOLATE-DELAY
+J1                                              , Loss of Pumping                                                                                                         ,   ,  , ISOLATE-DELAY
+J1-MT                                           , Loss of Pumping                                                                                                         ,   ,  , ISOLATE-DELAY
+J2                                              , Loss of Pumping                                                                                                         ,   ,  , ISOLATE-DELAY
+J2-MT                                           , Loss of Pumping                                                                                                         ,   ,  , ISOLATE-DELAY
+J2-R1                                           , Heater Failure                                                                                                          , S ,  , ISOLATE-DELAY
+J2-R1-MT                                        , Heater Failure                                                                                                          , S ,  , ISOLATE-DELAY
+J2-R2                                           , Heater Failure                                                                                                          , S ,  , ISOLATE-DELAY
+J2-R2-MT                                        , Heater Failure                                                                                                          , S ,  , ISOLATE-DELAY
+L                                               , 3E-5->2E-5 in2                                                                                                          , S ,  , ISOLATE-DELAY
+LD                                              , 1->13 in2                                                                                                               , S ,  , ISOLATE-DELAY
+LEAK                                            , Plant Protection System Fails to Respod to Steam Leak                                                                   ,   ,  , ISOLATE-DELAY
+MD                                              , 0.03->1 in2                                                                                                             , S ,  , ISOLATE-DELAY
+MODULES                                         , Number of modules experiencing IE                                                                                       ,   ,  , ISOLATE-DELAY
+MOIST-DETECT                                    , Failure to detect presence of high moisture                                                                             , S ,  , ISOLATE-DELAY
+MOIST-DETECT-3                                  , Failure of at least 2 of 3 moisture monitor channels                                                                    , S ,  , ISOLATE-DELAY
+N                                               , Demineralizer Failure                                                                                                   ,   ,  , ISOLATE-DELAY
+N-MT                                            , Demineralizer Failure                                                                                                   ,   ,  , ISOLATE-DELAY
+N-R1                                            , Demineralizer Failure                                                                                                   ,   ,  , ISOLATE-DELAY
+N-R1-MT                                         , Demineralizer Failure                                                                                                   ,   ,  , ISOLATE-DELAY
+N1-R1                                           , Excessive Leakage                                                                                                       , S ,  , ISOLATE-DELAY
+N1-R1-MT                                        , Excessive Leakage                                                                                                       , S ,  , ISOLATE-DELAY
+N1-R2                                           , Excessive Leakage                                                                                                       , S ,  , ISOLATE-DELAY
+N1-R2-MT                                        , Excessive Leakage                                                                                                       , S ,  , ISOLATE-DELAY
+OA-C-MOIST-DETECT                               , OA-C-MOIST-DETECT                                                                                                       , S ,  , ISOLATE-DELAY
+OA-C-SG-ISOLATE10                               , OA-C-SG-ISOLATE10                                                                                                       , S ,  , ISOLATE-DELAY
+OA-C-SG-ISOLATE20                               , OA-C-SG-ISOLATE20                                                                                                       , S ,  , ISOLATE-DELAY
+OA-C-SG-ISOLATE30                               , OA-C-SG-ISOLATE30                                                                                                       , S ,  , ISOLATE-DELAY
+OPENSCLOSES                                     , OPENSCLOSES                                                                                                             ,   ,  , ISOLATE-DELAY
+OTHERS                                          , OTHERS                                                                                                                  , S ,  , ISOLATE-DELAY
+Q                                               , Service Water Failure                                                                                                   , S ,  , ISOLATE-DELAY
+Q-MT                                            , Service Water Failure                                                                                                   , S ,  , ISOLATE-DELAY
+RCCS                                            , RCCS operates successfully  Cooling provided by RCCS                                                                    ,   ,  , ISOLATE-DELAY
+RCCS-1                                          , RCCS cooling single module                                                                                              , S ,  , ISOLATE-DELAY
+RCCS-4                                          , RCCS cooling several modules                                                                                            , S ,  , ISOLATE-DELAY
+RELIEF                                          , Pimary Relief Train Response                                                                                            ,   ,  , ISOLATE-DELAY
+RELIEF-FO                                       , Relief Valves Fail to Reclose                                                                                           , S ,  , ISOLATE-DELAY
+RELIEF-FTO                                      , Relief Valves Fail to Open                                                                                              , S ,  , ISOLATE-DELAY
+SCS-FAIL                                        , Failure of SCS                                                                                                          ,   ,  , ISOLATE-DELAY
+SD                                              , 2E-3->0.03 in2                                                                                                          , S ,  , ISOLATE-DELAY
+SG-BYPASS                                       , SG-BYPASS                                                                                                               , S ,  , ISOLATE-DELAY
+SG-FO                                           , SG-FO                                                                                                                   , S ,  , ISOLATE-DELAY
+SG-OPENS-CLOSES                                 , SG-OPENS-CLOSES                                                                                                         , S ,  , ISOLATE-DELAY
+ST                                              , ST                                                                                                                      , S ,  , ISOLATE-DELAY
+T1                                              , Failure of SCS when Four Modules Require Cooling (3)                                                                    , S ,  , ISOLATE-DELAY
+X1                                              , Startup Auxiliary Transformer 1 No Output                                                                               , S ,  , ISOLATE-DELAY
+X1-MT                                           , Startup Auxiliary Transformer 1 No Output                                                                               , S ,  , ISOLATE-DELAY
+X1-R                                            , Startup Auxiliary Transformer 2 No Output                                                                               , S ,  , ISOLATE-DELAY
+X1-R-MT                                         , Startup Auxiliary Transformer 2 No Output                                                                               , S ,  , ISOLATE-DELAY
+X156                                            , 480-120 VAC Regulated Transformer Fails                                                                                 , S ,  , ISOLATE-DELAY
+X2                                              , Unit Generator Supply to Unit 1 Side Failure                                                                            , S ,  , ISOLATE-DELAY
+X2-MT                                           , Unit Generator Supply to Unit 1 Side Failure                                                                            , S ,  , ISOLATE-DELAY

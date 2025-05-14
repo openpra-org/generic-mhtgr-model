@@ -1,0 +1,9 @@
+ISOLATE-DELAY=
+*  Name                 , Description,        Project
+ATRS,Anticiapted Transient Requiring Scram, , ISOLATE-DELAY
+CRW,Control Rod Withdrawal, , ISOLATE-DELAY
+LOHTL,Loss of HTS Cooling, , ISOLATE-DELAY
+LOOP,Loss of Offsite Power, , ISOLATE-DELAY
+PCL,Primary Coolant Leak, , ISOLATE-DELAY
+SGTL-M,Medium SG Tube Leak, , ISOLATE-DELAY
+SGTL-S,Small SG Tube Leak, , ISOLATE-DELAY

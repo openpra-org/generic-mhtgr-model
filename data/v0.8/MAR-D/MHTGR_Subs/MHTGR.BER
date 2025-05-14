@@ -1,0 +1,61 @@
+*Saphire 8.2.9 
+ISOLATE-DELAY                                   =
+* Name  , Type, Model, Staggered, Separator, Detail Lev, Fail Criteria, Analysis Type           , Phase Type, Project
+* ^FailEVs
+* evID, evName
+* evID, evName
+* ....
+* ^FactorEVs
+* evNames, ...
+* ^EOS
+CCF-DEMINERALIZER-LEAK-ECS-TRAIN-1              , R, MGL, Yes, -, Full, 2, RANDOM                                          , CD                                              , ISOLATE-DELAY
+^FailEVs
+A, X40-1
+B, X39-1
+C, X38-1
+
+^FactorEVs
+BETA-FACTOR-DEMINERALIZER-LEAK, GAMMA-ZERO
+^EOS
+
+CCF-DEMINERALIZER-LEAK-ECS-TRAIN-2              , R, MGL, Yes, -, Full, 2, RANDOM                                          , CD                                              , ISOLATE-DELAY
+^FailEVs
+A, X40-2
+B, X39-2
+C, X38-2
+
+^FactorEVs
+BETA-FACTOR-DEMINERALIZER-LEAK, GAMMA-ZERO
+^EOS
+
+CCF-DEMINERALIZER-LEAK-ECS-TRAIN-MT1            , R, MGL, Yes, -, Full, 2, RANDOM                                          , CD                                              , ISOLATE-DELAY
+^FailEVs
+A, X38-MT1
+B, X39-MT1
+C, X40-MT1
+
+^FactorEVs
+BETA-FACTOR-DEMINERALIZER-LEAK, GAMMA-ZERO
+^EOS
+
+CCF-DEMINERALIZER-LEAK-ECS-TRAIN-MT2            , R, MGL, Yes, -, Full, 2, RANDOM                                          , CD                                              , ISOLATE-DELAY
+^FailEVs
+A, X38-MT2
+B, X39-MT2
+C, X40-MT2
+
+^FactorEVs
+BETA-FACTOR-DEMINERALIZER-LEAK, GAMMA-ZERO
+^EOS
+
+CCF-FWH-LEAK-ECS-TRAIN1                         , R, MGL, Yes, -, Full, 2, RANDOM                                          , CD                                              , ISOLATE-DELAY
+^FailEVs
+A, X24-B-MT1
+B, X24-A-MT1
+C, X18-MT1
+D, X17-MT1
+
+^FactorEVs
+BETA-FACTOR-FWH-LEAK, GAMMA-ZERO, DELTA-ZERO
+^EOS
+
