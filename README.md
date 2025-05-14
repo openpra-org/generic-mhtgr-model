@@ -21,7 +21,7 @@ The MHTGR PRA model includes a comprehensive set of initiating events, event tre
 - CRW
 - Shutdown cooling system (SCS)
 - Automatic Steam Generator Dump
-- Reaccor Trip
+- Reactor Trip
 - Moisture Monitor Detection
 - Automatic Steam Generator Isolation
 - Steam Generator Relief Train Response
